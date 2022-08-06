@@ -7,11 +7,31 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="globalstyle.css">
+	<link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+	<link rel="stylesheet" id="roboto-subset.css-css" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5" type="text/css" media="all">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="indexController.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="myCtrl">
-	<a href="#!home">home</a>
+	<div class="navigation">
+		<div class="left">
+		</div>
+		<div class="center">
+			<a href="#!home" title="">Home</a>
+			<a href="#!aboutus" title="">About us</a>
+		</div>
+		<div class="right">
+			<div class="dropdown">
+				<span>Language</span>
+				<div class="dropdown-content">
+					<div>VN <span><i class="flag flag-vietnam"></i></span></div>
+					<div>EN <span><i class="flag flag-united-kingdom"></i></span></div>					
+  				</div>
+			</div>
+		</div>
+	</div>
 	<div class="content" ng-view ></div>
 </body>
 </html>

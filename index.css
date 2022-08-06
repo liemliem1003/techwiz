@@ -1,0 +1,24 @@
+.navigation{
+	display: flex;
+	padding: 10px;
+	background: lightblue
+}
+.navigation .left{
+	right: 0px;
+	cursor: pointer;
+}
+.navigation .center{
+	text-align: center;
+	width: 100%;
+}
+.navigation .center a{
+	padding: 10px;
+	color: white;
+	
+}
+.navigation .right span{
+	right: 0px;
+	cursor: pointer;
+}
+.navigation .right div{
+}

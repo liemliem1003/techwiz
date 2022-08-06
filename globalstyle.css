@@ -1,0 +1,30 @@
+*{
+	font-family: tahoma;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	background: black;
+}
+.dropdown {
+ 	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  text-align: left;
+  position: absolute;
+  background-color: #d7f4f0;
+  border: 1px solid black;
+  border-radius: 9px;
+  min-width: 50px;
+  padding: 8px 6px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover{
+	color: blue;
+}
