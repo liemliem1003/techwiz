@@ -4,9 +4,6 @@
 a{
 	text-decoration: none;
 }
-a:hover{
-	background: black;
-}
 .dropdown {
  	position: relative;
 	display: inline-block;
@@ -18,7 +15,7 @@ a:hover{
   background-color: #d7f4f0;
   border: 1px solid black;
   border-radius: 9px;
-  min-width: 50px;
+  min-width: 20px;
   padding: 8px 6px;
   z-index: 1;
 }

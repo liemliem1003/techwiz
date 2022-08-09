@@ -1,24 +1,38 @@
+body{
+	background-image: url("images/background.jpg");
+}
 .navigation{
+	width: 80%;
+	margin: auto;
 	display: flex;
 	padding: 10px;
-	background: lightblue
+	justify-content: center;
 }
 .navigation .left{
 	right: 0px;
-	cursor: pointer;
+}
+.navigation .left a img{
+	width: 100px;
 }
 .navigation .center{
-	text-align: center;
-	width: 100%;
+	margin: auto;
+
 }
 .navigation .center a{
 	padding: 10px;
 	color: white;
-	
 }
-.navigation .right span{
-	right: 0px;
-	cursor: pointer;
+.navigation .center a:hover{
+	background: lightblue;
+	color: black
+}
+.navigation .right{
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .navigation .right div{
+	margin-right: 0px
+}
+.navigation .right span{
+	cursor: pointer;
 }
