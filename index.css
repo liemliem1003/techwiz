@@ -36,3 +36,21 @@ body{
 .navigation .right span{
 	cursor: pointer;
 }
+footer{
+	color: black;
+	background: gray;
+}
+footer .social-media{
+	text-align: center;
+}
+footer .social-media a{
+	font-size: 30px;
+	color: black;
+	margin: 4px;
+}
+footer .social-media a:hover{
+	color: white;
+}
+footer .copyright{
+
+}

@@ -39,4 +39,5 @@ app.controller('myCtrl',function($scope, $http){
             }
         })
     }
+    $scope.banner = "images/banner/banner00.jpg"
 });
