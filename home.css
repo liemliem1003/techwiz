@@ -1,23 +1,34 @@
-.banner{
-	text-align: center;
-	position: relative;
+.home .group-slogan{
+	display: flex;
+	justify-content: center;
 }
-.banner .group-btn{
+.home .group-slogan .slogan{
+	display: flex;
+	width: 300px;
+	height: 500px;
+}
+.home .group-slogan .slogan .text{
+	margin: auto;
+}
+.home .group-slogan .slogan img{
 	position: absolute;
-	bottom: 10px;
-	left: calc((100% - 142px)/2)
+	width: 300px;
+	height: 500px;
+	opacity: 0;
 }
-.banner .group-btn i{
-	color: red;
-	font-weight: bold;
-	font-size: 50px;
-	margin: 0px 10px;
-	padding: 0px 10px;
-	opacity: 0.7;
-	cursor: pointer;
-	background: black;
-}
-.banner .group-btn i:hover{
+.home .group-slogan .slogan img:hover{
+	animation: goup 1s 1;
+	transform-origin: bottom;
 	opacity: 1;
-	border-radius: 10px
+	transform: scale(1,1);
+}
+@keyframes goup{
+	0%{
+		transform: scale(1,0);
+	}
+	100%{
+		transform: scale(1,1);
+		opacity: 1;
+
+	}
 }

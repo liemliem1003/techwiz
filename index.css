@@ -18,23 +18,26 @@ body{
 	margin: auto;
 
 }
-.navigation .center a{
-	padding: 10px;
-	color: white;
-}
-.navigation .center a:hover{
-	background: lightblue;
-	color: black
-}
 .navigation .right{
 	margin-top: auto;
 	margin-bottom: auto;
+}
+.navigation .right a{
+	padding: 10px;
+	color: white;
+}
+.navigation .right a:hover{
+	background: lightblue;
+	color: black
 }
 .navigation .right div{
 	margin-right: 0px
 }
 .navigation .right span{
 	cursor: pointer;
+}
+.navigation .right .dropdown span{
+	color: white;
 }
 footer{
 	color: black;
