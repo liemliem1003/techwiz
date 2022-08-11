@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Stylist</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -21,20 +22,22 @@
 			</a>
 		</div>
 		<div class="center">
-			
 		</div>
 		<div class="right">
-			<a href="#" title="">Home</a>
-			<a href="#" title="">Shop</a>
-			<a href="#!activity" title="">Activities</a>
-			<a href="#!aboutus" title="">About Us</a>
-			<a href="#" title="">Contact Us</a>
-			<div class="dropdown">
-				<span>Language</span>
-				<div class="dropdown-content">
-					<div>VN<span><i class="flag flag-vietnam"></i></span></div>
-					<div>EN<span><i class="flag flag-united-kingdom"></i></span></div>					
-  				</div>
+			<i class="fa fa-bars" aria-hidden="true" ng-click="shownavigation('vn')"></i>
+			<div class="right-container" id="right-container">
+				<a href="#" title="">{{freetext.nav.home}}</a>
+				<a href="#" title="">{{freetext.nav.shop}}</a>
+				<a href="#!activity" title="">{{freetext.nav.activities}}</a>
+				<a href="#!aboutus" title="">{{freetext.nav.aboutus}}</a>
+				<a href="#!contactus" title="">{{freetext.nav.contactus}}</a>
+				<div class="dropdown">
+					<span>{{freetext.nav.language}}</span>
+					<div class="dropdown-content">
+						<div ng-click="translate('vn')">VN<span><i class="flag flag-vietnam"></i></span></div>
+						<div ng-click="translate('en')">EN<span><i class="flag flag-united-kingdom"></i></span></div>					
+  					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -48,6 +51,17 @@
 		</div>
 		<div class="copyright">
 			Copyright 1999-2022 by Refsnes Data. All Rights Reserved.
+		</div>
+		<div class="contact_us">
+			<span>
+				<i class="fa fa-phone"></i>+012 345 678 901
+			</span>
+			<span>
+				<i class="fa fa-globe"></i>aptech@fpt.edu.vn
+			</span>
+			<span>
+				<i class="fa fa-map-marker"></i>590 CMT8, Ward 11, District 3, Ho Chi Minh city, Viet Nam
+			</span>
 		</div>
 	</footer>
 </body>

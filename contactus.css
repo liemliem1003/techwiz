@@ -1,0 +1,12 @@
+.contactus{
+    justify-content: center;
+    margin: 45px 0px;
+}
+.getintouch{
+    margin: auto;
+    width: fit-content;
+}
+.getintouch input{
+    margin: 0 0 15px 0;
+    width: 662px;
+}

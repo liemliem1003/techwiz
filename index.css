@@ -16,7 +16,7 @@ body{
 }
 .navigation .center{
 	margin: auto;
-
+	width: 50%;
 }
 .navigation .right{
 	margin-top: auto;
@@ -26,21 +26,27 @@ body{
 	padding: 10px;
 	color: white;
 }
-.navigation .right a:hover{
-	background: lightblue;
-	color: black
+.navigation .right .fa-bars{
+	display: none;
 }
 .navigation .right div{
+	cursor: pointer;
 	margin-right: 0px
 }
-.navigation .right span{
-	cursor: pointer;
+.navigation .right a:hover{
+	background: black;
+}
+
+.navigation .right .dropdown-content div:hover{
+	background: white;
+	width: 100%;
 }
 .navigation .right .dropdown span{
 	color: white;
 }
 footer{
 	color: black;
+	text-align: center;
 	background: gray;
 }
 footer .social-media{
@@ -54,6 +60,43 @@ footer .social-media a{
 footer .social-media a:hover{
 	color: white;
 }
-footer .copyright{
-
+footer .contact_us i{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
 }
+footer .contact_us span:hover i{
+    color: white;
+    background: black;
+}
+@media only screen and (max-width: 740px) {
+	.navigation .right{
+	}
+	.navigation .right .fa-bars{
+		display: block;
+		top: 25px;
+		right: 25px;
+		font-size: 20px;
+	}
+	.navigation .right .dropdown{
+		margin-right: 10px;
+
+	}
+	.navigation .right a{
+		display: block;
+	}
+	.navigation .right-container{
+		display: none;
+		background: blue;
+		padding: 20px;
+		position: absolute;
+		right: 0;
+		text-align: right;
+		z-index: 1;
+	}
+  }

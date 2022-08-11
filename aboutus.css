@@ -1,0 +1,54 @@
+.aboutus{
+    width: 80%;
+    margin: auto;
+}
+.aboutus h3{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.aboutus .memberleft{
+    display: flex;
+    margin: 20px 0;
+}
+.aboutus .memberleft img{
+    width: 30%;
+}
+.aboutus .memberleft .memberinfo{
+    width: 65%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.aboutus .memberleft .memberinfo .speech{
+    width: 100%;
+    word-break: break-all;
+}
+.aboutus .memberleft .memberinfo i{
+    font-size: 12px;
+}
+.aboutus .memberleft .memberinfo hr{
+    margin: 0 0 5px 0;
+    height: 3px;
+}
+
+.aboutus .memberright{
+    margin: 20px 0;
+    display: flex;
+}
+.aboutus .memberright img{
+    width: 30%;
+}
+.aboutus .memberright .memberinfo{
+    width: 65%;
+    margin-top: 10px;
+}
+.aboutus .memberright .memberinfo .speech{
+    width: 100%;
+    word-break: break-all;
+}
+.aboutus .memberright .memberinfo i{
+    font-size: 12px;
+}
+.aboutus .memberright .memberinfo hr{
+    margin: 0 0 5px 0;
+    height: 3px;
+}

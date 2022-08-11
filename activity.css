@@ -36,24 +36,55 @@
 
 .activity .activities-right{
 	position: relative;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 	width: 100%;
 }
 .activity .activities-right img{
 	width: 40%;
 	height: 350px;
-
+	position: absolute;
+	bottom: 25px;
+	right: 0;
+	z-index: -1;
 }
 .activity .activities-list .activities-right .activities-infor{
 	border: 1px solid black;
 	width: 65%;
 	padding: 50px 5% 50px 10%;
 	height: 350px;
-	position: absolute;
-	top: 0;
-	right: 0;
 }
 .activity .activities-list .activities-right .activities-infor .activities-description{
 	text-align: left;
 	word-wrap: break-word;
+}
+.activity .activities-list .activities-infor .activities-continue i{
+	transform: scale(1, 0.7);
+	margin-left: 0px;
+	font-weight: normal;
+}
+.activity .activities-list .activities-infor .activities-continue:hover{
+	color: white;
+	animation: changecolor 0.5s linear 1;
+	
+}
+.activity .activities-list .activities-infor .activities-continue:hover i{
+	margin-left: 10px;
+	animation: goright 0.5s linear 1;
+
+}
+@keyframes goright{
+	0%{
+		margin-left: 0px;	
+	}
+	100%{
+		margin-left: 10px;
+	}
+}
+@keyframes changecolor{
+	0%{
+		color:black;	
+	}
+	100%{
+		color: white;
+	}
 }

@@ -16,8 +16,8 @@ app.config(function($routeProvider){
     .when("/collection", {
         templateUrl : "collection.html"
     })
-    .when("/stylist", {
-        templateUrl : "stylist.html"
+    .when("/contactus", {
+        templateUrl : "contactus.html"
     })
     .when("/product", {
         templateUrl : "product.html"
@@ -29,15 +29,28 @@ app.config(function($routeProvider){
 
 app.controller('myCtrl',function($scope, $http){
     function getData(){
-        $http.get('data.json').then(function(rspt){
+        $http.get('data.json').then(function(rspt) {
             if(localStorage.getItem ("data") == null) {
                 localStorage.setItem("data", JSON.stringify(rspt.data));   
                 $scope.datalang= JSON.parse(localStorage.getItem("data"));  
             }     
             else{
+                localStorage.setItem("data", JSON.stringify(rspt.data));   
                 $scope.datalang= JSON.parse(localStorage.getItem("data"));
             }
+            $scope.language = "en"
+            $scope.freetext = $scope.datalang.freetext[$scope.language]
+            // console.log($scope.freetext);
         })
     }
-    $scope.banner = "images/banner/banner00.jpg"
+    getData();
+    $scope.translate = function(lang){
+        $scope.language = lang;
+        $scope.freetext = $scope.datalang.freetext[$scope.language];
+    }
+    $scope.shownavigation = function(){
+        var obj = document.getElementById("right-container").style.display
+        document.getElementById("right-container").style.display = obj == "block" ? "none" : "block"
+        console.log(obj);
+    }
 });

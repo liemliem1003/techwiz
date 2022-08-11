@@ -1,0 +1,154 @@
+{
+    "freetext":{
+        "vn":{
+            "nav":{
+                "home":"Trang Chủ",
+                "shop":"Cửa hàng",
+                "activities":"Hoạt động từ thiện",
+                "aboutus":"Về chúng tôi",
+                "contactus":"Liên hệ",
+                "language":"Ngôn ngữ"
+            },
+            "home":{
+                "slogan1":"Thời trang",
+                "slogan2":"Môi trường",
+                "slogan3":"Phù hợp",
+                "BestSeller":"Bán chạy",
+                "NewArivals":"Hàng mới",
+                "infomation":"Thông tin",
+                "addtocart": "Thêm vào giỏ hàng"
+            },
+            "activity":{
+                "continue": "Tiếp tục"
+            },
+            "about us":{
+                "home":"Trang Chủ",
+                "aboutus":"Về chúng tôi",
+                "whoarewe":"Chúng tôi là",
+                "welcometo":"Chào mừng đến với",
+                "ourvision":"Tầm nhìn",
+                "ourmission":"Nhiệm vụ",
+                "ourgoal":"Sứ mệnh",
+                "teammember":"Thành viên"
+            },
+            "contact us":{
+                   "home":"Trang Chủ",
+                   "contactus":"Liên hệ",
+                   "getintouch": "Liên hệ với chúng tôi",
+                   "send":"Gửi"
+            }   
+        },
+        "en":{
+            "nav":{
+                "home":"Home",
+                "shop":"Shop",
+                "activities":"Activities",
+                "aboutus":"About us",
+                "contactus":"Contact us",
+                "language":"Language",
+                "infomation":"Infomation"
+            },
+            "home":{
+                "slogan1":"Fashionable",
+                "slogan2":"Environment",
+                "slogan3":"Affordable",
+                "BestSeller":"Best Seller",
+                "NewArivals":"New Arivals",
+                "infomation":"Infomation",
+                "addtocart": "Add to cart"
+            },
+            "activity":{
+                "continue": "Continue"
+            },
+            "aboutus":{
+                "home":"Home",
+                "aboutus":"About us",
+                "whoarewe":"Who are we",
+                "welcometo":"Welcome to",
+                "ourvision":"Our vision",
+                "ourmission":"Our mission",
+                "ourgoal":"Our goal",
+                "teammember":"Team member"
+            },
+            "contact us":{
+                "home":"Home",
+                "contactus":"Contact us",
+                "getintouch": "Get in touch",
+                "send":"Send"
+         }   
+        }
+    },
+    "product":[
+            {
+                "id":0,
+                "price": 2000,
+                "discount": 400,
+                "img":[
+                    "abc_1.png",
+                    "abc_2.png"
+                ],
+                "size": "XL",
+                "type": 1,
+                "translation":{
+                    "vn":{
+                        "material": "lua",
+                        "name": "Áo sơ mi",
+                        "desciption": "hkasgdhasghd"
+                    },
+                    "en":{
+                        "material": "silk",
+                        "name": "T-shirt",
+                        "desciption": "hasdnhasghd"
+
+                    }
+                },
+                "related_product":[
+                    1,2,3
+                ]
+            }
+    ],
+    "activities":[
+        {
+            "id":1,
+            "translation":{
+                "vn":{
+                    "name": "ten",
+                    "desciption": "",
+                    "content":""
+                },
+                "en":{
+                    "name": "name",
+                    "desciption": "",
+                    "content":""
+
+                }
+            }
+        }
+    ],
+    "product_type":{
+        "0":{
+            "vn": "Nón",
+            "en": "Hat"
+        },
+        "1":{
+            "vn": "Áo",
+            "en": "Shirt"
+        },
+        "2":{
+            "vn": "Áo khoát",
+            "en": "Coat"
+        },
+        "3":{
+            "vn": "Quần",
+            "en": "Pant"
+        },
+        "4":{
+            "vn": "Giày",
+            "en": "Shoes"
+        },
+        "5":{
+            "vn": "Đầm",
+            "en": "Dress"
+        }
+    }
+}
