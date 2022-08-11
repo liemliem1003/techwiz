@@ -1,0 +1,59 @@
+.activity .banner{
+	background: url('images/banner/banner00.jpg');
+	margin-bottom: 20px;
+}
+.activity .activities-list{
+	margin: auto;
+	width: 80%;
+}
+.activity .activities-left{
+	position: relative;
+	margin-bottom: 80px;
+	width: 100%;
+}
+.activity .activities-left img{
+	width: 40%;
+	height: 350px;
+}
+.activity .activities-list .activities-left .activities-infor{
+	position: absolute;
+	border: 1px solid black;
+	top: 25px;
+	left: 35%;
+	width: 65%;
+	padding: 50px 5% 50px 10%;
+	height: 350px;
+}
+.activity .activities-list .activities-left .activities-infor .activities-description{
+	text-align: left;
+	word-wrap: break-word;
+}
+.activity hr{
+	width: 50%;
+	height: 4px;
+	color: black;
+}
+
+.activity .activities-right{
+	position: relative;
+	margin-bottom: 80px;
+	width: 100%;
+}
+.activity .activities-right img{
+	width: 40%;
+	height: 350px;
+
+}
+.activity .activities-list .activities-right .activities-infor{
+	border: 1px solid black;
+	width: 65%;
+	padding: 50px 5% 50px 10%;
+	height: 350px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.activity .activities-list .activities-right .activities-infor .activities-description{
+	text-align: left;
+	word-wrap: break-word;
+}

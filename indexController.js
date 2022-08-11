@@ -4,8 +4,8 @@ app.config(function($routeProvider){
     .when("/home", {
         templateUrl : "home.html"
     })
-    .when("/comparison", {
-        templateUrl : "comparison.html"
+    .when("/activity", {
+        templateUrl : "activity.html"
     })
     .when("/aboutus", {
         templateUrl : "aboutus.html"

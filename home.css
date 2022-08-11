@@ -16,7 +16,7 @@
 	height: 500px;
 	opacity: 0;
 }
-.home .group-slogan .slogan img:hover{
+.home .group-slogan .slogan:hover img{
 	animation: goup 1s 1;
 	transform-origin: bottom;
 	opacity: 1;
@@ -31,4 +31,74 @@
 		opacity: 1;
 
 	}
+}
+.home .category{
+	text-align: center;
+}
+.home .category div label{
+	cursor: pointer;
+}
+.home .category input{
+	display: none;
+}
+.home .content-group .check .content{
+	display: none;
+}
+.home .content-group .check [type=radio]:checked ~ .content{
+	display: block;
+}
+.home .content-group{
+	margin: auto;
+}
+.home .product-list{
+	display: flex;
+	justify-content: center;
+}
+.home .product-list .product-item{
+	position: relative;
+	margin: 10px;
+}
+.home .product-list .product-item img{
+	width: 280px;
+	height: 300px
+}
+.home .product-list .product-item .product-label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	background: green;
+	border-radius: 6px;
+	padding: 3px 11px;
+	color: white;
+}
+.home .product-list .product-item .addtocart{
+	position: absolute;
+	bottom: 51px;
+	width: 100%;
+	background: blue;
+	color: white;
+	opacity: 0;
+}
+.home .product-list .product-item:hover .addtocart{
+	animation: goup 1s 1;
+	transform-origin: bottom;
+	opacity: 1;
+	transform: scale(1,1);
+}
+.home .information .activities-list{
+	display: flex;
+	overflow: auto;
+}
+.home .information .activities-list a{
+	margin: 2px 5px 2px 0;
+}
+.home .information .activities-list a img{
+	width: 200px;
+	height: 100px;
+}
+.home .information .activities-list a .activity-name{
+	text-align: left;
+	font-size: 13px;
 }
