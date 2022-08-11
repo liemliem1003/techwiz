@@ -8,5 +8,8 @@
 }
 .getintouch input{
     margin: 0 0 15px 0;
-    width: 662px;
+    width: 100%
+}
+.getintouch textarea{
+    width: 100%
 }

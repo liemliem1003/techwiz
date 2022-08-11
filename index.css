@@ -16,7 +16,6 @@ body{
 }
 .navigation .center{
 	margin: auto;
-	width: 50%;
 }
 .navigation .right{
 	margin-top: auto;
@@ -75,7 +74,8 @@ footer .contact_us span:hover i{
     background: black;
 }
 @media only screen and (max-width: 740px) {
-	.navigation .right{
+	.navigation .center{
+		width: 50%;
 	}
 	.navigation .right .fa-bars{
 		display: block;
@@ -85,7 +85,6 @@ footer .contact_us span:hover i{
 	}
 	.navigation .right .dropdown{
 		margin-right: 10px;
-
 	}
 	.navigation .right a{
 		display: block;
@@ -100,3 +99,11 @@ footer .contact_us span:hover i{
 		z-index: 1;
 	}
   }
+@media only screen and (max-width: 926px) {
+	footer .contact_us{
+		margin: auto;
+	}
+	footer .contact_us span ~ span ~ span{
+		display: block;
+	}
+}

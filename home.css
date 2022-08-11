@@ -1,8 +1,10 @@
 .home .group-slogan{
 	display: flex;
 	justify-content: center;
+
 }
 .home .group-slogan .slogan{
+	background: red;
 	display: flex;
 	width: 300px;
 	height: 500px;
@@ -101,4 +103,12 @@
 .home .information .activities-list a .activity-name{
 	text-align: left;
 	font-size: 13px;
+}
+@media only screen and (max-width: 926px) {
+	.home .group-slogan{
+		display: block;
+	}
+	.home .group-slogan .slogan{
+		margin: auto;
+	}
 }

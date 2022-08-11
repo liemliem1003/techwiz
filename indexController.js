@@ -10,17 +10,17 @@ app.config(function($routeProvider){
     .when("/aboutus", {
         templateUrl : "aboutus.html"
     })
-    .when("/stylist_detail", {
-        templateUrl : "stylist_detail.html"
+    .when("/shop", {
+        templateUrl : "shop.html"
     })
-    .when("/collection", {
-        templateUrl : "collection.html"
+    .when("/shop1", {
+        templateUrl : "shop1.html"
     })
     .when("/contactus", {
         templateUrl : "contactus.html"
     })
-    .when("/product", {
-        templateUrl : "product.html"
+    .when("/modalbox", {
+        templateUrl : "modalbox.html"
     })
     .otherwise({
         templateUrl : "home.html"
@@ -44,6 +44,7 @@ app.controller('myCtrl',function($scope, $http){
         })
     }
     getData();
+    $scope.Popup = false;
     $scope.translate = function(lang){
         $scope.language = lang;
         $scope.freetext = $scope.datalang.freetext[$scope.language];
@@ -51,6 +52,9 @@ app.controller('myCtrl',function($scope, $http){
     $scope.shownavigation = function(){
         var obj = document.getElementById("right-container").style.display
         document.getElementById("right-container").style.display = obj == "block" ? "none" : "block"
-        console.log(obj);
+    }
+    $scope.showPopup = function(){
+        $scope.Popup = !$scope.Popup;
+        console.log($scope.Popup);
     }
 });

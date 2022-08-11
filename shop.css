@@ -1,0 +1,88 @@
+.shop .banner{
+	background: url('images/banner/banner00.jpg');
+	margin-bottom: 20px;
+}
+.shop .filter{
+    text-align: center;
+}
+.shop .content{
+    display: none;
+}
+.shop input{
+	display: none;
+}
+.shop [type=radio]:checked ~ .content{
+	display: block;
+}
+.shop .product-list{
+	display: flex;
+	justify-content: center;
+}
+.shop .product-list .product-item{
+	position: relative;
+	margin: 10px;
+}
+.shop .product-list .product-item img{
+	width: 280px;
+	height: 300px
+}
+.shop .product-list .product-item .product-label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	background: green;
+	border-radius: 6px;
+	padding: 3px 11px;
+	color: white;
+}
+.shop .product-list .product-item .addtocart{
+	position: absolute;
+	bottom: 51px;
+	width: 100%;
+	background: blue;
+	color: white;
+	opacity: 0;
+}
+.shop .product-list .product-item:hover .addtocart{
+	animation: goup 1s 1;
+    text-align: center;
+	transform-origin: bottom;
+	opacity: 1;
+	transform: scale(1,1);
+}
+.shop .product-list .product-item .product-info{
+    text-align: center;
+}
+@keyframes goup{
+	0%{
+		transform: scale(1,0);
+	}
+	100%{
+		transform: scale(1,1);
+		opacity: 1;
+
+	}
+}
+.shop .product-list .product-item .img2{
+    display: none;
+}
+.shop .product-list .product-item:hover .img1{
+    display: none;
+}
+.shop .product-list .product-item:hover .img2{
+    display: block;
+	animation: showimg2 0.5s 1;
+    transform-origin: bottom;
+}
+@keyframes showimg2{
+	0%{
+        transform: scale(1,0.7);
+		opacity: 0;
+	}
+	100%{
+        transform: scale(1,1);
+        opacity: 1;
+	}
+}
