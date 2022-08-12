@@ -1,0 +1,38 @@
+.checkout_popup-container {
+    top: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(255 255 255 / 49%);
+}
+
+.checkout_popup {
+    z-index: 10;
+    display: flex;
+    position: fixed;
+    top: calc((100% - 410px)/2);
+    left: calc((100% - 800px)/2);
+    background: forestgreen;
+    width: 800px;
+    margin: auto;
+}
+
+.checkout_popup .loader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #3498db;
+    width: 120px;
+    margin: auto;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

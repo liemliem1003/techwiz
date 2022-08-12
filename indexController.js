@@ -30,7 +30,7 @@ app.config(function($routeProvider){
     })
 });
 
-app.controller('myCtrl',function($scope, $http){
+app.controller('myCtrl',function($scope, $http, $timeout){
     function getData(){
         $http.get('data.json').then(function(rspt) {
             if(localStorage.getItem ("data") == null) {
@@ -77,6 +77,7 @@ app.controller('myCtrl',function($scope, $http){
     }
     $scope.cart = [];
     $scope.cartQuantity = 0;
+    $scope.totalAmount = 0;
     $scope.updateCart = function(product,add){
         for (let i = 0; i <= $scope.cart.length; i++) {
             if(add){
@@ -84,22 +85,26 @@ app.controller('myCtrl',function($scope, $http){
                     $scope.cart[$scope.cart.length] = product
                     $scope.cart[i].quantity = 1
                     $scope.cartQuantity++
+                    $scope.totalAmount += $scope.cart[i].price
                     break
                 }
                 else if($scope.cart[i].id == product.id){
                     $scope.cart[i].quantity++ 
                     $scope.cartQuantity++
+                    $scope.totalAmount += $scope.cart[i].price
                     break
                 }else if(i == $scope.cart.length - 1){
                     product.quantity = 1
                     $scope.cart[$scope.cart.length] = product
                     $scope.cartQuantity++
+                    $scope.totalAmount += $scope.cart[i].price
                     break
                 }
             }else if(!add){
                 if($scope.cart[i].id == product.id){
                     $scope.cart[i].quantity-- 
                     $scope.cartQuantity--
+                    $scope.totalAmount -= $scope.cart[i].price
                     if($scope.cart[i].quantity <= 0){
                         $scope.cart.splice(i, 1);
                     }
@@ -107,5 +112,36 @@ app.controller('myCtrl',function($scope, $http){
                 }
             }
         }
+    }
+    $scope.loader = false
+    $scope.shownLoader = function(){
+        $scope.loader = !$scope.loader
+        if($scope.loader){
+            $timeout(function () {
+                $scope.loader = false;
+                $scope.checkout_popup = false;
+                $scope.cart = [];
+                $scope.cartQuantity = 0;
+                $scope.totalAmount = 0;
+                alert("Purchage Successfully")
+            }
+            ,5000);
+        }
+    }
+    $scope.checkout_popup = false
+    $scope.showCheckout_popup = function(){
+        $scope.checkout_popup = !$scope.checkout_popup
+    }
+    $scope.countDownHideCheckout = function(){
+        $scope.loader = false
+    }
+    $scope.visitor = 100
+    window.onload = function () {
+        if (localStorage.getItem("counter")) {
+            $scope.visitor = localStorage.getItem("counter");
+            $scope.visitor = parseInt($scope.visitor);
+        }
+        $scope.visitor++;
+        localStorage["counter"] = $scope.visitor;
     }
 });
