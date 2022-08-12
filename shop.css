@@ -15,16 +15,14 @@
 	display: block;
 }
 .shop .product-list{
-	display: flex;
-	justify-content: center;
+
 }
 .shop .product-list .product-item{
 	position: relative;
-	margin: 10px;
 }
 .shop .product-list .product-item img{
-	width: 280px;
-	height: 300px
+	width: 100%;
+	height: auto
 }
 .shop .product-list .product-item .product-label{
 	position: absolute;
@@ -39,11 +37,16 @@
 }
 .shop .product-list .product-item .addtocart{
 	position: absolute;
-	bottom: 51px;
-	width: 100%;
+	bottom: 80px;
 	background: blue;
 	color: white;
 	opacity: 0;
+}
+.shop .product-list .product-item .addtocart .fa-plus{
+	cursor: pointer;
+}
+.shop .product-list .product-item .addtocart .fa-eye{
+	cursor: pointer;
 }
 .shop .product-list .product-item:hover .addtocart{
 	animation: goup 1s 1;
@@ -67,6 +70,8 @@
 }
 .shop .product-list .product-item .img2{
     display: none;
+	width: 100%;
+	height: auto;
 }
 .shop .product-list .product-item:hover .img1{
     display: none;

@@ -2,7 +2,8 @@ body{
 	background-image: url("images/background.jpg");
 }
 .navigation{
-	width: 80%;
+	background: green;
+	width: 100%;
 	margin: auto;
 	display: flex;
 	padding: 10px;
@@ -64,8 +65,8 @@ footer .contact_us i{
     height: 30px;
     width: 30px;
     line-height: 30px;
-    border: 1px solid black;
     text-align: center;
+    border: 1px solid black;
     margin: 10px;
     border-radius: 50%;
 }
@@ -106,4 +107,22 @@ footer .contact_us span:hover i{
 	footer .contact_us span ~ span ~ span{
 		display: block;
 	}
+}
+.cart{
+	position: relative;
+	margin-right: 5px;
+}
+.fa-shopping-cart{
+}
+.quantity{
+	color: white;
+	background-color: red;
+	top: 24px;
+	right: 0px;
+	position: absolute;
+    font-size: 10px;
+	width: 20px;
+	height: 18px;
+    text-align: center;
+	border-radius: 50%;
 }

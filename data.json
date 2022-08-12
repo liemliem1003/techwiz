@@ -1,1463 +1,2634 @@
 {
-    "freetext":{
-        "vn":{
-            "nav":{
-                "home":"Trang Chủ",
-                "shop":"Cửa hàng",
-                "activities":"Hoạt động từ thiện",
-                "aboutus":"Về chúng tôi",
-                "contactus":"Liên hệ",
-                "language":"Ngôn ngữ"
+    "freetext": {
+        "vn": {
+            "nav": {
+                "home": "Trang Chủ",
+                "shop": "Cửa hàng",
+                "activities": "Hoạt động từ thiện",
+                "aboutus": "Về chúng tôi",
+                "contactus": "Liên hệ",
+                "language": "Ngôn ngữ"
             },
-            "home":{
-                "slogan1":"Thời trang",
-                "slogan2":"Môi trường",
-                "slogan3":"Phù hợp",
-                "BestSeller":"Bán chạy",
-                "NewArivals":"Hàng mới",
-                "infomation":"Thông tin",
+            "home": {
+                "slogan1": "Thời trang",
+                "slogan2": "Môi trường",
+                "slogan3": "Phù hợp",
+                "BestSeller": "Bán chạy",
+                "NewArivals": "Hàng mới",
+                "infomation": "Thông tin",
                 "addtocart": "Thêm vào giỏ hàng"
             },
-            "activity":{
+            "activity": {
                 "continue": "Tiếp tục"
             },
-            "aboutus":{
-                "aboutus":"Về chúng tôi",
-                "whoarewe":"Chúng tôi là",
-                "welcometo":"Chào mừng đến với",
-                "ourvision":"Tầm nhìn",
-                "ourmission":"Nhiệm vụ",
-                "ourgoal":"Sứ mệnh",
-                "teammember":"Thành viên"
+            "about us": {
+                "home": "Trang Chủ",
+                "aboutus": "Về chúng tôi",
+                "whoarewe": "Chúng tôi là",
+                "welcometo": "Chào mừng đến với",
+                "ourvision": "Tầm nhìn",
+                "ourmission": "Nhiệm vụ",
+                "ourgoal": "Sứ mệnh",
+                "teammember": "Thành viên"
             },
-            "contactus":{
-                "name":"Tên",
-                "yourname":"Nhập tên...",
-                "subject":"Tiêu đề",
-                "yoursubject":"Nhập tiêu đề...",
-                "email":"Email",
-                "youremail":"Nhập Email...",
-                "message":"Nội dung",
-                "yourmessage":"Nhập nội dung tin nhắn...",
-                "contactus":"Liên hệ",
+            "contact us": {
+                "home": "Trang Chủ",
+                "contactus": "Liên hệ",
                 "getintouch": "Liên hệ với chúng tôi",
-                "send":"Gửi"
-            }   
-        },
-        "en":{
-            "nav":{
-                "home":"Home",
-                "shop":"Shop",
-                "activities":"Activities",
-                "aboutus":"About us",
-                "contactus":"Contact us",
-                "language":"Language",
-                "infomation":"Infomation"
+                "send": "Gửi"
             },
-            "home":{
-                "slogan1":"Fashionable",
-                "slogan2":"Environment",
-                "slogan3":"Affordable",
-                "BestSeller":"Best Seller",
-                "NewArivals":"New Arivals",
-                "infomation":"Infomation",
+            "shop": {
                 "addtocart": "Thêm vào giỏ hàng"
+            }
+        },
+        "en": {
+            "nav": {
+                "home": "Home",
+                "shop": "Shop",
+                "activities": "Activities",
+                "aboutus": "About us",
+                "contactus": "Contact us",
+                "language": "Language",
+                "infomation": "Infomation"
             },
-            "activity":{
+            "home": {
+                "slogan1": "Fashionable",
+                "slogan2": "Environment",
+                "slogan3": "Affordable",
+                "BestSeller": "Best Seller",
+                "NewArivals": "New Arivals",
+                "infomation": "Infomation",
+                "addtocart": "Add to cart"
+            },
+            "activity": {
                 "continue": "Continue"
             },
-            "aboutus":{
-                "aboutus":"About us",
-                "whoarewe":"Who are we",
-                "welcometo":"Welcome to",
-                "ourvision":"Our vision",
-                "ourmission":"Our mission",
-                "ourgoal":"Our goal",
-                "teammember":"Team member"
+            "aboutus": {
+                "home": "Home",
+                "aboutus": "About us",
+                "whoarewe": "Who are we",
+                "welcometo": "Welcome to",
+                "ourvision": "Our vision",
+                "ourmission": "Our mission",
+                "ourgoal": "Our goal",
+                "teammember": "Team member"
             },
-            "contactus":{
-                "name":"Name",
-                "yourname":"Your name...",
-                "subject":"Subject",
-                "yoursubject":"Subject...",
-                "email":"Email",
-                "youremail":"Email...",
-                "message":"Message",
-                "yourmessage":"Your message...",
-                "home":"Home",
-                "contactus":"Contact us",
+            "contact us": {
+                "home": "Home",
+                "contactus": "Contact us",
                 "getintouch": "Get in touch",
-                "send":"Send"
-         }   
-        }
-    },
-    "product":[
-            {
-                "id":101,
-                "price": 150,
-                "discount": 20,
-                "img":[
-                    "images/Products/non/non1(1).jpg",
-                    "images/Products/non/non2(1).jpg",
-                    "images/Products/non/non3(1).jpg"
-                ],
-                "size": "M",
-                "type": 0,
-                "translation":{
-                    "vn":{
-                        "material": "Khaki",
-                        "name": "PKTT Original Y Cone 18- Ver7",
-                        "desciption": "100% Cotton+ Công nghệ thuê 3D"
-                    },
-                    "en":{
-                        "material": "Khaki",
-                        "name": "PKTT Original Y Cone 18- Ver7",
-                        "desciption": "100% Cotton+ 3D embroidery pattern"
-
-                    }
-                },
-                "related_product":[
-                    102,103,104
-                ]
+                "send": "Send"
             },
-            {
-                "id":102,
-                "price": 200,
-                "discount": 50,
-                "img":[
-                    "images/Products/non/non4(2).jpg",
-                    "images/Products/non/non5(2).jpg",
-                    "images/Products/non/non6(2).jpg"
-                ],
-                "size": "L",
-                "type": 0,
-                "translation":{
-                    "vn":{
-                        "material": "Khaki",
-                        "name": "Original Y Cone 18- Ver9",
-                        "desciption": "100% Cotton+ Công nghệ in 3D + Công nghệ in linh hoạt"
-                    },
-                    "en":{
-                        "material": "Khaki",
-                        "name": "Original Y Cone 18- Ver9",
-                        "desciption": "100% Cotton+ 3D embroidery pattern + flexible printing"
-
-                    }
-                },
-                "related_product":[
-                    103,104,105
-                ]
-            },
-            {
-                "id":103,
-                "price": 170,
-                "discount": 20,
-                "img":[
-                    "images/Products/non/non7(3).jpg",
-                    "images/Products/non/non8(3).jpg",
-                    "images/Products/non/non9(3).jpg"
-                ],
-                "size": "L",
-                "type": 0,
-                "translation":{
-                    "vn":{
-                        "material": "Khaki",
-                        "name": "Original Y Cone 18- Ver6",
-                        "desciption": "100% Cotton+ Công nghệ in 3D + Công nghệ in linh hoạt"
-                    },
-                    "en":{
-                        "material": "Khaki",
-                        "name": "Original Y Cone 18- Ver6",
-                        "desciption": "100% Cotton+ 3D embroidery pattern + flexible printing"
-
-                    }
-                },
-                "related_product":[
-                    102,104,105
-                ]
-            },
-            {
-                "id":104,
-                "price": 250,
-                "discount": 70,
-                "img":[
-                    "images/Products/non/non10(4).jpg",
-                    "images/Products/non/non11(4).jpg",
-                    "images/Products/non/non12(4).jpg"
-                ],
-                "size": "XL",
-                "type": 0,
-                "translation":{
-                    "vn":{
-                        "material": "Acrylic woven wool",
-                        "name": "PKTT Original Y Cone 18- Ver3",
-                        "desciption": "100% len nhân tạo"
-                    },
-                    "en":{
-                        "material": "Acrylic woven wool",
-                        "name": "PKTT Original Y Cone 18- Ver3",
-                        "desciption": "100% Acrylic"
-
-                    }
-                },
-                "related_product":[
-                    105,106,107
-                ]
-            },
-            {
-                "id":105,
-                "price": 250,
-                "discount": 60,
-                "img":[
-                    "images/Products/non/non13(5).jpg",
-                    "images/Products/non/non14(5).jpg",
-                    "images/Products/non/non15(5).jpg"
-                ],
-                "size": "XL",
-                "type": 0,
-                "translation":{
-                    "vn":{
-                        "material": "Acrylic woven wool",
-                        "name": "PKTT Original Y Cone 18- Ver4",
-                        "desciption": "100% len nhân tạo, Mẫu thêu 2D"
-                    },
-                    "en":{
-                        "material": "Acrylic woven wool",
-                        "name": "PKTT Original Y Cone 18- Ver4",
-                        "desciption": "100% Acrylic, 2D embroidery pattern"
-
-                    }
-                },
-                "related_product":[
-                    104,106,107
-                ]
-            },
-            {
-                "id":106,
-                "price": 230,
-                "discount": 30,
-                "img":[
-                    "images/Products/non/non16(6).jpg",
-                    "images/Products/non/non17(6).jpg",
-                    "images/Products/non/non18(6).jpg"
-                ],
-                "size": "XL",
-                "type": 0,
-                "translation":{
-                    "vn":{
-                        "material": "Acrylic woven wool",
-                        "name": "PKTT Original Y Cone 18- Ver4",
-                        "desciption": "100% COTTON - Logo thép không gỉ được may bằng tay"
-                    },
-                    "en":{
-                        "material": "Acrylic woven wool",
-                        "name": "PKTT Original Y Cone 18- Ver4",
-                        "desciption": "100% COTTON - Sewing pattern with stainless steel logo"
-
-                    }
-                },
-                "related_product":[
-                    104,105,107
-                ]
-            },
-                    {
-                        "id":107,
-                        "price": 170,
-                        "discount": 20,
-                        "img":[
-                            "images/Products/non/non19(7).jpg",
-                            "images/Products/non/non20(7).jpg",
-                            "images/Products/non/non21(7).jpg"
-                        ],
-                        "size": "M",
-                        "type": 0,
-                        "translation":{
-                            "vn":{
-                                "material": "Khaki",
-                                "name": "PKTT Original Y Cone 18- Ver7",
-                                "desciption": "100% COTTON- Mẫu thuê 3D"
-                            },
-                            "en":{
-                                "material": "Khaki",
-                                "name": "PKTT Original Y Cone 18- Ver7",
-                                "desciption": "100% COTTON- 100% Cotton+ 3D embroidery pattern"
-                            }
-                },
-                "related_product":[
-                    104,105,108
-                ]
-            },
-            {
-                "id":108,
-                "price": 220,
-                "discount": 0,
-                "img":[
-                    "images/Products/non/non22(8).jpg",
-                    "images/Products/non/non23(8).jpg",
-                    "images/Products/non/non24(8).jpg"
-                ],
-                "size": "M",
-                "type": 0,
-                "translation":{
-                    "vn":{
-                        "material": "Khaki",
-                        "name": "PKTT Mascot Hat Bbuff Ver1",
-                        "desciption": "100% COTTON- Mẫu thuê"
-                    },
-                    "en":{
-                        "material": "Khaki",
-                        "name": "PKTT Mascot Hat Bbuff Ver1",
-                        "desciption": "100% COTTON- 100% Cotton- Embroidery pattern"
-                    }
-        },
-        "related_product":[
-            104,105,101
-        ]
-    },
-
-    {
-        "id":201,
-        "price": 150,
-        "discount": 0,
-        "img":[
-            "images/Products/ao/ao1(1).jpg",
-            "images/Products/ao/ao2(1).jpg",
-            "images/Products/ao/ao3(1).jpg"
-        ],
-        "size": "M",
-        "type": 1,
-        "translation":{
-            "vn":{
-                "material": "Cotton Compact 2C",
-                "name": "Minimalist Turtleneck T-shirt M15",
-                "desciption": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
-            },
-            "en":{
-                "material": "Cotton Compact 2C",
-                "name": "Minimalist Turtleneck T-shirt M15",
-                "desciption": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
+            "shop": {
+                "addtocart": "Add to cart"
             }
-},
-"related_product":[
-    202,203,204
-]
-},
-{
-    "id":202,
-    "price": 200,
-    "discount": 30,
-    "img":[
-        "images/Products/ao/ao4(2).jpg",
-        "images/Products/ao/ao5(2).jpg",
-        "images/Products/ao/ao6(2).jpg"
-    ],
-    "size": "XL",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Cotton Compact",
-            "name": "Simple Round Neck T-shirt Milky Way Space Ver14",
-            "desciption": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
-        },
-        "en":{
-            "material": "Cotton Compact",
-            "name": "Simple Round Neck T-shirt Milky Way Space Ver14",
-            "desciption": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
-        }
-},
-"related_product":[
-201,203,204
-]
-},
-{
-    "id":203,
-    "price": 170,
-    "discount": 0,
-    "img":[
-        "images/Products/ao/ao7(3).jpg",
-        "images/Products/ao/ao8(3).jpg",
-        "images/Products/ao/ao9(3).jpg"
-    ],
-    "size": "M",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Cotton Compact",
-            "name": "Space Ver18's Galaxy T-Shirt",
-            "desciption": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
-        },
-        "en":{
-            "material": "Cotton Compact",
-            "name": "Space Ver18's Galaxy T-Shirt",
-            "desciption": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
-        }
-},
-"related_product":[
-202,205,204
-]
-},
-{
-    "id":204,
-    "price": 170,
-    "discount": 20,
-    "img":[
-        "images/Products/ao/ao10(4).jpg",
-        "images/Products/ao/ao11(4).jpg",
-        "images/Products/ao/ao12(4).jpg"
-    ],
-    "size": "L",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Cotton Compact",
-            "name": "Space Ver18's Galaxy T-Shirt",
-            "desciption": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
-        },
-        "en":{
-            "material": "Cotton Compact",
-            "name": "Space Ver18's Galaxy T-Shirt",
-            "desciption": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
-        }
-},
-"related_product":[
-203,205,206
-]
-},
-{
-    "id":205,
-    "price": 250,
-    "discount": 20,
-    "img":[
-        "images/Products/ao/ao13(5).jpg",
-        "images/Products/ao/ao14(5).jpg",
-        "images/Products/ao/ao15(5).jpg"
-    ],
-    "size": "L",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Kate",
-            "name": "Long-hand T-Shirt",
-            "desciption": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
-        },
-        "en":{
-            "material": "Kate",
-            "name": "Long-hand T-Shirt",
-            "desciption": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
-        }
-},
-"related_product":[
-201,207,204
-]
-},
-{
-    "id":206,
-    "price": 200,
-    "discount": 20,
-    "img":[
-        "images/Products/ao/ao16(6).jpg",
-        "images/Products/ao/ao17(6).jpg",
-        "images/Products/ao/ao18(6).jpg"
-    ],
-    "size": "L",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Kate",
-            "name": "Long-hand Pink T-Shirt",
-            "desciption": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
-        },
-        "en":{
-            "material": "Kate",
-            "name": "Long-hand Pink T-Shirt",
-            "desciption": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
-        }
-},
-"related_product":[
-201,208,203
-]
-},
-{
-    "id":207,
-    "price": 200,
-    "discount": 20,
-    "img":[
-        "images/Products/ao/ao19(7).jpg",
-        "images/Products/ao/ao20(7).jpg",
-        "images/Products/ao/ao21(7).jpg"
-    ],
-    "size": "L",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Vải Kate",
-            "name": "Simple Short Sleeve Shirt M27",
-            "desciption": "65% cotton 35% poly - Bền chặt- Mềm mại - Khô nhanh - Mát mẻ"
-        },
-        "en":{
-            "material": "Kate fabric",
-            "name": "Simple Short Sleeve Shirt M27",
-            "desciption": "65% cotton 35% poly- Durable- Soft- Dry fast- Cool"
-        }
-},
-"related_product":[
-202,208,204
-]
-},
-{
-    "id":208,
-    "price": 150,
-    "discount": 10,
-    "img":[
-        "images/Products/ao/ao19(8).jpg",
-        "images/Products/ao/ao20(8).jpg",
-        "images/Products/ao/ao21(8).jpg"
-    ],
-    "size": "L",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Vải Kate",
-            "name": "Simple Short Sleeve Shirt M27",
-            "desciption": "65% cotton 35% poly - Bền chặt- Mềm mại - Khô nhanh - Mát mẻ"
-        },
-        "en":{
-            "material": "Kate fabric",
-            "name": "Simple Short Sleeve Shirt M27",
-            "desciption": "65% cotton 35% poly- Durable- Soft- Dry fast- Cool"
-        }
-},
-"related_product":[
-201,204,205
-]
-},
-{
-    "id":209,
-    "price": 200,
-    "discount": 0,
-    "img":[
-        "images/Products/ao/ao22(9).jpg",
-        "images/Products/ao/ao23(9).jpg",
-        "images/Products/ao/ao24(9).jpg"
-    ],
-    "size": "L",
-    "type": 1,
-    "translation":{
-        "vn":{
-            "material": "Shirt Fabric",
-            "name": "Simple Long Sleeve Shirt Y Original Ver7",
-            "desciption": "65% cotton 35% poly- Căng tốt- Mát mẻ- Mẫu thêu"
-        },
-        "en":{
-            "material": "Vải áo sơ mi",
-            "name": "Simple Long Sleeve Shirt Y Original Ver7",
-            "desciption": "65% cotton 35% poly- Good stretch- Cool- Embroidery Patterns"
-        }
-},
-"related_product":[
-206,207,205
-]
-},
-
-{
-    "id":301,
-    "price": 300,
-    "discount": 20,
-    "img":[
-        "images/Products/ao khoac/aokhoac1(1).jpg",
-        "images/Products/ao khoac/aokhoac2(1).jpg",
-        "images/Products/ao khoac/aokhoac3(1).jpg"
-    ],
-    "size": "L",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "Vải bông từ pháp",
-            "name": "Simple Hoodie Jacket Y Original Ver4",
-            "desciption": "100% chất liệu cotton - Hút ẩm- Mềm mại, ít nhăn- Độ giãn tối ưu- Thân thiện với môi trường- Thêu 3D + kỹ thuật may - Khâu logo"
-        },
-        "en":{
-            "material": "FRENCH TERRY",
-            "name": "Simple Hoodie Jacket Y Original Ver4",
-            "desciption": "100% cotton - Absorbs moisture- Soft, less wrinkled - Optimum stretch- Environmentally friendly- 3D Embroidery + sewing techniques - Logo stitching"
-        }
-},
-"related_product":[
-302,303,304
-]
-},
-{
-    "id":302,
-    "price": 400,
-    "discount": 70,
-    "img":[
-        "images/Products/ao khoac/aokhoac4(2).jpg",
-        "images/Products/ao khoac/aokhoac5(2).jpg",
-        "images/Products/ao khoac/aokhoac6(2).jpg"
-    ],
-    "size": "M",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "Khaki",
-            "name": "Varsity Jacket Simple Y Original Ver45",
-            "desciption": "100% Polyester- Mẫu thêu- Túi bên trong tiện lợi- Cổ áo, cổ tay áo, viền áo có gân- Áo được cài cúc."
-        },
-        "en":{
-            "material": "Khaki",
-            "name": "Varsity Jacket Simple Y Original Ver45",
-            "desciption": "100% Polyester- Embroidery pattern- Convenient inner pocket- Collar, cuffs, hem are ribbed- The shirt is fastened with buttons"
-        }
-},
-"related_product":[
-301,305,304
-]
-},
-{
-    "id":303,
-    "price": 550,
-    "discount": 50,
-    "img":[
-        "images/Products/ao khoac/aokhoac7(3).jpg",
-        "images/Products/ao khoac/aokhoac8(3).jpg",
-        "images/Products/ao khoac/aokhoac9(3).jpg"
-    ],
-    "size": "M",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "Vải dù",
-            "name": "Rainy Jacket Simple Y Original",
-            "desciption": "100% poly- Sức cản của gió - Không khí trong lành- Trượt nước- Phù hợp tối ưu- Không thấm nước trong nhiều giờ"
-        },
-        "en":{
-            "material": "Umbrella",
-            "name": "Rainy Jacket Simple Y Original",
-            "desciption": "100% poly- Wind resistance- Fresh air- Waterslide- Optimal fit- Waterproof for hours"
-        }
-},
-"related_product":[
-302,306,304
-]
-},
-{
-    "id":304,
-    "price": 350,
-    "discount": 20,
-    "img":[
-        "images/Products/ao khoac/aokhoac10(4).jpg",
-        "images/Products/ao khoac/aokhoac11(4).jpg",
-        "images/Products/ao khoac/aokhoac12(4).jpg"
-    ],
-    "size": "XXL",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "Vải cotton hai mặt",
-            "name": "Simple Y Original Cardigan Jacket Ver46",
-            "desciption": "87% cotton 13% Polyester- Tính đàn hồi- Bền chặt- Không khí trong lành - Khô nhanh"
-        },
-        "en":{
-            "material": "COTTON DOUBLE FACE",
-            "name": "Simple Y Original Cardigan Jacket Ver46",
-            "desciption": "87% Cotton 13% Polyester- Elasticity- Durable- Fresh air- Dry fast"
-        }
-},
-"related_product":[
-302,303,305
-]
-},
-{
-    "id":305,
-    "price": 370,
-    "discount": 30,
-    "img":[
-        "images/Products/ao khoac/aokhoac13(5).jpg",
-        "images/Products/ao khoac/aokhoac14(5).jpg",
-        "images/Products/ao khoac/aokhoac15(5).jpg"
-    ],
-    "size": "XXL",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "Vải bông từ pháp",
-            "name": "Varsity Jacket Simple Y Original Ver43",
-            "desciption": "100% chất liệu cotton- Hút ẩm- Mềm mại- Co giãn- Thân thiện với môi trường"
-        },
-        "en":{
-            "material": "French Terry",
-            "name": "Varsity Jacket Simple Y Original Ver43",
-            "desciption": "100% Cotton- Absorbs moisture- Soft- Elastic stretch- Environmentally friendly"
-        }
-},
-"related_product":[
-301,304,306
-]
-},
-{
-    "id":306,
-    "price": 250,
-    "discount": 30,
-    "img":[
-        "images/Products/ao khoac/aokhoac16(6).jpg",
-        "images/Products/ao khoac/aokhoac17(6).jpg",
-        "images/Products/ao khoac/aokhoac18(6).jpg"
-    ],
-    "size": "XL",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "Khaki",
-            "name": "Simple Collar Leaf Jacket M17",
-            "desciption": "100% chất liệu cotton- Mẫu thêu + khâu logo"
-        },
-        "en":{
-            "material": "Khaki",
-            "name": "Simple Collar Leaf Jacket M17",
-            "desciption": "100% Cotton- Embroidery pattern + logo stitching"
-        }
-},
-"related_product":[
-301,304,307
-]
-},
-{
-    "id":307,
-    "price": 450,
-    "discount": 10,
-    "img":[
-        "images/Products/ao khoac/aokhoac19(7).jpg",
-        "images/Products/ao khoac/aokhoac20(7).jpg",
-        "images/Products/ao khoac/aokhoac21(7).jpg"
-    ],
-    "size": "XXL",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "sợi tổng hợp",
-            "name": "Classic Sports Jacket Original Y Original Ver23",
-            "desciption": "100% Polyester- Mềm mại- Không khí trong lành- Tính đàn hồi và phục hồi- Khô nhanh"
-        },
-        "en":{
-            "material": "Polyester",
-            "name": "Classic Sports Jacket Original Y Original Ver23",
-            "desciption": "100% Polyester- Soft- Fresh air- Elasticity and recovery- Dry fast"
-        }
-},
-"related_product":[
-301,304,308
-]
-},
-{
-    "id":308,
-    "price": 200,
-    "discount": 10,
-    "img":[
-        "images/Products/ao khoac/aokhoac22(8).jpg",
-        "images/Products/ao khoac/aokhoac23(8).jpg",
-        "images/Products/ao khoac/aokhoac24(8).jpg"
-    ],
-    "size": "XXL",
-    "type": 2,
-    "translation":{
-        "vn":{
-            "material": "Sợi dù",
-            "name": "Rainy Classic Sports Jacket Original",
-            "desciption": "100% Polyester- Mềm mại- Không khí trong lành- Tính đàn hồi và phục hồi- Khô nhanh"
-        },
-        "en":{
-            "material": "Umbrella",
-            "name": "Rainy Classic Sports Jacket Original",
-            "desciption": "100% poly - UV resistant- Waterslide- Comes with a laundry bag"
-        }
-},
-"related_product":[
-301,304,307
-]
-},
-{
-    "id":401,
-    "price": 300,
-    "discount": 50,
-    "img":[
-        "images/Products/quan/quan1(1).jpg",
-        "images/product/quan/quan2(1).jpg",
-        "images/product/quan/quan3(1).jpg"
-    ],
-    "size": "L",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "jean",
-            "name": "Quần Jean",
-            "desciption": " Jean Cotton Thành phần: 99% cotton 1% spandex"
-        },
-        "en":{
-            "material": "jean",
-            "name": "pant",
-            "desciption": " Jean Cotton Composition: 99% cotton 1% spandex"
-
         }
     },
-    "related_product":[
-        404,402,403
-    ]
-},
-{
-    "id":402,
-    "price": 400,
-    "discount": 0,
-    "img":[
-        "images/Products/quan/quan4(2).jpg",
-        "images/product/quan/quan5(2).jpg",
-        "images/product/quan/quan6(2).jpg"
-    ],
-    "size": "M",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "jean",
-            "name": "Quần Jean",
-            "desciption": " Jean Cotton Thành phần: 99% cotton 1% spandex- Mềm mại- Mát mẻ"
-        },
-        "en":{
-            "material": "jean",
-            "name": "pant",
-            "desciption": " Jean CottonComposition: 99% cotton 1% spandex- Soft- Cool"
-
-        }
-    },
-    "related_product":[
-        404,405,403
-    ]
-},
-{
-    "id":403,
-    "price": 400,
-    "discount": 0,
-    "img":[
-        "images/Products/quan/quan7(3).jpg",
-        "images/product/quan/quan8(3).jpg",
-        "images/product/quan/quan9(3).jpg"
-    ],
-    "size": "XL",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "vải",
-            "name": "Quần tây",
-            "desciption": " Quần vảiThành phần: 99% cotton 1% spandex- Mềm mại- Mát mẻ"
-        },
-        "en":{
-            "material": "Trousers",
-            "name": "pant",
-            "desciption": " Cloth TrousersComposition: 99% cotton 1% spandex- Soft- Cool"
-        }
-    },
-    "related_product":[
-        404,405,406
-    ]
-},
-{
-    "id":404,
-    "price": 450,
-    "discount": 50,
-    "img":[
-        "images/Products/quan/quan10(4).jpg",
-        "images/product/quan/quan11(4).jpg",
-        "images/product/quan/quan12(4).jpg"
-    ],
-    "size": "XL",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "vải",
-            "name": "Quần tây",
-            "desciption": "Quần vảiThành phần: 70% poly 27% rayon 3% spandex- Mặt vải mềm, mịn, tạo cảm giác mát nhẹ khi mặc.- Kiểu dáng quần ống suông thẳng mang đến vẻ lịch lãm, tự tin và nam tính cho người mặc.- Phù hợp với nhiều môi trường khác nhau như đi làm, đi tiệc, đi học, đi chơi."
-        },
-        "en":{
-            "material": "Trousers",
-            "name": "pant",
-            "desciption": "Cloth TrousersComposition: 70% poly 27% rayon 3% spandex - Soft, smooth fabric surface, light cool feeling when wearing.- The design of straight leg pants brings elegance, confidence and masculinity to the wearer.- Suitable for many different environments such as going to work, going to a party, going to school, going out."
-        }
-    },
-    "related_product":[
-        407,405,406
-    ]
-},
-{
-    "id":405,
-    "price": 350,
-    "discount": 0,
-    "img":[
-        "images/Products/quan/quan13(5).jpg",
-        "images/product/quan/quan14(5).jpg",
-        "images/product/quan/quan15(5).jpg"
-    ],
-    "size": "XL",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "vải",
-            "name": "Quần tây",
-            "desciption": "Chất liệu: Poly PlusThành phần: 69% Polyester 29% Rayon 2% Spandex- Mẫu có logo # Y2010."
-        },
-        "en":{
-            "material": "Trousers",
-            "name": "pant",
-            "desciption": "Material: Poly PlusComposition: 69% Polyester 29% Rayon 2% Spandex- Pattern with logo #Y2010."
-        }
-    },
-    "related_product":[
-        407,408,406
-    ]
-},
-{
-    "id":406,
-    "price": 250,
-    "discount": 10,
-    "img":[
-        "images/Products/quan/quan16(6).jpg",
-        "images/product/quan/quan17(6).jpg",
-        "images/product/quan/quan18(6).jpg"
-    ],
-    "size": "L",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "vải",
-            "name": "Quần Jogger",
-            "desciption": "Chất liệu: MẶT ĐÔI COTTON- Vải cotton được dệt theo kiểu ĐÔI-MẶT với cấu tạo 2 mặt giống nhau, sử dụng được cả 2 mặt vải.Thành phần: 87% Cotton 13% Polyester- Tính đàn hồi- Bền chặt- Không khí trong lành- Khô nhanh- Chất thấm+ Mẫu may bằng mảnh kim loại."
-        },
-        "en":{
-            "material": "khaki",
-            "name": "Jogger Pants",
-            "desciption": "Material: COTTON DOUBLE FACE- Cotton fabric is woven according to DOUBLE-FACE with the same structure of 2 surfaces, can be used on both sides of the fabric.Composition: 87% Cotton 13% Polyester- Elasticity- Durable- Fresh air- Dry fast- Absorbent+ Sewing pattern with metal pieces."
-        }
-    },
-    "related_product":[
-        407,408,409
-    ]
-},
-{
-    "id":407,
-    "price": 100,
-    "discount": 5,
-    "img":[
-        "images/Products/quan/quan19(7).jpg",
-        "images/product/quan/quan20(7).jpg",
-        "images/product/quan/quan21(7).jpg"
-    ],
-    "size": "xxL",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "vải",
-            "name": "Quần Jogger",
-            "desciption": "- Chất liệu: French Terry- Thành phần: 100% cotton- Hút ẩm- Mềm mại, ít nhăn- Độ giãn tối ưu- Thân thiện với môi trường+ Mẫu in linh hoạt + nhãn nhiều lớp+ Dây rút giấu cạp quần.+ Viền quần dài chạm mắt cá chân, che khuyết điểm cực hiệu quả.."
-        },
-        "en":{
-            "material": "khaki",
-            "name": "Jogger Pants",
-            "desciption": "- Material: French Terry- Composition: 100% Cotton- Absorbs moisture- Soft, less wrinkled- Optimum stretch- Environmentally friendly+ Flexible print pattern + laminated label+ Drawstring conceals the waistband+ The hem of the pants touches the ankle, extremely effective in concealing."
-        }
-    },
-    "related_product":[
-        402,408,401
-    ]
-},
-{
-    "id":408,
-    "price": 109,
-    "discount": 9,
-    "img":[
-        "images/Products/quan/quan22(8).jpg",
-        "images/product/quan/quan23(8).jpg",
-        "images/product/quan/quan24(8).jpg"
-    ],
-    "size": "xL",
-    "type": 3,
-    "translation":{
-        "vn":{
-            "material": "vải",
-            "name": "Quần short",
-            "desciption": "Quần short đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
-        },
-        "en":{
-            "material": "Khaki",
-            "name": "Simple Shorts Y Original Ver12",
-            "desciption": "Simple Shorts Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
-        }
-    },
-    "related_product":[
-        402,403,401
-    ]
-},
-{
-    "id":501,
-    "price": 400,
-    "discount": 10,
-    "img":[
-        "images/Products/giay/giay1(1).jpg",
-        "images/product/giay/giay2(1).jpg"
-    ],
-    "size": "41",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "da",
-            "name": "Original Western Shoe A1 2022 ",
-            "desciption": "Mô tả Sản phẩmLUXURY - THÁNH LỄOriginal Western Shoe A1 2022 (Oxford)- Chất liệu: Da bò 100%- Đế cao su bền- May đế- Bảo hành 365 ngày."
-        },
-        "en":{
-            "material": "leaher",
-            "name": "Original Western Shoe A1 2022 ",
-            "desciption": "Product DescriptionLUXURY - HOLIDAYSOriginal Western Shoe A1 2022 (Oxford)- Material: 100% cowhide- Durable rubber sole- Sewing soles- 365 days warranty."
-        }
-    },
-    "related_product":[
-        502,503
-    ]
-},
-{
-    "id":502,
-    "price": 500,
-    "discount": 50,
-    "img":[
-        "images/Products/giay/giay3(2).jpg",
-        "images/product/giay/giay4(2).jpg"
-    ],
-    "size": "39",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "da",
-            "name": "Giày tây lười nguyên bản A4 2022. ",
-            "desciption": "Giày tây lười nguyên bản A4 2022.- Chất liệu: Da bò 100% + lót da heo- Dây thun kéo dài từ mắt cá đến mắt cá chân nhưng không dài đến đế- 100% đế cao su- May đế."
-        },
-        "en":{
-            "material": "leaher",
-            "name": "Original Lazy West Shoe A4 2022.",
-            "desciption": "Original Lazy West Shoe A4 2022.- Material: 100% cowhide + pig skin lining- Elastic band extends from the ankle to the ankle but not to the sole- 100% rubber sole- Sewing soles."
-        }
-    },
-    "related_product":[
-        504,503
-    ]
-},
-{
-    "id":503,
-    "price": 200,
-    "discount": 0,
-    "img":[
-        "images/Products/giay/giay5(3).jpg",
-        "images/product/giay/giay6(3).jpg"
-    ],
-    "size": "38",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "Sợi nhỏ",
-            "name": "Giày Casual Nguyên Bản Ver5. ",
-            "desciption": "Giày thường Nguyên Bản Ver5- Chất liệu: Microfiber- Lót Vòng cổ Pu- Lót thân + kem dưỡng da 3mm + Lưới nêm chân- Lưới Talon + mousse 3.5mm- Dây dệt vải cotton 6mm trắng- Trong logo nhũ # Y2010- Noise hơi- Đế cao su -Có thế đứng"
-        },
-        "en":{
-            "material": "Microfiber",
-            "name": "Original Lazy West Shoe A4 2022.",
-            "desciption": "Original Casual Shoes Ver5- Material: Microfiber- Pu . Necklace Liner- Body lining + 3mm lotion + Foot   wedge net- Mesh Talon + mousse 3.5mm- 6mm white cotton woven rope- In the emulsion logo # Y2010- Noise is a bit- Rubber soles- Can stand."
-        }
-    },
-    "related_product":[
-        504,505
-    ]
-},
-{
-    "id":504,
-    "price": 350,
-    "discount": 20,
-    "img":[
-        "images/Products/giay/giay7(4).jpg",
-        "images/product/giay/giay8(4).jpg"
-    ],
-    "size": "42",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "Sợi nhỏ",
-            "name": "Giày Adidas. ",
-            "desciption": "Giày Adidas- Chất liệu: Đan. vải vóc- Đế phylon siêu nhẹ- Biểu trưng # Y2010- Lớp lót Mousse 3mm + Lưới mềm chân- Lưới Talon + mousse 3.5mm."
-        },
-        "en":{
-            "material": "Microfiber",
-            "name": "Adidas ShoesOriginal Ver4.",
-            "desciption": "Adidas ShoesOriginal Ver4- Material: Knit . fabric- Super light phylon sole- Logo #Y2010- 3mm Mousse lining + Mesh soft feet- Talon mesh + mousse 3.5mm."
-        }
-    },
-    "related_product":[
-        506,505
-    ]
-},
-{
-    "id":505,
-    "price": 350,
-    "discount": 20,
-    "img":[
-        "images/Products/giay/giay9(5).jpg",
-        "images/product/giay/giay10(5).jpg"
-    ],
-    "size": "43",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "Sợi nhỏ",
-            "name": "Giày thể thao. ",
-            "desciption": "Chất liệu, chất:- Nguyên liệu chính: 100% Microfiber- Lót vòng cổ bằng da 100%- Lót thân + Mousse sậy 3mm + Lưới lót chân êm ái- Lưới Talon + mousse 3.5mm- Dây giày vải cotton dệt 6mm màu đen- Ô thông gió- Đế cao su."
-        },
-        "en":{
-            "material": "Microfiber",
-            "name": ".",
-            "desciption": "Pumal shoes Material, substance:- Main materials: 100% Microfiber- 100% Leather Necklace Liner- Body lining + 3mm Mousse reed + Mesh soft feet- Talon mesh + mousse 3.5mm- Black 6mm woven cotton shoelaces- Ventilation umbrella- Rubber soles."
-        }
-    },
-    "related_product":[
-        506,507
-    ]
-},
-{
-    "id":506,
-    "price": 300,
-    "discount": 10,
-    "img":[
-        "images/Products/giay/giay11(6).jpg",
-        "images/product/giay/giay12(6).jpg"
-    ],
-    "size": "45",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "Sợi nhỏ",
-            "name": "Giày Adidas. ",
-            "desciption": "Giày adidas- Chất liệu: Nguyên liệu chính là sợi nhỏ- Pu. Lót vòng cổ- Trang trí thân PU- Thêu trang trí ô dê bằng dây giày.- Lớp lót body + Lớp lưới giúp êm chân- Lưới Talon + mousse 3.5mm- Dây giày cotton dệt 6mm màu trắng- Đế cao su"
-        },
-        "en":{
-            "material": "Microfiber ",
-            "name": "Adidas shoes.",
-            "desciption": "Adidas shoes- Material: Microfiber main material- Pu . Necklace Liner- PU body decoration- Embroidery to decorate goat's umbrella with shoelaces- Body lining + Mesh to help smooth feet- Talon mesh + mousse 3.5mm- White 6mm woven cotton shoelaces- Rubber soles."
-        }
-    },
-    "related_product":[
-        508,507
-    ]
-},
-{
-    "id":507,
-    "price": 340,
-    "discount": 10,
-    "img":[
-        "images/Products/giay/giay13(7).jpg",
-        "images/product/giay/giay14(7).jpg"
-    ],
-    "size": "38",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "Sợi nhỏ",
-            "name": "GIÀY NIKE AIR FORCE 1. ",
-            "desciption": "GIÀY NIKE AIR FORCE 1Là một trong những mẫu giày quốc gia, trang bị với các tính năng mềm và nhẹ được cho là cho đôi giày af 1 màu trắng này,Đơn giản và dễ phối đồLuôn nhận được sự yêu mến của mọi ngườiThời trang năng động, sáng tạoNhững đôi giày không chỉ dành cho một người, bạn có thể làm những đôi giày cho những đôi giày luôn được cập nhật."
-        },
-        "en":{
-            "material": "Microfiber ",
-            "name": "NIKE AIR FORCE SHOES 1",
-            "desciption": "NIKE AIR FORCE SHOES 1As one of the national shoe models, the page is equipped with functional and lightweight software that is said to be equipped with a white color,Simple and easy to coordinateAlways get everyone's loveDynamic fashion, creativeThe shoes are not just for one person, you can make shoes for the shoes that are always up to date."
-        }
-    },
-    "related_product":[
-        508,501
-    ]
-},
-{
-    "id":508,
-    "price": 300,
-    "discount": 0,
-    "img":[
-        "images/Products/giay/giay15(8).jpg",
-        "images/product/giay/giay16(8).jpg"
-    ],
-    "size": "38",
-    "type": 4,
-    "translation":{
-        "vn":{
-            "material": "Sợi nhỏ",
-            "name": "Giày Adidas. ",
-            "desciption": "Mẫu GIÀY TỐT NHẤT CỦA ADIDAS.!Với đế boost, đôi giày cực kỳ thoải mái.Chúng có phần trên bằng vải co giãn Primenkit, lồng TPU (hệ thống lồng nhựa), đế giữa Boost nâng cao và nhãn hiệu trên tab gót.thiết kế lạ mắt,."
-        },
-        "en":{
-            "material": "Microfiber ",
-            "name": "Adidas shoes.",
-            "desciption": "ADIDAS BEST SHOES Model.!With the boost sole, the shoes are extremely comfortable.They feature a Primenkit stretch fabric upper, a TPU cage (plastic cage system), an enhanced Boost midsole, and branding on the heel tab.fancy design."
-        }
-    },
-    "related_product":[
-        501,502
-    ]
-},
-{
-    "id":601,
-    "price": 300,
-    "discount": 10,
-    "img":[
-        "images/Products/dam/dam1(1).jpg",
-        "images/product/dam/dam2(1).jpg",
-        "images/product/dam/dam3(1).jpg"
-    ],
-    "size": "L",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Lụa ép",
-            "name": " Kiểu váy loe cúp ngực ôm sát   ",
-            "desciption": "* Kiểu váy loe tiết kiệm, cúp ngực ôm sát, xếp nếp nhiều lớp* Chất liệu: Lụa ép* Mô tả: Váy xòe cúp ngực, xếp ly xếp ly. Chất liệu lụa mềm mại, thoải mái. Thích hợp đi dạo phố, đi làm."
-        },
-        "en":{
-            "material": "Pressed silk ",
-            "name": "The chest flows slowly.",
-            "desciption": "* Economical flared dress style, tight bust, layered pleats* Material: Pressed silk* Description: Flared skirt with ruffled bust, pleated pleats. Soft and comfortable silk material. Suitable for walking, going to work."
-        }
-    },
-    "related_product":[
-        602,603,604
-    ]
-},
-{
-    "id":602,
-    "price": 200,
-    "discount": 50,
-    "img":[
-        "images/Products/dam/dam4(2).jpg",
-        "images/product/dam/dam5(2).jpg",
-        "images/product/dam/dam6(2).jpg"
-    ],
-    "size": "S",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Floral Linen",
-            "name": "  Đầm trắng hoa chìm, xòe hoa trang trí ngực, tay ngắn.  ",
-            "desciption": " Đầm trắng hoa chìm, xòe hoa trang trí ngực, tay ngắn* Chất liệu: Floral Linen* Mô tả: Bộ váy hoa trắng dáng xòe, trang trí hoa trước ngực, tay ngắn. Chất liệu co giãn nhẹ, thoải mái, dáng đứng, thoáng mát. Thích hợp đi làm và đi chơi."
-        },
-        "en":{
-            "material": "Floral Linen",
-            "name": "White dress with sunken flowers, spread with flowers to decorate the chest, short sleeves.",
-            "desciption": "White dress with sunken flowers, spread with flowers to decorate the chest, short sleeves* Material: Floral Linen* Description: White floral sundress with spreading shape, flower decoration on chest, short sleeves. Light stretch material, comfortable, standing shape, cool. Suitable for work and play."
-        }
-    },
-    "related_product":[
-        605,603,604
-    ]
-},
-{
-    "id":603,
-    "price": 250,
-    "discount": 10,
-    "img":[
-        "images/Products/dam/dam7(3).jpg",
-        "images/product/dam/dam8(3).jpg",
-        "images/product/dam/dam9(3).jpg"
-    ],
-    "size": "S",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Vải Lụa",
-            "name": "  Đầm xòe cổ .  ",
-            "desciption": " Váy có đường viền cổ đức, thân trên được may xếp ly, váy có thể xếp 2 tầng.Chất liệu: LụaMô tả: Đầm xòe cổ đức, thân trên may ống xếp ly, xẻ tà 2 tầng. Chất liệu lụa Hàn Quốc nhẹ mát, tôn màu da. Thích hợp đi dạo phố, đi làm."
-        },
-        "en":{
-            "material": "Silk",
-            "name": "Flared neck dress.",
-            "desciption": " Dress with a German neckline, the upper body is sewn with pleats, and the skirt can be 2 tiersMaterial: SilkDescription: German neck spread dress, upper body sewn with pleated pipes, 2 tiered skirt can be spared. Korean silk material, light and cool, skin tone color. Suitable for walking, going to work."
-        }
-    },
-    "related_product":[
-        605,606,604
-    ]
-},
-{
-    "id":604,
-    "price": 350,
-    "discount": 0,
-    "img":[
-        "images/Products/dam/dam10(4).jpg",
-        "images/product/dam/dam11(4).jpg",
-        "images/product/dam/dam12(4).jpg"
-    ],
-    "size": "L",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Vải lanh",
-            "name": "  Áo sơ mi rời, cổ đức, kẹp áo .  ",
-            "desciption": " Áo sơ mi rời, cổ đức, kẹp áo (bản cứng F252241)Chất liệu: Vải lanhMô tả: Áo sơ mi tay lửng, cổ đức, kẹp áo (bản cứng F252241). Chất liệu thoáng khí, thoải mái khi mặc. Thích hợp mặc đi làm."
-        },
-        "en":{
-            "material": "Linen",
-            "name": "Loose-fitting shirt, German collar, clip-on clip .",
-            "desciption": " Loose-fitting shirt, German collar, clip-on clip (hard set F252241)Material: LinenDescription: Loose-fitting shirt, German collar, clip-on clip (hard set F252241). Breathable material, comfortable to wear. Suitable to wear to work."
-        }
-    },
-    "related_product":[
-        605,606,607
-    ]
-},
-{
-    "id":605,
-    "price": 550,
-    "discount": 50,
-    "img":[
-        "images/Products/dam/dam13(5).jpg",
-        "images/product/dam/dam14(5).jpg",
-        "images/product/dam/dam15(5).jpg"
-    ],
-    "size": "s",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Vải Lụa",
-            "name": "  Đầm xòe, cổ thắt nơ, vai xếp nếp.  ",
-            "desciption": "Đầm xòe, cổ thắt nơ, vai xếp nếp.Chất liệu: LụaMô tả: Đầm xòe, cổ thắt nơ, vai xếp nếp. Chất liệu lụa Hàn Quốc nhẹ mát, tôn màu da. Thích hợp đi dạo phố, đi làm,"
-        },
-        "en":{
-            "material": "Silk",
-            "name": "Flared dress, bow tie neck, wrinkled shoulders.",
-            "desciption": " Flared dress, bow tie neck, wrinkled shoulders.Material: SilkDescription: Spread dress, bow tie neck, wrinkled shoulders. Korean silk material, light and cool, skin tone color. Suitable for walking, going to work."
-        }
-    },
-    "related_product":[
-        608,606,607
-    ]
-},
-{
-    "id":606,
-    "price": 650,
-    "discount": 100,
-    "img":[
-        "images/Products/dam/dam16(6).jpg",
-        "images/product/dam/dam17(6).jpg",
-        "images/product/dam/dam18(6).jpg"
-    ],
-    "size": "L",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Xốp màu",
-            "name": "  Áo crop top không tay, cổ xếp ly, áo lót trang trí.  ",
-            "desciption": "Áo crop top không tay, cổ xếp ly, áo lót trang trí (Set váy cứng F252229)Chất liệu: Xốp màuMô tả: Áo crop top suông, cổ xếp ly, trang trí ngực (Bộ váy F252229). Chất lượng dập cao, hình thành tốt. Thích hợp đi làm hoặc đi chơi."
-        },
-        "en":{
-            "material": "Colored Styrofoam",
-            "name": "Sleeveless crop top, ruched neckline, decorative bras.",
-            "desciption": " Sleeveless crop top, ruched neckline, decorative bras (Set of hard skirts F252229)Material: Colored StyrofoamDescription: Loose crop top, ruched neckline, decorative chest (Skirt suit F252229). High quality stamping, good forming. Suitable for work or play."
-        }
-    },
-    "related_product":[
-        608,601,607
-    ]
-},
-{
-    "id":607,
-    "price": 350,
-    "discount": 0,
-    "img":[
-        "images/Products/dam/dam19(7).jpg",
-        "images/product/dam/dam20(7).jpg",
-        "images/product/dam/dam21(7).jpg"
-    ],
-    "size": "L",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Lụa mỏng",
-            "name": "  Đầm không tay, thắt nơ, tay sát nách.  ",
-            "desciption": "Đầm không tay, thắt nơ, tay sát náchChất liệu: Lụa mỏngMô tả: Đầm không tay, cổ bẻ, tay sát nách. Đầm có chất liệu lụa mỏng nhẹ, phom dáng rộng rãi, thoải mái nên rất thích hợp để dạo phố, đi biển."
-        },
-        "en":{
-            "material": "Thin Silk",
-            "name": "Sleeveless dress, bow tie, sleeves close to armpits.",
-            "desciption": " Sleeveless dress, bow tie, sleeves close to armpitsMaterial: Thin Silkdescription: Sleeveless dress, tied at the neck, arms close to the armpits. The dress has a thin and light silk material with a spacious and comfortable shape, so it is very suitable for walking on the street, going to the beach."
-        }
-    },
-    "related_product":[
-        608,602,601
-    ]
-},
-{
-    "id":608,
-    "price": 450,
-    "discount": 10,
-    "img":[
-        "images/Products/dam/dam22(8).jpg",
-        "images/product/dam/dam23(8).jpg",
-        "images/product/dam/dam24(8).jpg"
-    ],
-    "size": "S",
-    "type": 5,
-    "translation":{
-        "vn":{
-            "material": "Tơ tằm",
-            "name": "  Váy bồng bềnh với vạt trước, nơ lệch vai.  ",
-            "desciption": "Váy bồng bềnh với vạt trước, nơ lệch vaiChất liệu: Tơ tằmMô tả: Đầm không tay phối nơ thân trước, lệch vai. Đầm được may bằng chất liệu lụa tweed thoáng mát, nhẹ nhàng, mềm mại, tạo cảm giác thoải mái khi mặc. Thích hợp mặc đi làm."
-        },
-        "en":{
-            "material": "Silk tweed",
-            "name": "Fluffy dress with front bodice, off-shoulder bow.",
-            "desciption": " * Fluffy dress with front bodice, off-shoulder bowMaterial: Silk tweedDescription: Sleeveless dress with front body, shoulder bow. The dress is made of silk tweed, which is cool, light, soft and comfortable to wear. Suitable to wear to work."
-        }
-    },
-    "related_product":[
-        603,602,601
-    ]
-}
-    ],
-    "activities":[
+    "product": [
         {
-            "id":1,
-            "translation":{
-                "vn":{
-                    "name": "ten",
-                    "desciption": "",
-                    "content":""
+            "id": 101,
+            "price": 150,
+            "discount": 20,
+            "img": [
+                "images/Products/non/non1(1).jpg",
+                "images/Products/non/non2(1).jpg"
+            ],
+            "size": "M",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "PKTT Original Y Cone 18- Ver7",
+                    "description": "100% Cotton+ Công nghệ thuê 3D"
                 },
-                "en":{
+                "en": {
+                    "material": "Khaki",
+                    "name": "PKTT Original Y Cone 18- Ver7",
+                    "description": "100% Cotton+ 3D embroidery pattern"
+                }
+            },
+            "related_product": [
+                102,
+                103,
+                104
+            ]
+        },
+        {
+            "id": 102,
+            "price": 200,
+            "discount": 50,
+            "img": [
+                "images/Products/non/non3(2).jpg",
+                "images/Products/non/non4(2).jpg"
+            ],
+            "size": "L",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Original Y Cone 18- Ver9",
+                    "description": "100% Cotton+ Công nghệ in 3D + Công nghệ in linh hoạt"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Original Y Cone 18- Ver9",
+                    "description": "100% Cotton+ 3D embroidery pattern + flexible printing"
+                }
+            },
+            "related_product": [
+                103,
+                104,
+                105
+            ]
+        },
+        {
+            "id": 103,
+            "price": 170,
+            "discount": 20,
+            "img": [
+                "images/Products/non/non5(3).jpg",
+                "images/Products/non/non6(3).jpg"
+            ],
+            "size": "L",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Original Y Cone 18- Ver6",
+                    "description": "100% Cotton+ Công nghệ in 3D + Công nghệ in linh hoạt"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Original Y Cone 18- Ver6",
+                    "description": "100% Cotton+ 3D embroidery pattern + flexible printing"
+                }
+            },
+            "related_product": [
+                102,
+                104,
+                105
+            ]
+        },
+        {
+            "id": 104,
+            "price": 250,
+            "discount": 70,
+            "img": [
+                "images/Products/non/non7(4).jpg",
+                "images/Products/non/non8(4).jpg"
+            ],
+            "size": "XL",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver3",
+                    "description": "100% len nhân tạo"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver3",
+                    "description": "100% Acrylic"
+                }
+            },
+            "related_product": [
+                105,
+                106,
+                107
+            ]
+        },
+        {
+            "id": 105,
+            "price": 250,
+            "discount": 60,
+            "img": [
+                "images/Products/non/non9(5).jpg",
+                "images/Products/non/non10(5).jpg"
+            ],
+            "size": "XL",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver1",
+                    "description": "100% len nhân tạo, Mẫu thêu 2D"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver1",
+                    "description": "100% Acrylic, 2D embroidery pattern"
+                }
+            },
+            "related_product": [
+                104,
+                106,
+                107
+            ]
+        },
+        {
+            "id": 106,
+            "price": 230,
+            "discount": 30,
+            "img": [
+                "images/Products/non/non11(6).jpg",
+                "images/Products/non/non12(6).jpg"
+            ],
+            "size": "XL",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver4",
+                    "description": "100% COTTON - Logo thép không gỉ được may bằng tay"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver4",
+                    "description": "100% COTTON - Sewing pattern with stainless steel logo"
+                }
+            },
+            "related_product": [
+                104,
+                105,
+                107
+            ]
+        },
+        {
+            "id": 107,
+            "price": 170,
+            "discount": 20,
+            "img": [
+                "images/Products/non/non13(7).jpg",
+                "images/Products/non/non14(7).jpg"
+            ],
+            "size": "M",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "PKTT Original Y Cone 18- Ver7",
+                    "description": "100% COTTON- Mẫu thuê 3D"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "PKTT Original Y Cone 18- Ver7",
+                    "description": "100% COTTON- 100% Cotton+ 3D embroidery pattern"
+                }
+            },
+            "related_product": [
+                104,
+                105,
+                108
+            ]
+        },
+        {
+            "id": 108,
+            "price": 220,
+            "discount": 0,
+            "img": [
+                "images/Products/non/non15(8).jpg",
+                "images/Products/non/non16(8).jpg"
+            ],
+            "size": "M",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "PKTT Mascot Hat Bbuff Ver1",
+                    "description": "100% COTTON- Mẫu thuê"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "PKTT Mascot Hat Bbuff Ver1",
+                    "description": "100% COTTON- 100% Cotton- Embroidery pattern"
+                }
+            },
+            "related_product": [
+                104,
+                105,
+                101
+            ]
+        },
+        {
+            "id": 109,
+            "price": 200,
+            "discount": 10,
+            "img": [
+                "images/Products/non/non17(9).jpg",
+                "images/Products/non/non18(9).jpg"
+            ],
+            "size": "L",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "PKTT Mascot Hat Bbuff Ver1",
+                    "description": "100% COTTON- Mẫu thuê"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "PKTT Mascot Hat Bbuff Ver1",
+                    "description": "100% COTTON- 100% Cotton- Embroidery pattern"
+                }
+            },
+            "related_product": [
+                106,
+                107,
+                110
+            ]
+        },
+        {
+            "id": 110,
+            "price": 230,
+            "discount": 30,
+            "img": [
+                "images/Products/non/non19(10).jpg",
+                "images/Products/non/non20(10).jpg"
+            ],
+            "size": "L",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver4",
+                    "description": "100% COTTON - Logo thép không gỉ được may bằng tay"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver4",
+                    "description": "100% COTTON - Sewing pattern with stainless steel logo"
+                }
+            },
+            "related_product": [
+                101,
+                103,
+                111
+            ]
+        },
+        {
+            "id": 111,
+            "price": 250,
+            "discount": 50,
+            "img": [
+                "images/Products/non/non21(11).jpg",
+                "images/Products/non/non22(11).jpg"
+            ],
+            "size": "XL",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver8",
+                    "description": "100% len nhân tạo, Mẫu thêu 2D"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver8",
+                    "description": "100% Acrylic, 2D embroidery pattern"
+                }
+            },
+            "related_product": [
+                104,
+                101,
+                110
+            ]
+        },
+        {
+            "id": 112,
+            "price": 250,
+            "discount": 50,
+            "img": [
+                "images/Products/non/non23(12).jpg",
+                "images/Products/non/non24(12).jpg"
+            ],
+            "size": "XXL",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Lông cừu nhân tạo",
+                    "name": "PKTT Original Y Cone 18- Ver9",
+                    "description": "100% len nhân tạo, Mẫu thêu 2D"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver9",
+                    "description": "100% Acrylic, 2D embroidery pattern"
+                }
+            },
+            "related_product": [
+                104,
+                101,
+                111
+            ]
+        },
+        {
+            "id": 113,
+            "price": 400,
+            "discount": 80,
+            "img": [
+                "images/Products/non/non25(13).jpg",
+                "images/Products/non/non26(13).jpg"
+            ],
+            "size": "XXL",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Original Y Cone 18- Ver10",
+                    "description": "100% Cotton+ Công nghệ in 3D + Công nghệ in linh hoạt"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Original Y Cone 18- Ver10",
+                    "description": "100% Cotton+ 3D embroidery pattern + flexible printing"
+                }
+            },
+            "related_product": [
+                111,
+                106,
+                107
+            ]
+        },
+        {
+            "id": 114,
+            "price": 350,
+            "discount": 30,
+            "img": [
+                "images/Products/non/non27(14).jpg",
+                "images/Products/non/non28(14).jpg"
+            ],
+            "size": "L",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver1",
+                    "description": "100% len nhân tạo, Mẫu thêu 2D"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver1",
+                    "description": "100% Acrylic, 2D embroidery pattern"
+                }
+            },
+            "related_product": [
+                112,
+                110,
+                115
+            ]
+        },
+        {
+            "id": 115,
+            "price": 350,
+            "discount": 50,
+            "img": [
+                "images/Products/non/non29(15).jpg",
+                "images/Products/non/non30(15).jpg"
+            ],
+            "size": "XL",
+            "type": 0,
+            "translation": {
+                "vn": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver3",
+                    "description": "100% len nhân tạo"
+                },
+                "en": {
+                    "material": "Acrylic woven wool",
+                    "name": "PKTT Original Y Cone 18- Ver3",
+                    "description": "100% Acrylic"
+                }
+            },
+            "related_product": [
+                112,
+                113,
+                114
+            ]
+        },
+        {
+            "id": 201,
+            "price": 150,
+            "discount": 0,
+            "img": [
+                "images/Products/ao/ao1(1).jpg",
+                "images/Products/ao/ao2(1).jpg"
+            ],
+            "size": "M",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Cotton Compact 2C",
+                    "name": "Minimalist Turtleneck T-shirt M15",
+                    "description": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
+                },
+                "en": {
+                    "material": "Cotton Compact 2C",
+                    "name": "Minimalist Turtleneck T-shirt M15",
+                    "description": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
+                }
+            },
+            "related_product": [
+                202,
+                203,
+                204
+            ]
+        },
+        {
+            "id": 202,
+            "price": 200,
+            "discount": 30,
+            "img": [
+                "images/Products/ao/ao3(2).jpg",
+                "images/Products/ao/ao4(2).jpg"
+            ],
+            "size": "XL",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Cotton Compact",
+                    "name": "Simple Round Neck T-shirt Milky Way Space Ver14",
+                    "description": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
+                },
+                "en": {
+                    "material": "Cotton Compact",
+                    "name": "Simple Round Neck T-shirt Milky Way Space Ver14",
+                    "description": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
+                }
+            },
+            "related_product": [
+                201,
+                203,
+                204
+            ]
+        },
+        {
+            "id": 203,
+            "price": 170,
+            "discount": 0,
+            "img": [
+                "images/Products/ao/ao5(3).jpg",
+                "images/Products/ao/ao6(3).jpg"
+            ],
+            "size": "M",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Cotton Compact",
+                    "name": "Space Ver18's Galaxy T-Shirt",
+                    "description": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
+                },
+                "en": {
+                    "material": "Cotton Compact",
+                    "name": "Space Ver18's Galaxy T-Shirt",
+                    "description": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
+                }
+            },
+            "related_product": [
+                202,
+                205,
+                204
+            ]
+        },
+        {
+            "id": 204,
+            "price": 170,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao7(4).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Cotton Compact",
+                    "name": "Space Ver18's Galaxy T-Shirt",
+                    "description": "100% chất liệu cotton - Thân thiện- Hút ẩm- Mềm mại- Kiểm soát mùi - Điều hòa thân nhiệt"
+                },
+                "en": {
+                    "material": "Cotton Compact",
+                    "name": "Space Ver18's Galaxy T-Shirt",
+                    "description": "100% Cotton- Friendly- Absorbs moisture- Soft Soft- Odor control- Air conditioner"
+                }
+            },
+            "related_product": [
+                203,
+                205,
+                206
+            ]
+        },
+        {
+            "id": 205,
+            "price": 250,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao8(5).jpg",
+                "images/Products/ao/ao9(5).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Kate",
+                    "name": "Long-hand T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                },
+                "en": {
+                    "material": "Kate",
+                    "name": "Long-hand T-Shirt",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                }
+            },
+            "related_product": [
+                201,
+                207,
+                204
+            ]
+        },
+        {
+            "id": 206,
+            "price": 200,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao10(6).jpg",
+                "images/Products/ao/ao11(6).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Kate",
+                    "name": "Long-hand Pink T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                },
+                "en": {
+                    "material": "Kate",
+                    "name": "Long-hand Pink T-Shirt",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                }
+            },
+            "related_product": [
+                201,
+                208,
+                203
+            ]
+        },
+        {
+            "id": 207,
+            "price": 200,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao12(7).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải Kate",
+                    "name": "Simple Short Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly - Bền chặt- Mềm mại - Khô nhanh - Mát mẻ"
+                },
+                "en": {
+                    "material": "Kate fabric",
+                    "name": "Simple Short Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly- Durable- Soft- Dry fast- Cool"
+                }
+            },
+            "related_product": [
+                202,
+                208,
+                204
+            ]
+        },
+        {
+            "id": 208,
+            "price": 150,
+            "discount": 10,
+            "img": [
+                "images/Products/ao/ao13(8).jpg",
+                "images/Products/ao/ao14(8).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải Kate",
+                    "name": "Simple Short Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly - Bền chặt- Mềm mại - Khô nhanh - Mát mẻ"
+                },
+                "en": {
+                    "material": "Kate fabric",
+                    "name": "Simple Short Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly- Durable- Soft- Dry fast- Cool"
+                }
+            },
+            "related_product": [
+                201,
+                204,
+                205
+            ]
+        },
+        {
+            "id": 209,
+            "price": 200,
+            "discount": 0,
+            "img": [
+                "images/Products/ao/ao15(9).jpg",
+                "images/Products/ao/ao16(9).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải áo sơ mi",
+                    "name": "Simple Long Sleeve Shirt Y Original Ver7",
+                    "description": "65% cotton 35% poly- Căng tốt- Mát mẻ- Mẫu thêu"
+                },
+                "en": {
+                    "material": "Shirt Fabric",
+                    "name": "Simple Long Sleeve Shirt Y Original Ver7",
+                    "description": "65% cotton 35% poly- Good stretch- Cool- Embroidery Patterns"
+                }
+            },
+            "related_product": [
+                206,
+                207,
+                205
+            ]
+        },
+        {
+            "id": 210,
+            "price": 400,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao17(10).jpg",
+                "images/Products/ao/ao18(10).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải áo sơ mi",
+                    "name": "T- Shirt Y Original Ver7",
+                    "description": "65% cotton 35% poly- Căng tốt- Mát mẻ- Mẫu thêu"
+                },
+                "en": {
+                    "material": "Shirt Fabric",
+                    "name": "T- Shirt Y Original Ver7",
+                    "description": "65% cotton 35% poly- Good stretch- Cool- Embroidery Patterns"
+                }
+            },
+            "related_product": [
+                209,
+                208,
+                211
+            ]
+        },
+        {
+            "id": 211,
+            "price": 200,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao19(11).jpg",
+                "images/Products/ao/ao20(11).jpg"
+            ],
+            "size": "M",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải Kate",
+                    "name": "Green Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly - Bền chặt- Mềm mại - Khô nhanh - Mát mẻ"
+                },
+                "en": {
+                    "material": "Kate fabric",
+                    "name": "Green Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly- Durable- Soft- Dry fast- Cool"
+                }
+            },
+            "related_product": [
+                210,
+                204,
+                205
+            ]
+        },
+        {
+            "id": 212,
+            "price": 200,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao21(12).jpg",
+                "images/Products/ao/ao22(12).jpg"
+            ],
+            "size": "M",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải Kate",
+                    "name": "Blue Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly - Bền chặt- Mềm mại - Khô nhanh - Mát mẻ"
+                },
+                "en": {
+                    "material": "Kate fabric",
+                    "name": "Blue Sleeve Shirt M27",
+                    "description": "65% cotton 35% poly- Durable- Soft- Dry fast- Cool"
+                }
+            },
+            "related_product": [
+                203,
+                208,
+                207
+            ]
+        },
+        {
+            "id": 213,
+            "price": 220,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao23(13).jpg",
+                "images/Products/ao/ao24(13).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Long-hand Yellow T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Long-hand Yellow T-Shirt",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                }
+            },
+            "related_product": [
+                210,
+                212,
+                211
+            ]
+        },
+        {
+            "id": 214,
+            "price": 220,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao25(14).jpg",
+                "images/Products/ao/ao26(14).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Long-hand Green T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Long-hand Green T-Shirt",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                }
+            },
+            "related_product": [
+                211,
+                214,
+                213
+            ]
+        },
+        {
+            "id": 215,
+            "price": 230,
+            "discount": 50,
+            "img": [
+                "images/Products/ao/ao27(15).jpg",
+                "images/Products/ao/ao28(15).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Long-hand Red T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Long-hand Red T-Shirt",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                }
+            },
+            "related_product": [
+                214,
+                213,
+                211
+            ]
+        },
+        {
+            "id": 301,
+            "price": 300,
+            "discount": 20,
+            "img": [
+                "images/Products/ao khoac/ao1(1).jpg",
+                "images/Products/ao khoac/ao2(1).jpg"
+            ],
+            "size": "L",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông từ pháp",
+                    "name": "Simple Hoodie Jacket Y Original Ver4",
+                    "description": "100% chất liệu cotton - Hút ẩm- Mềm mại, ít nhăn- Độ giãn tối ưu- Thân thiện với môi trường- Thêu 3D + kỹ thuật may - Khâu logo"
+                },
+                "en": {
+                    "material": "FRENCH TERRY",
+                    "name": "Simple Hoodie Jacket Y Original Ver4",
+                    "description": "100% cotton - Absorbs moisture- Soft, less wrinkled - Optimum stretch- Environmentally friendly- 3D Embroidery + sewing techniques - Logo stitching"
+                }
+            },
+            "related_product": [
+                302,
+                303,
+                304
+            ]
+        },
+        {
+            "id": 302,
+            "price": 400,
+            "discount": 70,
+            "img": [
+                "images/Products/ao khoac/ao3(2).jpg",
+                "images/Products/ao khoac/ao4(2).jpg"
+            ],
+            "size": "M",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Varsity Jacket Simple Y Original Ver45",
+                    "description": "100% Polyester- Mẫu thêu- Túi bên trong tiện lợi- Cổ áo, cổ tay áo, viền áo có gân- Áo được cài cúc."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Varsity Jacket Simple Y Original Ver45",
+                    "description": "100% Polyester- Embroidery pattern- Convenient inner pocket- Collar, cuffs, hem are ribbed- The shirt is fastened with buttons"
+                }
+            },
+            "related_product": [
+                301,
+                305,
+                304
+            ]
+        },
+        {
+            "id": 303,
+            "price": 550,
+            "discount": 50,
+            "img": [
+                "images/Products/ao khoac/ao5(3).jpg",
+                "images/Products/ao khoac/ao6(3).jpg"
+            ],
+            "size": "M",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Vải dù",
+                    "name": "Rainy Jacket Simple Y Original",
+                    "description": "100% poly- Sức cản của gió - Không khí trong lành- Trượt nước- Phù hợp tối ưu- Không thấm nước trong nhiều giờ"
+                },
+                "en": {
+                    "material": "Umbrella",
+                    "name": "Rainy Jacket Simple Y Original",
+                    "description": "100% poly- Wind resistance- Fresh air- Waterslide- Optimal fit- Waterproof for hours"
+                }
+            },
+            "related_product": [
+                302,
+                306,
+                304
+            ]
+        },
+        {
+            "id": 304,
+            "price": 350,
+            "discount": 20,
+            "img": [
+                "images/Products/ao khoac/ao7(4).jpg",
+                "images/Products/ao khoac/ao8(4).jpg"
+            ],
+            "size": "XXL",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Vải cotton hai mặt",
+                    "name": "Simple Y Original Cardigan Jacket Ver46",
+                    "description": "87% cotton 13% Polyester- Tính đàn hồi- Bền chặt- Không khí trong lành - Khô nhanh"
+                },
+                "en": {
+                    "material": "COTTON DOUBLE FACE",
+                    "name": "Simple Y Original Cardigan Jacket Ver46",
+                    "description": "87% Cotton 13% Polyester- Elasticity- Durable- Fresh air- Dry fast"
+                }
+            },
+            "related_product": [
+                302,
+                303,
+                305
+            ]
+        },
+        {
+            "id": 305,
+            "price": 370,
+            "discount": 30,
+            "img": [
+                "images/Products/ao khoac/ao9(5).jpg",
+                "images/Products/ao khoac/ao10(5).jpg"
+            ],
+            "size": "XXL",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông từ pháp",
+                    "name": "Varsity Jacket Simple Y Original Ver43",
+                    "description": "100% chất liệu cotton- Hút ẩm- Mềm mại- Co giãn- Thân thiện với môi trường"
+                },
+                "en": {
+                    "material": "French Terry",
+                    "name": "Varsity Jacket Simple Y Original Ver43",
+                    "description": "100% Cotton- Absorbs moisture- Soft- Elastic stretch- Environmentally friendly"
+                }
+            },
+            "related_product": [
+                301,
+                304,
+                306
+            ]
+        },
+        {
+            "id": 306,
+            "price": 250,
+            "discount": 30,
+            "img": [
+                "images/Products/ao khoac/ao11(6).jpg",
+                "images/Products/ao khoac/ao12(6).jpg"
+            ],
+            "size": "XL",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Simple Collar Leaf Jacket M17",
+                    "description": "100% chất liệu cotton- Mẫu thêu + khâu logo"
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Simple Collar Leaf Jacket M17",
+                    "description": "100% Cotton- Embroidery pattern + logo stitching"
+                }
+            },
+            "related_product": [
+                301,
+                304,
+                307
+            ]
+        },
+        {
+            "id": 307,
+            "price": 450,
+            "discount": 10,
+            "img": [
+                "images/Products/ao khoac/ao13(7).jpg",
+                "images/Products/ao khoac/ao14(7).jpg"
+            ],
+            "size": "XXL",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "sợi tổng hợp",
+                    "name": "Classic Sports Jacket Original Y Original Ver23",
+                    "description": "100% Polyester- Mềm mại- Không khí trong lành- Tính đàn hồi và phục hồi- Khô nhanh"
+                },
+                "en": {
+                    "material": "Polyester",
+                    "name": "Classic Sports Jacket Original Y Original Ver23",
+                    "description": "100% Polyester- Soft- Fresh air- Elasticity and recovery- Dry fast"
+                }
+            },
+            "related_product": [
+                301,
+                304,
+                308
+            ]
+        },
+        {
+            "id": 308,
+            "price": 200,
+            "discount": 10,
+            "img": [
+                "images/Products/ao khoac/ao15(8).jpg",
+                "images/Products/ao khoac/ao16(8).jpg"
+            ],
+            "size": "XXL",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Sợi dù",
+                    "name": "Rainy Classic Sports Jacket Original",
+                    "description": "100% Polyester- Mềm mại- Không khí trong lành- Tính đàn hồi và phục hồi- Khô nhanh"
+                },
+                "en": {
+                    "material": "Umbrella",
+                    "name": "Rainy Classic Sports Jacket Original",
+                    "description": "100% poly - UV resistant- Waterslide- Comes with a laundry bag"
+                }
+            },
+            "related_product": [
+                301,
+                304,
+                307
+            ]
+        },
+        {
+            "id": 309,
+            "price": 400,
+            "discount": 20,
+            "img": [
+                "images/Products/ao khoac/ao17(9).jpg",
+                "images/Products/ao khoac/ao18(9).jpg"
+            ],
+            "size": "XXL",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông từ pháp",
+                    "name": "Varsity Jacket Simple Y Original Ver45",
+                    "description": "100% chất liệu cotton- Hút ẩm- Mềm mại- Co giãn- Thân thiện với môi trường"
+                },
+                "en": {
+                    "material": "French Terry",
+                    "name": "Varsity Jacket Simple Y Original Ver45",
+                    "description": "100% Cotton- Absorbs moisture- Soft- Elastic stretch- Environmentally friendly"
+                }
+            },
+            "related_product": [
+                301,
+                303,
+                307
+            ]
+        },
+        {
+            "id": 310,
+            "price": 350,
+            "discount": 20,
+            "img": [
+                "images/Products/ao khoac/ao19(10).jpg",
+                "images/Products/ao khoac/ao20(10).jpg"
+            ],
+            "size": "XL",
+            "type": 2,
+            "translation": {
+                "vn": {
+                    "material": "Vải cotton hai mặt",
+                    "name": "Simple Y Original Cardigan Jacket Ver50",
+                    "description": "87% cotton 13% Polyester- Tính đàn hồi- Bền chặt- Không khí trong lành - Khô nhanh"
+                },
+                "en": {
+                    "material": "COTTON DOUBLE FACE",
+                    "name": "Simple Y Original Cardigan Jacket Ver50",
+                    "description": "87% Cotton 13% Polyester- Elasticity- Durable- Fresh air- Dry fast"
+                }
+            },
+            "related_product": [
+                302,
+                308,
+                309
+            ]
+        },
+        {
+            "id": 311,
+            "price": 290,
+            "discount": 10,
+            "img": [
+                "images/Products/ao/ao21(11).jpg",
+                "images/Products/ao/ao22(11).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông",
+                    "name": "Woolen Long-hand T-Shirt",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                },
+                "en": {
+                    "material": "Woolen",
+                    "name": "Woolen Long-hand T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                }
+            },
+            "related_product": [
+                310,
+                305,
+                304
+            ]
+        },
+        {
+            "id": 312,
+            "price": 300,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao23(12).jpg",
+                "images/Products/ao/ao24(12).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông từ pháp",
+                    "name": "Woolen Long-hand T-Shirt",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                },
+                "en": {
+                    "material": "Fench Woolen",
+                    "name": "Woolen Long-hand T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                }
+            },
+            "related_product": [
+                310,
+                305,
+                311
+            ]
+        },
+        {
+            "id": 313,
+            "price": 350,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao25(13).jpg",
+                "images/Products/ao/ao26(13).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông từ pháp",
+                    "name": "Woolen Long-hand T-Shirt ver",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                },
+                "en": {
+                    "material": "Fench Woolen",
+                    "name": "Woolen Long-hand T-Shirt",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                }
+            },
+            "related_product": [
+                310,
+                305,
+                311
+            ]
+        },
+        {
+            "id": 314,
+            "price": 350,
+            "discount": 20,
+            "img": [
+                "images/Products/ao/ao27(14).jpg",
+                "images/Products/ao/ao28(14).jpg"
+            ],
+            "size": "M",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông từ pháp",
+                    "name": "Woolen Long-hand T-Shirt ver10",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                },
+                "en": {
+                    "material": "Fench Woolen",
+                    "name": "Woolen Long-hand T-Shirt ver10",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                }
+            },
+            "related_product": [
+                311,
+                312,
+                313
+            ]
+        },
+        {
+            "id": 315,
+            "price": 400,
+            "discount": 50,
+            "img": [
+                "images/Products/ao/ao29(15).jpg",
+                "images/Products/ao/ao30(15).jpg"
+            ],
+            "size": "L",
+            "type": 1,
+            "translation": {
+                "vn": {
+                    "material": "Vải bông từ pháp",
+                    "name": "Modern Long-hand T-Shirt ver1",
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                },
+                "en": {
+                    "material": "Fench Woolen",
+                    "name": "Modern Long-hand T-Shirt ver1",
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                }
+            },
+            "related_product": [
+                308,
+                309,
+                314
+            ]
+        },
+        {
+            "id": 401,
+            "price": 300,
+            "discount": 50,
+            "img": [
+                "images/Products/quan/quan1(1).jpg",
+                "images/products/quan/quan2(1).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "jean",
+                    "name": "Quần Jean",
+                    "description": " Jean Cotton Thành phần: 99% cotton 1% spandex"
+                },
+                "en": {
+                    "material": "jean",
+                    "name": "pant",
+                    "description": " Jean Cotton Composition: 99% cotton 1% spandex"
+                }
+            },
+            "related_product": [
+                404,
+                402,
+                403
+            ]
+        },
+        {
+            "id": 402,
+            "price": 400,
+            "discount": 0,
+            "img": [
+                "images/Products/quan/quan3(2).jpg",
+                "images/products/quan/quan4(2).jpg"
+            ],
+            "size": "M",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "jean",
+                    "name": "Quần Jean",
+                    "description": " Jean Cotton Thành phần: 99% cotton 1% spandex- Mềm mại- Mát mẻ"
+                },
+                "en": {
+                    "material": "jean",
+                    "name": "pant",
+                    "description": " Jean CottonComposition: 99% cotton 1% spandex- Soft- Cool"
+                }
+            },
+            "related_product": [
+                404,
+                405,
+                403
+            ]
+        },
+        {
+            "id": 403,
+            "price": 400,
+            "discount": 0,
+            "img": [
+                "images/Products/quan/quan5(3).jpg",
+                "images/products/quan/quan6(3).jpg"
+            ],
+            "size": "XL",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "vải",
+                    "name": "Quần tây",
+                    "description": " Quần vảiThành phần: 99% cotton 1% spandex- Mềm mại- Mát mẻ"
+                },
+                "en": {
+                    "material": "Trousers",
+                    "name": "pant",
+                    "description": " Cloth TrousersComposition: 99% cotton 1% spandex- Soft- Cool"
+                }
+            },
+            "related_product": [
+                404,
+                405,
+                406
+            ]
+        },
+        {
+            "id": 404,
+            "price": 450,
+            "discount": 50,
+            "img": [
+                "images/Products/quan/quan7(4).jpg",
+                "images/products/quan/quan8(4).jpg"
+            ],
+            "size": "XL",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "vải",
+                    "name": "Quần tây",
+                    "description": "Quần vảiThành phần: 70% poly 27% rayon 3% spandex- Mặt vải mềm, mịn, tạo cảm giác mát nhẹ khi mặc.- Kiểu dáng quần ống suông thẳng mang đến vẻ lịch lãm, tự tin và nam tính cho người mặc.- Phù hợp với nhiều môi trường khác nhau như đi làm, đi tiệc, đi học, đi chơi."
+                },
+                "en": {
+                    "material": "Trousers",
+                    "name": "pant",
+                    "description": "Cloth TrousersComposition: 70% poly 27% rayon 3% spandex - Soft, smooth fabric surface, light cool feeling when wearing.- The design of straight leg pants brings elegance, confidence and masculinity to the wearer.- Suitable for many different environments such as going to work, going to a party, going to school, going out."
+                }
+            },
+            "related_product": [
+                407,
+                405,
+                406
+            ]
+        },
+        {
+            "id": 405,
+            "price": 350,
+            "discount": 0,
+            "img": [
+                "images/Products/quan/quan9(5).jpg",
+                "images/products/quan/quan10(5).jpg"
+            ],
+            "size": "XL",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "vải",
+                    "name": "Quần tây",
+                    "description": "Chất liệu: Poly PlusThành phần: 69% Polyester 29% Rayon 2% Spandex- Mẫu có logo # Y2010."
+                },
+                "en": {
+                    "material": "Trousers",
+                    "name": "pant",
+                    "description": "Material: Poly PlusComposition: 69% Polyester 29% Rayon 2% Spandex- Pattern with logo #Y2010."
+                }
+            },
+            "related_product": [
+                407,
+                408,
+                406
+            ]
+        },
+        {
+            "id": 406,
+            "price": 250,
+            "discount": 10,
+            "img": [
+                "images/Products/quan/quan11(6).jpg",
+                "images/products/quan/quan12(6).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "vải",
+                    "name": "Quần Jogger",
+                    "description": "Chất liệu: MẶT ĐÔI COTTON- Vải cotton được dệt theo kiểu ĐÔI-MẶT với cấu tạo 2 mặt giống nhau, sử dụng được cả 2 mặt vải.Thành phần: 87% Cotton 13% Polyester- Tính đàn hồi- Bền chặt- Không khí trong lành- Khô nhanh- Chất thấm+ Mẫu may bằng mảnh kim loại."
+                },
+                "en": {
+                    "material": "khaki",
+                    "name": "Jogger Pants",
+                    "description": "Material: COTTON DOUBLE FACE- Cotton fabric is woven according to DOUBLE-FACE with the same structure of 2 surfaces, can be used on both sides of the fabric.Composition: 87% Cotton 13% Polyester- Elasticity- Durable- Fresh air- Dry fast- Absorbent+ Sewing pattern with metal pieces."
+                }
+            },
+            "related_product": [
+                407,
+                408,
+                409
+            ]
+        },
+        {
+            "id": 407,
+            "price": 100,
+            "discount": 5,
+            "img": [
+                "images/Products/quan/quan13(7).jpg",
+                "images/products/quan/quan14(7).jpg"
+            ],
+            "size": "xxL",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "vải",
+                    "name": "Quần Jogger",
+                    "description": "- Chất liệu: French Terry- Thành phần: 100% cotton- Hút ẩm- Mềm mại, ít nhăn- Độ giãn tối ưu- Thân thiện với môi trường+ Mẫu in linh hoạt + nhãn nhiều lớp+ Dây rút giấu cạp quần.+ Viền quần dài chạm mắt cá chân, che khuyết điểm cực hiệu quả.."
+                },
+                "en": {
+                    "material": "khaki",
+                    "name": "Jogger Pants",
+                    "description": "- Material: French Terry- Composition: 100% Cotton- Absorbs moisture- Soft, less wrinkled- Optimum stretch- Environmentally friendly+ Flexible print pattern + laminated label+ Drawstring conceals the waistband+ The hem of the pants touches the ankle, extremely effective in concealing."
+                }
+            },
+            "related_product": [
+                402,
+                408,
+                401
+            ]
+        },
+        {
+            "id": 408,
+            "price": 109,
+            "discount": 9,
+            "img": [
+                "images/Products/quan/quan15(8).jpg",
+                "images/products/quan/quan16(8).jpg"
+            ],
+            "size": "xL",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "vải",
+                    "name": "Quần short",
+                    "description": "Quần short đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Simple Shorts Y Original Ver12",
+                    "description": "Simple Shorts Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                402,
+                403,
+                401
+            ]
+        },
+        {
+            "id": 409,
+            "price": 109,
+            "discount": 9,
+            "img": [
+                "images/Products/quan/quan17(9).jpg",
+                "images/products/quan/quan18(9).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "Sợi len",
+                    "name": "Quần Dài",
+                    "description": "Quần dài đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Woolen",
+                    "name": "Trouser Y Original Ver12",
+                    "description": "Simple Trouser Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                405,
+                406,
+                407
+            ]
+        },
+        {
+            "id": 410,
+            "price": 120,
+            "discount": 10,
+            "img": [
+                "images/Products/quan/quan19(10).jpg",
+                "images/products/quan/quan20(10).jpg"
+            ],
+            "size": "M",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Quần Dài cargo ver 1",
+                    "description": "Quần dài đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Cargo Trouser Y Original Ver1",
+                    "description": "Simple Trouser Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                405,
+                406,
+                407
+            ]
+        },
+        {
+            "id": 411,
+            "price": 190,
+            "discount": 10,
+            "img": [
+                "images/Products/quan/quan21(11).jpg",
+                "images/products/quan/quan22(11).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Quần Dài cargo ver 2",
+                    "description": "Quần dài đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Cargo Trouser Y Original Ver2",
+                    "description": "Simple Trouser Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                410,
+                408,
+                409
+            ]
+        },
+        {
+            "id": 412,
+            "price": 200,
+            "discount": 10,
+            "img": [
+                "images/Products/quan/quan23(12).jpg",
+                "images/products/quan/quan24(12).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Quần Dài cargo ver 3",
+                    "description": "Quần dài đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Cargo Trouser Y Original Ver3",
+                    "description": "Simple Trouser Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                405,
+                406,
+                407
+            ]
+        },
+        {
+            "id": 413,
+            "price": 200,
+            "discount": 20,
+            "img": [
+                "images/Products/quan/quan25(13).jpg",
+                "images/products/quan/quan26(13).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Quần Dài cargo ver 4",
+                    "description": "Quần dài đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Cargo Trouser Y Original Ver4",
+                    "description": "Simple Trouser Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                405,
+                406,
+                407
+            ]
+        },
+        {
+            "id": 414,
+            "price": 250,
+            "discount": 20,
+            "img": [
+                "images/Products/quan/quan27(14).jpg",
+                "images/products/quan/quan28(14).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Quần Dài cargo ver 5",
+                    "description": "Quần dài đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Cargo Trouser Y Original Ver5",
+                    "description": "Simple Trouser Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                405,
+                406,
+                407
+            ]
+        },
+        {
+            "id": 415,
+            "price": 250,
+            "discount": 20,
+            "img": [
+                "images/Products/quan/quan29(15).jpg",
+                "images/products/quan/quan30(15).jpg"
+            ],
+            "size": "L",
+            "type": 3,
+            "translation": {
+                "vn": {
+                    "material": "Khaki",
+                    "name": "Quần Dài cargo ver 6",
+                    "description": "Quần dài đơn giản Y Original Ver12hất liệu: Cotton Thành phần: 100% cotton- Thân thiện- Hút ẩm - Mềm mại - Kiểm soát mùi- Máy lạnh+ Mẫu thêu 2D + in linh hoạt."
+                },
+                "en": {
+                    "material": "Khaki",
+                    "name": "Cargo Trouser Y Original Ver6",
+                    "description": "Simple Trouser Y Original Ver12Material: COTTONComposition: 100% cotton- Friendly- Absorbs moisture- Soft- Odor control- Air conditioning+ 2D embroidery pattern + flexible printing."
+                }
+            },
+            "related_product": [
+                405,
+                406,
+                407
+            ]
+        },
+        {
+            "id": 501,
+            "price": 400,
+            "discount": 10,
+            "img": [
+                "images/Products/giay/giay1(1).jpg",
+                "images/products/giay/giay2(1).jpg"
+            ],
+            "size": "41",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "da",
+                    "name": "Original Western Shoe A1 2022 ",
+                    "description": "Mô tả Sản phẩmLUXURY - THÁNH LỄOriginal Western Shoe A1 2022 (Oxford)- Chất liệu: Da bò 100%- Đế cao su bền- May đế- Bảo hành 365 ngày."
+                },
+                "en": {
+                    "material": "leaher",
+                    "name": "Original Western Shoe A1 2022 ",
+                    "description": "Product DescriptionLUXURY - HOLIDAYSOriginal Western Shoe A1 2022 (Oxford)- Material: 100% cowhide- Durable rubber sole- Sewing soles- 365 days warranty."
+                }
+            },
+            "related_product": [
+                502,
+                503
+            ]
+        },
+        {
+            "id": 502,
+            "price": 500,
+            "discount": 50,
+            "img": [
+                "images/Products/giay/giay3(2).jpg",
+                "images/products/giay/giay4(2).jpg"
+            ],
+            "size": "39",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "da",
+                    "name": "Giày tây lười nguyên bản A4 2022. ",
+                    "description": "Giày tây lười nguyên bản A4 2022.- Chất liệu: Da bò 100% + lót da heo- Dây thun kéo dài từ mắt cá đến mắt cá chân nhưng không dài đến đế- 100% đế cao su- May đế."
+                },
+                "en": {
+                    "material": "leaher",
+                    "name": "Original Lazy West Shoe A4 2022.",
+                    "description": "Original Lazy West Shoe A4 2022.- Material: 100% cowhide + pig skin lining- Elastic band extends from the ankle to the ankle but not to the sole- 100% rubber sole- Sewing soles."
+                }
+            },
+            "related_product": [
+                504,
+                503
+            ]
+        },
+        {
+            "id": 503,
+            "price": 200,
+            "discount": 0,
+            "img": [
+                "images/Products/giay/giay5(3).jpg",
+                "images/products/giay/giay6(3).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "Giày Casual Nguyên Bản Ver5. ",
+                    "description": "Giày thường Nguyên Bản Ver5- Chất liệu: Microfiber- Lót Vòng cổ Pu- Lót thân + kem dưỡng da 3mm + Lưới nêm chân- Lưới Talon + mousse 3.5mm- Dây dệt vải cotton 6mm trắng- Trong logo nhũ # Y2010- Noise hơi- Đế cao su -Có thế đứng"
+                },
+                "en": {
+                    "material": "Microfiber",
+                    "name": "Original Lazy West Shoe A4 2022.",
+                    "description": "Original Casual Shoes Ver5- Material: Microfiber- Pu . Necklace Liner- Body lining + 3mm lotion + Foot   wedge net- Mesh Talon + mousse 3.5mm- 6mm white cotton woven rope- In the emulsion logo # Y2010- Noise is a bit- Rubber soles- Can stand."
+                }
+            },
+            "related_product": [
+                504,
+                505
+            ]
+        },
+        {
+            "id": 504,
+            "price": 350,
+            "discount": 20,
+            "img": [
+                "images/Products/giay/giay7(4).jpg",
+                "images/products/giay/giay8(4).jpg"
+            ],
+            "size": "42",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "Giày Adidas. ",
+                    "description": "Giày Adidas- Chất liệu: Đan. vải vóc- Đế phylon siêu nhẹ- Biểu trưng # Y2010- Lớp lót Mousse 3mm + Lưới mềm chân- Lưới Talon + mousse 3.5mm."
+                },
+                "en": {
+                    "material": "Microfiber",
+                    "name": "Adidas ShoesOriginal Ver4.",
+                    "description": "Adidas ShoesOriginal Ver4- Material: Knit . fabric- Super light phylon sole- Logo #Y2010- 3mm Mousse lining + Mesh soft feet- Talon mesh + mousse 3.5mm."
+                }
+            },
+            "related_product": [
+                506,
+                505
+            ]
+        },
+        {
+            "id": 505,
+            "price": 350,
+            "discount": 20,
+            "img": [
+                "images/Products/giay/giay9(5).jpg",
+                "images/products/giay/giay10(5).jpg"
+            ],
+            "size": "43",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "Giày thể thao. ",
+                    "description": "Chất liệu, chất:- Nguyên liệu chính: 100% Microfiber- Lót vòng cổ bằng da 100%- Lót thân + Mousse sậy 3mm + Lưới lót chân êm ái- Lưới Talon + mousse 3.5mm- Dây giày vải cotton dệt 6mm màu đen- Ô thông gió- Đế cao su."
+                },
+                "en": {
+                    "material": "Microfiber",
+                    "name": ".",
+                    "description": "Pumal shoes Material, substance:- Main materials: 100% Microfiber- 100% Leather Necklace Liner- Body lining + 3mm Mousse reed + Mesh soft feet- Talon mesh + mousse 3.5mm- Black 6mm woven cotton shoelaces- Ventilation umbrella- Rubber soles."
+                }
+            },
+            "related_product": [
+                506,
+                507
+            ]
+        },
+        {
+            "id": 506,
+            "price": 300,
+            "discount": 10,
+            "img": [
+                "images/Products/giay/giay11(6).jpg",
+                "images/products/giay/giay12(6).jpg"
+            ],
+            "size": "45",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "Giày Adidas. ",
+                    "description": "Giày adidas- Chất liệu: Nguyên liệu chính là sợi nhỏ- Pu. Lót vòng cổ- Trang trí thân PU- Thêu trang trí ô dê bằng dây giày.- Lớp lót body + Lớp lưới giúp êm chân- Lưới Talon + mousse 3.5mm- Dây giày cotton dệt 6mm màu trắng- Đế cao su"
+                },
+                "en": {
+                    "material": "Microfiber ",
+                    "name": "Adidas shoes.",
+                    "description": "Adidas shoes- Material: Microfiber main material- Pu . Necklace Liner- PU body decoration- Embroidery to decorate goat's umbrella with shoelaces- Body lining + Mesh to help smooth feet- Talon mesh + mousse 3.5mm- White 6mm woven cotton shoelaces- Rubber soles."
+                }
+            },
+            "related_product": [
+                508,
+                507
+            ]
+        },
+        {
+            "id": 507,
+            "price": 340,
+            "discount": 10,
+            "img": [
+                "images/Products/giay/giay13(7).jpg",
+                "images/products/giay/giay14(7).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "GIÀY NIKE AIR FORCE 1. ",
+                    "description": "GIÀY NIKE AIR FORCE 1Là một trong những mẫu giày quốc gia, trang bị với các tính năng mềm và nhẹ được cho là cho đôi giày af 1 màu trắng này,Đơn giản và dễ phối đồLuôn nhận được sự yêu mến của mọi ngườiThời trang năng động, sáng tạoNhững đôi giày không chỉ dành cho một người, bạn có thể làm những đôi giày cho những đôi giày luôn được cập nhật."
+                },
+                "en": {
+                    "material": "Microfiber ",
+                    "name": "NIKE AIR FORCE SHOES 1",
+                    "description": "NIKE AIR FORCE SHOES 1As one of the national shoe models, the page is equipped with functional and lightweight software that is said to be equipped with a white color,Simple and easy to coordinateAlways get everyone's loveDynamic fashion, creativeThe shoes are not just for one person, you can make shoes for the shoes that are always up to date."
+                }
+            },
+            "related_product": [
+                508,
+                501
+            ]
+        },
+        {
+            "id": 508,
+            "price": 300,
+            "discount": 0,
+            "img": [
+                "images/Products/giay/giay15(8).jpg",
+                "images/products/giay/giay16(8).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "Giày Adidas. ",
+                    "description": "Mẫu GIÀY TỐT NHẤT CỦA ADIDAS.!Với đế boost, đôi giày cực kỳ thoải mái.Chúng có phần trên bằng vải co giãn Primenkit, lồng TPU (hệ thống lồng nhựa), đế giữa Boost nâng cao và nhãn hiệu trên tab gót.thiết kế lạ mắt,."
+                },
+                "en": {
+                    "material": "Microfiber ",
+                    "name": "Adidas shoes.",
+                    "description": "ADIDAS BEST SHOES Model.!With the boost sole, the shoes are extremely comfortable.They feature a Primenkit stretch fabric upper, a TPU cage (plastic cage system), an enhanced Boost midsole, and branding on the heel tab.fancy design."
+                }
+            },
+            "related_product": [
+                501,
+                502
+            ]
+        },
+        {
+            "id": 509,
+            "price": 550,
+            "discount": 50,
+            "img": [
+                "images/Products/giay/giay17(9).jpg",
+                "images/products/giay/giay18(9).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Da tự nhiên",
+                    "name": "Giày Bốt. ",
+                    "description": "Chất liệu, chất:- Nguyên liệu chính: 100% Microfiber- Lót vòng cổ bằng da 100%- Lót thân + Mousse sậy 3mm + Lưới lót chân êm ái- Lưới Talon + mousse 3.5mm- Dây giày vải cotton dệt 6mm màu đen- Ô thông gió- Đế cao su."
+                },
+                "en": {
+                    "material": "Leather",
+                    "name": "Boost shoes.",
+                    "description": "Pumal shoes Material, substance:- Main materials: 100% Microfiber- 100% Leather Necklace Liner- Body lining + 3mm Mousse reed + Mesh soft feet- Talon mesh + mousse 3.5mm- Black 6mm woven cotton shoelaces- Ventilation umbrella- Rubber soles."
+                }
+            },
+            "related_product": [
+                508,
+                507
+            ]
+        },
+        {
+            "id": 510,
+            "price": 450,
+            "discount": 30,
+            "img": [
+                "images/Products/giay/giay19(10).jpg",
+                "images/products/giay/giay20(10).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "Giày Adidas. ",
+                    "description": "Mẫu GIÀY TỐT NHẤT CỦA ADIDAS.!Với đế boost, đôi giày cực kỳ thoải mái.Chúng có phần trên bằng vải co giãn Primenkit, lồng TPU (hệ thống lồng nhựa), đế giữa Boost nâng cao và nhãn hiệu trên tab gót.thiết kế lạ mắt,."
+                },
+                "en": {
+                    "material": "Microfiber ",
+                    "name": "Adidas shoes.",
+                    "description": "ADIDAS BEST SHOES Model.!With the boost sole, the shoes are extremely comfortable.They feature a Primenkit stretch fabric upper, a TPU cage (plastic cage system), an enhanced Boost midsole, and branding on the heel tab.fancy design."
+                }
+            },
+            "related_product": [
+                503,
+                504
+            ]
+        },
+        {
+            "id": 511,
+            "price": 400,
+            "discount": 20,
+            "img": [
+                "images/Products/giay/giay21(11).jpg",
+                "images/products/giay/giay22(11).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Sợi nhỏ",
+                    "name": "Giày Adidas Đen. ",
+                    "description": "Mẫu GIÀY TỐT NHẤT CỦA ADIDAS.!Với đế boost, đôi giày cực kỳ thoải mái.Chúng có phần trên bằng vải co giãn Primenkit, lồng TPU (hệ thống lồng nhựa), đế giữa Boost nâng cao và nhãn hiệu trên tab gót.thiết kế lạ mắt,."
+                },
+                "en": {
+                    "material": "Microfiber ",
+                    "name": "Black Adidas shoes.",
+                    "description": "ADIDAS BEST SHOES Model.!With the boost sole, the shoes are extremely comfortable.They feature a Primenkit stretch fabric upper, a TPU cage (plastic cage system), an enhanced Boost midsole, and branding on the heel tab.fancy design."
+                }
+            },
+            "related_product": [
+                503,
+                504
+            ]
+        },
+        {
+            "id": 512,
+            "price": 500,
+            "discount": 40,
+            "img": [
+                "images/Products/giay/giay23(12).jpg",
+                "images/products/giay/giay24(12).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Da tự nhiên",
+                    "name": "Giày Bốt. ",
+                    "description": "Chất liệu, chất:- Nguyên liệu chính: 100% Microfiber- Lót vòng cổ bằng da 100%- Lót thân + Mousse sậy 3mm + Lưới lót chân êm ái- Lưới Talon + mousse 3.5mm- Dây giày vải cotton dệt 6mm màu đen- Ô thông gió- Đế cao su."
+                },
+                "en": {
+                    "material": "Leather",
+                    "name": "Boost shoes.",
+                    "description": "Pumal shoes Material, substance:- Main materials: 100% Microfiber- 100% Leather Necklace Liner- Body lining + 3mm Mousse reed + Mesh soft feet- Talon mesh + mousse 3.5mm- Black 6mm woven cotton shoelaces- Ventilation umbrella- Rubber soles."
+                }
+            },
+            "related_product": [
+                508,
+                507
+            ]
+        },
+        {
+            "id": 513,
+            "price": 500,
+            "discount": 40,
+            "img": [
+                "images/Products/giay/giay25(13).jpg",
+                "images/products/giay/giay26(13).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Da tự nhiên",
+                    "name": "Giày Bốt. ",
+                    "description": "Chất liệu, chất:- Nguyên liệu chính: 100% Microfiber- Lót vòng cổ bằng da 100%- Lót thân + Mousse sậy 3mm + Lưới lót chân êm ái- Lưới Talon + mousse 3.5mm- Dây giày vải cotton dệt 6mm màu đen- Ô thông gió- Đế cao su."
+                },
+                "en": {
+                    "material": "Leather",
+                    "name": "Boost shoes.",
+                    "description": "Pumal shoes Material, substance:- Main materials: 100% Microfiber- 100% Leather Necklace Liner- Body lining + 3mm Mousse reed + Mesh soft feet- Talon mesh + mousse 3.5mm- Black 6mm woven cotton shoelaces- Ventilation umbrella- Rubber soles."
+                }
+            },
+            "related_product": [
+                509,
+                510
+            ]
+        },
+        {
+            "id": 514,
+            "price": 700,
+            "discount": 30,
+            "img": [
+                "images/Products/giay/giay27(14).jpg",
+                "images/products/giay/giay28(14).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Da tự nhiên",
+                    "name": "Giày Bốt. ",
+                    "description": "Chất liệu, chất:- Nguyên liệu chính: 100% Microfiber- Lót vòng cổ bằng da 100%- Lót thân + Mousse sậy 3mm + Lưới lót chân êm ái- Lưới Talon + mousse 3.5mm- Dây giày vải cotton dệt 6mm màu đen- Ô thông gió- Đế cao su."
+                },
+                "en": {
+                    "material": "Leather",
+                    "name": "Boost shoes.",
+                    "description": "Pumal shoes Material, substance:- Main materials: 100% Microfiber- 100% Leather Necklace Liner- Body lining + 3mm Mousse reed + Mesh soft feet- Talon mesh + mousse 3.5mm- Black 6mm woven cotton shoelaces- Ventilation umbrella- Rubber soles."
+                }
+            },
+            "related_product": [
+                512,
+                513
+            ]
+        },
+        {
+            "id": 515,
+            "price": 530,
+            "discount": 30,
+            "img": [
+                "images/Products/giay/giay29(15).jpg",
+                "images/products/giay/giay30(15).jpg"
+            ],
+            "size": "38",
+            "type": 4,
+            "translation": {
+                "vn": {
+                    "material": "Da tự nhiên",
+                    "name": "Giày Bốt. ",
+                    "description": "Chất liệu, chất:- Nguyên liệu chính: 100% Microfiber- Lót vòng cổ bằng da 100%- Lót thân + Mousse sậy 3mm + Lưới lót chân êm ái- Lưới Talon + mousse 3.5mm- Dây giày vải cotton dệt 6mm màu đen- Ô thông gió- Đế cao su."
+                },
+                "en": {
+                    "material": "Leather",
+                    "name": "Boost shoes.",
+                    "description": "Pumal shoes Material, substance:- Main materials: 100% Microfiber- 100% Leather Necklace Liner- Body lining + 3mm Mousse reed + Mesh soft feet- Talon mesh + mousse 3.5mm- Black 6mm woven cotton shoelaces- Ventilation umbrella- Rubber soles."
+                }
+            },
+            "related_product": [
+                513,
+                514
+            ]
+        },
+        {
+            "id": 601,
+            "price": 300,
+            "discount": 10,
+            "img": [
+                "images/Products/dam/dam1(1).jpg",
+                "images/products/dam/dam2(1).jpg"
+            ],
+            "size": "L",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Lụa ép",
+                    "name": " Kiểu váy loe cúp ngực ôm sát   ",
+                    "description": "* Kiểu váy loe tiết kiệm, cúp ngực ôm sát, xếp nếp nhiều lớp* Chất liệu: Lụa ép* Mô tả: Váy xòe cúp ngực, xếp ly xếp ly. Chất liệu lụa mềm mại, thoải mái. Thích hợp đi dạo phố, đi làm."
+                },
+                "en": {
+                    "material": "Pressed silk ",
+                    "name": "The chest flows slowly.",
+                    "description": "* Economical flared dress style, tight bust, layered pleats* Material: Pressed silk* Description: Flared skirt with ruffled bust, pleated pleats. Soft and comfortable silk material. Suitable for walking, going to work."
+                }
+            },
+            "related_product": [
+                602,
+                603,
+                604
+            ]
+        },
+        {
+            "id": 602,
+            "price": 200,
+            "discount": 50,
+            "img": [
+                "images/Products/dam/dam3(2).jpg",
+                "images/products/dam/dam4(2).jpg"
+            ],
+            "size": "S",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Floral Linen",
+                    "name": "  Đầm trắng hoa chìm, xòe hoa trang trí ngực, tay ngắn.  ",
+                    "description": " Đầm trắng hoa chìm, xòe hoa trang trí ngực, tay ngắn* Chất liệu: Floral Linen* Mô tả: Bộ váy hoa trắng dáng xòe, trang trí hoa trước ngực, tay ngắn. Chất liệu co giãn nhẹ, thoải mái, dáng đứng, thoáng mát. Thích hợp đi làm và đi chơi."
+                },
+                "en": {
+                    "material": "Floral Linen",
+                    "name": "White dress with sunken flowers, spread with flowers to decorate the chest, short sleeves.",
+                    "description": "White dress with sunken flowers, spread with flowers to decorate the chest, short sleeves* Material: Floral Linen* Description: White floral sundress with spreading shape, flower decoration on chest, short sleeves. Light stretch material, comfortable, standing shape, cool. Suitable for work and play."
+                }
+            },
+            "related_product": [
+                605,
+                603,
+                604
+            ]
+        },
+        {
+            "id": 603,
+            "price": 250,
+            "discount": 10,
+            "img": [
+                "images/Products/dam/dam5(3).jpg",
+                "images/products/dam/dam6(3).jpg"
+            ],
+            "size": "S",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Vải Lụa",
+                    "name": "  Đầm xòe cổ .  ",
+                    "description": " Váy có đường viền cổ đức, thân trên được may xếp ly, váy có thể xếp 2 tầng.Chất liệu: LụaMô tả: Đầm xòe cổ đức, thân trên may ống xếp ly, xẻ tà 2 tầng. Chất liệu lụa Hàn Quốc nhẹ mát, tôn màu da. Thích hợp đi dạo phố, đi làm."
+                },
+                "en": {
+                    "material": "Silk",
+                    "name": "Flared neck dress.",
+                    "description": " Dress with a German neckline, the upper body is sewn with pleats, and the skirt can be 2 tiersMaterial: SilkDescription: German neck spread dress, upper body sewn with pleated pipes, 2 tiered skirt can be spared. Korean silk material, light and cool, skin tone color. Suitable for walking, going to work."
+                }
+            },
+            "related_product": [
+                605,
+                606,
+                604
+            ]
+        },
+        {
+            "id": 604,
+            "price": 350,
+            "discount": 0,
+            "img": [
+                "images/Products/dam/dam7(4).jpg",
+                "images/products/dam/dam8(4).jpg"
+            ],
+            "size": "L",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Vải lanh",
+                    "name": "  Áo sơ mi rời, cổ đức, kẹp áo .  ",
+                    "description": " Áo sơ mi rời, cổ đức, kẹp áo (bản cứng F252241)Chất liệu: Vải lanhMô tả: Áo sơ mi tay lửng, cổ đức, kẹp áo (bản cứng F252241). Chất liệu thoáng khí, thoải mái khi mặc. Thích hợp mặc đi làm."
+                },
+                "en": {
+                    "material": "Linen",
+                    "name": "Loose-fitting shirt, German collar, clip-on clip .",
+                    "description": " Loose-fitting shirt, German collar, clip-on clip (hard set F252241)Material: LinenDescription: Loose-fitting shirt, German collar, clip-on clip (hard set F252241). Breathable material, comfortable to wear. Suitable to wear to work."
+                }
+            },
+            "related_product": [
+                605,
+                606,
+                607
+            ]
+        },
+        {
+            "id": 605,
+            "price": 550,
+            "discount": 50,
+            "img": [
+                "images/Products/dam/dam9(5).jpg",
+                "images/products/dam/dam10(5).jpg"
+            ],
+            "size": "s",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Vải Lụa",
+                    "name": "  Đầm xòe, cổ thắt nơ, vai xếp nếp.  ",
+                    "description": "Đầm xòe, cổ thắt nơ, vai xếp nếp.Chất liệu: LụaMô tả: Đầm xòe, cổ thắt nơ, vai xếp nếp. Chất liệu lụa Hàn Quốc nhẹ mát, tôn màu da. Thích hợp đi dạo phố, đi làm,"
+                },
+                "en": {
+                    "material": "Silk",
+                    "name": "Flared dress, bow tie neck, wrinkled shoulders.",
+                    "description": " Flared dress, bow tie neck, wrinkled shoulders.Material: SilkDescription: Spread dress, bow tie neck, wrinkled shoulders. Korean silk material, light and cool, skin tone color. Suitable for walking, going to work."
+                }
+            },
+            "related_product": [
+                608,
+                606,
+                607
+            ]
+        },
+        {
+            "id": 606,
+            "price": 650,
+            "discount": 100,
+            "img": [
+                "images/Products/dam/dam11(6).jpg",
+                "images/products/dam/dam12(6).jpg"
+            ],
+            "size": "L",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Xốp màu",
+                    "name": "  Áo crop top không tay, cổ xếp ly, áo lót trang trí.  ",
+                    "description": "Áo crop top không tay, cổ xếp ly, áo lót trang trí (Set váy cứng F252229)Chất liệu: Xốp màuMô tả: Áo crop top suông, cổ xếp ly, trang trí ngực (Bộ váy F252229). Chất lượng dập cao, hình thành tốt. Thích hợp đi làm hoặc đi chơi."
+                },
+                "en": {
+                    "material": "Colored Styrofoam",
+                    "name": "Sleeveless crop top, ruched neckline, decorative bras.",
+                    "description": " Sleeveless crop top, ruched neckline, decorative bras (Set of hard skirts F252229)Material: Colored StyrofoamDescription: Loose crop top, ruched neckline, decorative chest (Skirt suit F252229). High quality stamping, good forming. Suitable for work or play."
+                }
+            },
+            "related_product": [
+                608,
+                601,
+                607
+            ]
+        },
+        {
+            "id": 607,
+            "price": 350,
+            "discount": 0,
+            "img": [
+                "images/Products/dam/dam13(7).jpg",
+                "images/products/dam/dam14(7).jpg"
+            ],
+            "size": "L",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Lụa mỏng",
+                    "name": "  Đầm không tay, thắt nơ, tay sát nách.  ",
+                    "description": "Đầm không tay, thắt nơ, tay sát náchChất liệu: Lụa mỏngMô tả: Đầm không tay, cổ bẻ, tay sát nách. Đầm có chất liệu lụa mỏng nhẹ, phom dáng rộng rãi, thoải mái nên rất thích hợp để dạo phố, đi biển."
+                },
+                "en": {
+                    "material": "Thin Silk",
+                    "name": "Sleeveless dress, bow tie, sleeves close to armpits.",
+                    "description": " Sleeveless dress, bow tie, sleeves close to armpitsMaterial: Thin Silkdescription: Sleeveless dress, tied at the neck, arms close to the armpits. The dress has a thin and light silk material with a spacious and comfortable shape, so it is very suitable for walking on the street, going to the beach."
+                }
+            },
+            "related_product": [
+                608,
+                602,
+                601
+            ]
+        },
+        {
+            "id": 608,
+            "price": 450,
+            "discount": 10,
+            "img": [
+                "images/Products/dam/dam15(8).jpg",
+                "images/products/dam/dam16(8).jpg"
+            ],
+            "size": "S",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Tơ tằm",
+                    "name": "  Váy bồng bềnh với vạt trước, nơ lệch vai.  ",
+                    "description": "Váy bồng bềnh với vạt trước, nơ lệch vaiChất liệu: Tơ tằmMô tả: Đầm không tay phối nơ thân trước, lệch vai. Đầm được may bằng chất liệu lụa tweed thoáng mát, nhẹ nhàng, mềm mại, tạo cảm giác thoải mái khi mặc. Thích hợp mặc đi làm."
+                },
+                "en": {
+                    "material": "Silk tweed",
+                    "name": "Fluffy dress with front bodice, off-shoulder bow.",
+                    "description": " * Fluffy dress with front bodice, off-shoulder bowMaterial: Silk tweedDescription: Sleeveless dress with front body, shoulder bow. The dress is made of silk tweed, which is cool, light, soft and comfortable to wear. Suitable to wear to work."
+                }
+            },
+            "related_product": [
+                603,
+                602,
+                601
+            ]
+        },
+        {
+            "id": 609,
+            "price": 450,
+            "discount": 20,
+            "img": [
+                "images/Products/dam/dam17(9).jpg",
+                "images/products/dam/dam18(9).jpg"
+            ],
+            "size": "M",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Tơ tằm",
+                    "name": "  Váy bồng bềnh với vạt trước, nơ lệch vai.  ",
+                    "description": "Váy bồng bềnh với vạt trước, nơ lệch vaiChất liệu: Tơ tằmMô tả: Đầm không tay phối nơ thân trước, lệch vai. Đầm được may bằng chất liệu lụa tweed thoáng mát, nhẹ nhàng, mềm mại, tạo cảm giác thoải mái khi mặc. Thích hợp mặc đi làm."
+                },
+                "en": {
+                    "material": "Silk tweed",
+                    "name": "Fluffy dress with front bodice, off-shoulder bow.",
+                    "description": " * Fluffy dress with front bodice, off-shoulder bowMaterial: Silk tweedDescription: Sleeveless dress with front body, shoulder bow. The dress is made of silk tweed, which is cool, light, soft and comfortable to wear. Suitable to wear to work."
+                }
+            },
+            "related_product": [
+                607,
+                606,
+                605
+            ]
+        },
+        {
+            "id": 610,
+            "price": 300,
+            "discount": 10,
+            "img": [
+                "images/Products/dam/dam19(10).jpg",
+                "images/products/dam/dam20(10).jpg"
+            ],
+            "size": "M",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Lụa mỏng",
+                    "name": "  Đầm không tay, thắt nơ, tay sát nách.  ",
+                    "description": "Đầm không tay, thắt nơ, tay sát náchChất liệu: Lụa mỏngMô tả: Đầm không tay, cổ bẻ, tay sát nách. Đầm có chất liệu lụa mỏng nhẹ, phom dáng rộng rãi, thoải mái nên rất thích hợp để dạo phố, đi biển."
+                },
+                "en": {
+                    "material": "Thin Silk",
+                    "name": "Sleeveless dress, bow tie, sleeves close to armpits.",
+                    "description": " Sleeveless dress, bow tie, sleeves close to armpitsMaterial: Thin Silkdescription: Sleeveless dress, tied at the neck, arms close to the armpits. The dress has a thin and light silk material with a spacious and comfortable shape, so it is very suitable for walking on the street, going to the beach."
+                }
+            },
+            "related_product": [
+                605,
+                604,
+                603
+            ]
+        },
+        {
+            "id": 611,
+            "price": 300,
+            "discount": 10,
+            "img": [
+                "images/Products/dam/dam21(11).jpg",
+                "images/products/dam/dam22(11).jpg"
+            ],
+            "size": "M",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Lụa mỏng",
+                    "name": "  Đầm xanh không tay, thắt nơ, tay sát nách.  ",
+                    "description": "Đầm không tay, thắt nơ, tay sát náchChất liệu: Lụa mỏngMô tả: Đầm không tay, cổ bẻ, tay sát nách. Đầm có chất liệu lụa mỏng nhẹ, phom dáng rộng rãi, thoải mái nên rất thích hợp để dạo phố, đi biển."
+                },
+                "en": {
+                    "material": "Thin Silk",
+                    "name": "Blue Sleeveless dress, bow tie, sleeves close to armpits.",
+                    "description": " Sleeveless dress, bow tie, sleeves close to armpitsMaterial: Thin Silkdescription: Sleeveless dress, tied at the neck, arms close to the armpits. The dress has a thin and light silk material with a spacious and comfortable shape, so it is very suitable for walking on the street, going to the beach."
+                }
+            },
+            "related_product": [
+                605,
+                604,
+                603
+            ]
+        },
+        {
+            "id": 612,
+            "price": 550,
+            "discount": 80,
+            "img": [
+                "images/Products/dam/dam23(12).jpg",
+                "images/products/dam/dam24(12).jpg"
+            ],
+            "size": "L",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Xốp màu",
+                    "name": "  Áo crop top không tay, cổ xếp ly, áo lót trang trí.  ",
+                    "description": "Áo crop top không tay, cổ xếp ly, áo lót trang trí (Set váy cứng F252229)Chất liệu: Xốp màuMô tả: Áo crop top suông, cổ xếp ly, trang trí ngực (Bộ váy F252229). Chất lượng dập cao, hình thành tốt. Thích hợp đi làm hoặc đi chơi."
+                },
+                "en": {
+                    "material": "Colored Styrofoam",
+                    "name": "Sleeveless crop top, ruched neckline, decorative bras.",
+                    "description": " Sleeveless crop top, ruched neckline, decorative bras (Set of hard skirts F252229)Material: Colored StyrofoamDescription: Loose crop top, ruched neckline, decorative chest (Skirt suit F252229). High quality stamping, good forming. Suitable for work or play."
+                }
+            },
+            "related_product": [
+                603,
+                606,
+                605
+            ]
+        },
+        {
+            "id": 613,
+            "price": 450,
+            "discount": 10,
+            "img": [
+                "images/Products/dam/dam25(13).jpg",
+                "images/products/dam/dam26(13).jpg"
+            ],
+            "size": "S",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Tơ tằm",
+                    "name": "  Váy bồng bềnh với vạt trước, nơ lệch vai.  ",
+                    "description": "Váy bồng bềnh với vạt trước, nơ lệch vaiChất liệu: Tơ tằmMô tả: Đầm không tay phối nơ thân trước, lệch vai. Đầm được may bằng chất liệu lụa tweed thoáng mát, nhẹ nhàng, mềm mại, tạo cảm giác thoải mái khi mặc. Thích hợp mặc đi làm."
+                },
+                "en": {
+                    "material": "Silk tweed",
+                    "name": "Fluffy dress with front bodice, off-shoulder bow.",
+                    "description": " * Fluffy dress with front bodice, off-shoulder bowMaterial: Silk tweedDescription: Sleeveless dress with front body, shoulder bow. The dress is made of silk tweed, which is cool, light, soft and comfortable to wear. Suitable to wear to work."
+                }
+            },
+            "related_product": [
+                601,
+                609,
+                607
+            ]
+        },
+        {
+            "id": 614,
+            "price": 550,
+            "discount": 30,
+            "img": [
+                "images/Products/dam/dam27(14).jpg",
+                "images/products/dam/dam28(14).jpg"
+            ],
+            "size": "M",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Vải Lụa",
+                    "name": "  Đầm xòe, cổ thắt nơ, vai xếp nếp.  ",
+                    "description": "Đầm xòe, cổ thắt nơ, vai xếp nếp.Chất liệu: LụaMô tả: Đầm xòe, cổ thắt nơ, vai xếp nếp. Chất liệu lụa Hàn Quốc nhẹ mát, tôn màu da. Thích hợp đi dạo phố, đi làm,"
+                },
+                "en": {
+                    "material": "Silk",
+                    "name": "Flared dress, bow tie neck, wrinkled shoulders.",
+                    "description": " Flared dress, bow tie neck, wrinkled shoulders.Material: SilkDescription: Spread dress, bow tie neck, wrinkled shoulders. Korean silk material, light and cool, skin tone color. Suitable for walking, going to work."
+                }
+            },
+            "related_product": [
+                615,
+                613,
+                614
+            ]
+        },
+        {
+            "id": 615,
+            "price": 250,
+            "discount": 10,
+            "img": [
+                "images/Products/dam/dam29(15).jpg",
+                "images/products/dam/dam30(15).jpg"
+            ],
+            "size": "S",
+            "type": 5,
+            "translation": {
+                "vn": {
+                    "material": "Vải Lụa",
+                    "name": "  Đầm xòe cổ .  ",
+                    "description": " Váy có đường viền cổ đức, thân trên được may xếp ly, váy có thể xếp 2 tầng.Chất liệu: LụaMô tả: Đầm xòe cổ đức, thân trên may ống xếp ly, xẻ tà 2 tầng. Chất liệu lụa Hàn Quốc nhẹ mát, tôn màu da. Thích hợp đi dạo phố, đi làm."
+                },
+                "en": {
+                    "material": "Silk",
+                    "name": "Flared neck dress.",
+                    "description": " Dress with a German neckline, the upper body is sewn with pleats, and the skirt can be 2 tiersMaterial: SilkDescription: German neck spread dress, upper body sewn with pleated pipes, 2 tiered skirt can be spared. Korean silk material, light and cool, skin tone color. Suitable for walking, going to work."
+                }
+            },
+            "related_product": [
+                612,
+                613,
+                611
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "img":"lkajskl",
+            "translation": {
+                "vn": {
+                    "name": "Lorem ipsum dolor sit amet consectetur",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing",
+                    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel consequuntur adipisci, sequi quidem laborum possimus illum. Autem veniam et quod quidem libero assumenda nisi ratione animi nulla! Consequuntur, iste magnam."
+                },
+                "en": {
                     "name": "name",
-                    "desciption": "",
-                    "content":""
-
+                    "description": "",
+                    "content": ""
                 }
             }
         }
     ],
-    "product_type":{
-        "0":{
+    "product_type": {
+        "0": {
             "vn": "Nón",
             "en": "Hat"
         },
-        "1":{
+        "1": {
             "vn": "Áo",
             "en": "Shirt"
         },
-        "2":{
+        "2": {
             "vn": "Áo khoát",
             "en": "Coat"
         },
-        "3":{
+        "3": {
             "vn": "Quần",
             "en": "Pant"
         },
-        "4":{
+        "4": {
             "vn": "Giày",
             "en": "Shoes"
         },
-        "5":{
+        "5": {
             "vn": "Đầm",
             "en": "Dress"
         }

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="shop.css">
 <link rel="stylesheet" href="modalbox.css">
 <div class="shop">
-	<div class="banner"></div>
+    <div class="banner"></div>
     <div class="filter">
         <label for="hat">
             <span>hat</span>
@@ -18,81 +18,140 @@
         <label for="shoes">
             <span>shoes</span>
         </label>
-        <label for="sweater">
-            <span>sweater</span>
+        <label for="coat">
+            <span>Coat</span>
         </label>
     </div>
     <div class="hat">
         <input type="radio" name="filter" value="" id="hat" checked>
         <div class="content">
-            <div class="product-list">
-                <div class="product-item" ng-click="showPopup()">
-                    <img class="img1" src="images/banner/banner00.jpg" alt="">
-                    <img class="img2" src="images/banner/banner01.jpg" alt="">
-                    <div class="product-label">{{freetext.home.BestSeller}}</div>
-                    <div class="addtocart">{{freetext.home.addtocart}}</div>
-                    <div class="product-info">
-                        <div class="name">Gucci</div>
-                        <div class="price">100$</div>
-                    </div>
-                </div>
-                <div class="product-item">
-                    <img class="img1" src="images/banner/banner00.jpg" alt="">
-                    <img class="img2" src="images/banner/banner01.jpg" alt="">
-                    <div class="product-label">{{freetext.home.BestSeller}}</div>
-                    <div class="addtocart">{{freetext.home.addtocart}}</div>
-                    <div class="product-info">
-                        <div class="name">Gucci</div>
-                        <div class="price">100$</div>
+            <div class="product-list container">
+                <div class="row">
+                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[0]">
+                        <img class="img1" src="{{product.img[0]}}" alt="">
+                        <img class="img2" src="{{product.img[1]}}" alt="">
+                        <div class="addtocart">
+                            <i class="fa fa-plus" aria-hidden="true" ng-click="updateCart(product,true)"></i>
+                            <i class="fa fa-eye" aria-hidden="true" ng-click="showPopup(product.id)"></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="name">{{product.translation[language].name}}</div>
+                            <div class="price">${{product.price}}</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="dress">
-        <input type="radio" name="filter" value="" id="dress" >
+        <input type="radio" name="filter" value="" id="dress">
         <div class="content">
-            dress
+            <div class="product-list container">
+                <div class="row">
+                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[5]">
+                        <img class="img1" src="{{product.img[0]}}" alt="">
+                        <img class="img2" src="{{product.img[1]}}" alt="">
+                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
+                        <div class="product-info">
+                            <div class="name">{{product.translation[language].name}}</div>
+                            <div class="price">${{product.price}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="pant">
-        <input type="radio" name="filter" value="" id="pant" >
-        <div class="content"></div>
-    </div>
-    <div class="shirt">
-        <input type="radio" name="filter" value="" id="shirt" >
-        <div class="content"></div>
-    </div>
-    <div class="shoes">
-        <input type="radio" name="filter" value="" id="shoes" >
+        <input type="radio" name="filter" value="" id="pant">
         <div class="content">
-            
+            <div class="product-list container">
+                <div class="row">
+                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[3]">
+                        <img class="img1" src="{{product.img[0]}}" alt="">
+                        <img class="img2" src="{{product.img[1]}}" alt="">
+                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
+                        <div class="product-info">
+                            <div class="name">{{product.translation[language].name}}</div>
+                            <div class="price">${{product.price}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="sweater">
-        <input type="radio" name="filter" value="" id="sweater">
-	<div class="content">
-        
+    <div class="shirt">
+        <input type="radio" name="filter" value="" id="shirt">
+        <div class="content">
+            <div class="product-list container">
+                <div class="row">
+                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[1]">
+                        <img class="img1" src="{{product.img[0]}}" alt="">
+                        <img class="img2" src="{{product.img[1]}}" alt="">
+                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
+                        <div class="product-info">
+                            <div class="name">{{product.translation[language].name}}</div>
+                            <div class="price">${{product.price}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="shoes">
+        <input type="radio" name="filter" value="" id="shoes">
+        <div class="content">
+            <div class="product-list container">
+                <div class="row">
+                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[4]">
+                        <img class="img1" src="{{product.img[0]}}" alt="">
+                        <img class="img2" src="{{product.img[1]}}" alt="">
+                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
+                        <div class="product-info">
+                            <div class="name">{{product.translation[language].name}}</div>
+                            <div class="price">${{product.price}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="coat">
+        <input type="radio" name="filter" value="" id="coat">
+        <div class="content">
+            <div class="product-list container">
+                <div class="row">
+                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[2]">
+                        <img class="img1" src="{{product.img[0]}}" alt="">
+                        <img class="img2" src="{{product.img[1]}}" alt="">
+                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
+                        <div class="product-info">
+                            <div class="name">{{product.translation[language].name}}</div>
+                            <div class="price">${{product.price}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div class="modalbox-container {{Popup ? 'unshow' : 'show'}}">
+<div class="modalbox-container {{Popup ? 'show' : 'unshow'}}">
     <div class="modalbox">
-    <i class="fa fa-times" aria-hidden="true" ng-click="showPopup()"></i>
-    <img src="images\products\ao khoac\aokhoac10(4).jpg" alt="" >
+        <i class="fa fa-times" aria-hidden="true" ng-click="showPopup()"></i>
+        <img src="{{selectedproduct.img[0]}}" alt="">
         <div class="modalbox-info">
-            <div class="name">Ten</div>
+            <div class="name">{{selectedproduct.translation[language].name}}</div>
             <div class="price">
-                <span class="original-price">$100</span><span class="discount">$200</span>
+                <span class="original-price">${{selectedproduct.price}}</span><span
+                    class="discount">${{selectedproduct.price + selectedproduct.discount}}</span>
             </div>
-            <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, facilis?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, facilis?</div>
+            <div class="description">{{selectedproduct.translation[language].description}}</div>
             <div class="size">
-                Size <span>XL</span>
+                Size <span>{{selectedproduct.size}}</span>
             </div>
             <div class="material">
-                Material <span>Coton</span>
+                Material <span>{{selectedproduct.translation[language].material}}</span>
             </div>
-            <button>Add to Cart</button>
+            <button ng-click="updateCart(selectedproduct,true)">Add to Cart</button>
         </div>
     </div>
 </div>

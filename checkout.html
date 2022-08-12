@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="checkout.css">
+<h3>item</h3>
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="product in cart">
+                <td>{{$index + 1}}</td>
+                <td>{{product.translation[language].name}}</td>
+                <td>
+                    <i class="fa fa-minus" aria-hidden="true" ng-click="updateCart(product,false)"></i>
+                    {{product.quantity}}
+                    <i class="fa fa-plus" aria-hidden="true" ng-click="updateCart(product,true)"></i>
+                </td>
+                <td>{{product.price}}</td>
+                <td>{{product.price * product.quantity}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <button>Check out</button>
+</div>
+<div class="checkout">
+    <div class="">
+
+    </div>
+</div>
