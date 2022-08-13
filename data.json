@@ -90,8 +90,8 @@
             "price": 150,
             "discount": 20,
             "img": [
-                "images/Products/non/non1(1).jpg",
-                "images/Products/non/non2(1).jpg"
+                "images/products/non/non1(1).jpg",
+                "images/products/non/non2(1).jpg"
             ],
             "size": "M",
             "type": 0,
@@ -118,8 +118,8 @@
             "price": 200,
             "discount": 50,
             "img": [
-                "images/Products/non/non3(2).jpg",
-                "images/Products/non/non4(2).jpg"
+                "images/products/non/non3(2).jpg",
+                "images/products/non/non4(2).jpg"
             ],
             "size": "L",
             "type": 0,
@@ -146,8 +146,8 @@
             "price": 170,
             "discount": 20,
             "img": [
-                "images/Products/non/non5(3).jpg",
-                "images/Products/non/non6(3).jpg"
+                "images/products/non/non5(3).jpg",
+                "images/products/non/non6(3).jpg"
             ],
             "size": "L",
             "type": 0,
@@ -174,8 +174,8 @@
             "price": 250,
             "discount": 70,
             "img": [
-                "images/Products/non/non7(4).jpg",
-                "images/Products/non/non8(4).jpg"
+                "images/products/non/non7(4).jpg",
+                "images/products/non/non8(4).jpg"
             ],
             "size": "XL",
             "type": 0,
@@ -202,8 +202,8 @@
             "price": 250,
             "discount": 60,
             "img": [
-                "images/Products/non/non9(5).jpg",
-                "images/Products/non/non10(5).jpg"
+                "images/products/non/non9(5).jpg",
+                "images/products/non/non10(5).jpg"
             ],
             "size": "XL",
             "type": 0,
@@ -230,8 +230,8 @@
             "price": 230,
             "discount": 30,
             "img": [
-                "images/Products/non/non11(6).jpg",
-                "images/Products/non/non12(6).jpg"
+                "images/products/non/non11(6).jpg",
+                "images/products/non/non12(6).jpg"
             ],
             "size": "XL",
             "type": 0,
@@ -258,8 +258,8 @@
             "price": 170,
             "discount": 20,
             "img": [
-                "images/Products/non/non13(7).jpg",
-                "images/Products/non/non14(7).jpg"
+                "images/products/non/non13(7).jpg",
+                "images/products/non/non14(7).jpg"
             ],
             "size": "M",
             "type": 0,
@@ -286,8 +286,8 @@
             "price": 220,
             "discount": 0,
             "img": [
-                "images/Products/non/non15(8).jpg",
-                "images/Products/non/non16(8).jpg"
+                "images/products/non/non15(8).jpg",
+                "images/products/non/non16(8).jpg"
             ],
             "size": "M",
             "type": 0,
@@ -314,8 +314,8 @@
             "price": 200,
             "discount": 10,
             "img": [
-                "images/Products/non/non17(9).jpg",
-                "images/Products/non/non18(9).jpg"
+                "images/products/non/non17(9).jpg",
+                "images/products/non/non18(9).jpg"
             ],
             "size": "L",
             "type": 0,
@@ -342,8 +342,8 @@
             "price": 230,
             "discount": 30,
             "img": [
-                "images/Products/non/non19(10).jpg",
-                "images/Products/non/non20(10).jpg"
+                "images/products/non/non19(10).jpg",
+                "images/products/non/non20(10).jpg"
             ],
             "size": "L",
             "type": 0,
@@ -370,8 +370,8 @@
             "price": 250,
             "discount": 50,
             "img": [
-                "images/Products/non/non21(11).jpg",
-                "images/Products/non/non22(11).jpg"
+                "images/products/non/non21(11).jpg",
+                "images/products/non/non22(11).jpg"
             ],
             "size": "XL",
             "type": 0,
@@ -398,8 +398,8 @@
             "price": 250,
             "discount": 50,
             "img": [
-                "images/Products/non/non23(12).jpg",
-                "images/Products/non/non24(12).jpg"
+                "images/products/non/non23(12).jpg",
+                "images/products/non/non24(12).jpg"
             ],
             "size": "XXL",
             "type": 0,
@@ -426,8 +426,8 @@
             "price": 400,
             "discount": 80,
             "img": [
-                "images/Products/non/non25(13).jpg",
-                "images/Products/non/non26(13).jpg"
+                "images/products/non/non25(13).jpg",
+                "images/products/non/non26(13).jpg"
             ],
             "size": "XXL",
             "type": 0,
@@ -454,8 +454,8 @@
             "price": 350,
             "discount": 30,
             "img": [
-                "images/Products/non/non27(14).jpg",
-                "images/Products/non/non28(14).jpg"
+                "images/products/non/non27(14).jpg",
+                "images/products/non/non28(14).jpg"
             ],
             "size": "L",
             "type": 0,
@@ -482,8 +482,8 @@
             "price": 350,
             "discount": 50,
             "img": [
-                "images/Products/non/non29(15).jpg",
-                "images/Products/non/non30(15).jpg"
+                "images/products/non/non29(15).jpg",
+                "images/products/non/non30(15).jpg"
             ],
             "size": "XL",
             "type": 0,
@@ -510,8 +510,8 @@
             "price": 150,
             "discount": 0,
             "img": [
-                "images/Products/ao/ao1(1).jpg",
-                "images/Products/ao/ao2(1).jpg"
+                "images/products/ao/ao1(1).jpg",
+                "images/products/ao/ao2(1).jpg"
             ],
             "size": "M",
             "type": 1,
@@ -538,8 +538,8 @@
             "price": 200,
             "discount": 30,
             "img": [
-                "images/Products/ao/ao3(2).jpg",
-                "images/Products/ao/ao4(2).jpg"
+                "images/products/ao/ao3(2).jpg",
+                "images/products/ao/ao4(2).jpg"
             ],
             "size": "XL",
             "type": 1,
@@ -566,8 +566,8 @@
             "price": 170,
             "discount": 0,
             "img": [
-                "images/Products/ao/ao5(3).jpg",
-                "images/Products/ao/ao6(3).jpg"
+                "images/products/ao/ao5(3).jpg",
+                "images/products/ao/ao6(3).jpg"
             ],
             "size": "M",
             "type": 1,
@@ -594,8 +594,8 @@
             "price": 170,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao7(4).jpg",
-                "images/Products/ao/ao(29).jpg"
+                "images/products/ao/ao7(4).jpg",
+                "images/products/ao/ao(29).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -622,8 +622,8 @@
             "price": 250,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao8(5).jpg",
-                "images/Products/ao/ao9(5).jpg"
+                "images/products/ao/ao8(5).jpg",
+                "images/products/ao/ao9(5).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -650,8 +650,8 @@
             "price": 200,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao10(6).jpg",
-                "images/Products/ao/ao11(6).jpg"
+                "images/products/ao/ao10(6).jpg",
+                "images/products/ao/ao11(6).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -678,8 +678,8 @@
             "price": 200,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao12(7).jpg",
-                "images/Products/ao/ao(30).jpg"
+                "images/products/ao/ao12(7).jpg",
+                "images/products/ao/ao(30).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -706,8 +706,8 @@
             "price": 150,
             "discount": 10,
             "img": [
-                "images/Products/ao/ao13(8).jpg",
-                "images/Products/ao/ao14(8).jpg"
+                "images/products/ao/ao13(8).jpg",
+                "images/products/ao/ao14(8).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -734,8 +734,8 @@
             "price": 200,
             "discount": 0,
             "img": [
-                "images/Products/ao/ao15(9).jpg",
-                "images/Products/ao/ao16(9).jpg"
+                "images/products/ao/ao15(9).jpg",
+                "images/products/ao/ao16(9).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -762,8 +762,8 @@
             "price": 400,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao17(10).jpg",
-                "images/Products/ao/ao18(10).jpg"
+                "images/products/ao/ao17(10).jpg",
+                "images/products/ao/ao18(10).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -790,8 +790,8 @@
             "price": 200,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao19(11).jpg",
-                "images/Products/ao/ao20(11).jpg"
+                "images/products/ao/ao19(11).jpg",
+                "images/products/ao/ao20(11).jpg"
             ],
             "size": "M",
             "type": 1,
@@ -818,8 +818,8 @@
             "price": 200,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao21(12).jpg",
-                "images/Products/ao/ao22(12).jpg"
+                "images/products/ao/ao21(12).jpg",
+                "images/products/ao/ao22(12).jpg"
             ],
             "size": "M",
             "type": 1,
@@ -846,8 +846,8 @@
             "price": 220,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao23(13).jpg",
-                "images/Products/ao/ao24(13).jpg"
+                "images/products/ao/ao23(13).jpg",
+                "images/products/ao/ao24(13).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -874,8 +874,8 @@
             "price": 220,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao25(14).jpg",
-                "images/Products/ao/ao26(14).jpg"
+                "images/products/ao/ao25(14).jpg",
+                "images/products/ao/ao26(14).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -902,8 +902,8 @@
             "price": 230,
             "discount": 50,
             "img": [
-                "images/Products/ao/ao27(15).jpg",
-                "images/Products/ao/ao28(15).jpg"
+                "images/products/ao/ao27(15).jpg",
+                "images/products/ao/ao28(15).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -930,8 +930,8 @@
             "price": 300,
             "discount": 20,
             "img": [
-                "images/Products/ao khoac/ao1(1).jpg",
-                "images/Products/ao khoac/ao2(1).jpg"
+                "images/products/ao khoac/ao1(1).jpg",
+                "images/products/ao khoac/ao2(1).jpg"
             ],
             "size": "L",
             "type": 2,
@@ -958,8 +958,8 @@
             "price": 400,
             "discount": 70,
             "img": [
-                "images/Products/ao khoac/ao3(2).jpg",
-                "images/Products/ao khoac/ao4(2).jpg"
+                "images/products/ao khoac/ao3(2).jpg",
+                "images/products/ao khoac/ao4(2).jpg"
             ],
             "size": "M",
             "type": 2,
@@ -986,8 +986,8 @@
             "price": 550,
             "discount": 50,
             "img": [
-                "images/Products/ao khoac/ao5(3).jpg",
-                "images/Products/ao khoac/ao6(3).jpg"
+                "images/products/ao khoac/ao5(3).jpg",
+                "images/products/ao khoac/ao6(3).jpg"
             ],
             "size": "M",
             "type": 2,
@@ -1014,8 +1014,8 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/ao khoac/ao7(4).jpg",
-                "images/Products/ao khoac/ao8(4).jpg"
+                "images/products/ao khoac/ao7(4).jpg",
+                "images/products/ao khoac/ao8(4).jpg"
             ],
             "size": "XXL",
             "type": 2,
@@ -1042,8 +1042,8 @@
             "price": 370,
             "discount": 30,
             "img": [
-                "images/Products/ao khoac/ao9(5).jpg",
-                "images/Products/ao khoac/ao10(5).jpg"
+                "images/products/ao khoac/ao9(5).jpg",
+                "images/products/ao khoac/ao10(5).jpg"
             ],
             "size": "XXL",
             "type": 2,
@@ -1070,8 +1070,8 @@
             "price": 250,
             "discount": 30,
             "img": [
-                "images/Products/ao khoac/ao11(6).jpg",
-                "images/Products/ao khoac/ao12(6).jpg"
+                "images/products/ao khoac/ao11(6).jpg",
+                "images/products/ao khoac/ao12(6).jpg"
             ],
             "size": "XL",
             "type": 2,
@@ -1098,8 +1098,8 @@
             "price": 450,
             "discount": 10,
             "img": [
-                "images/Products/ao khoac/ao13(7).jpg",
-                "images/Products/ao khoac/ao14(7).jpg"
+                "images/products/ao khoac/ao13(7).jpg",
+                "images/products/ao khoac/ao14(7).jpg"
             ],
             "size": "XXL",
             "type": 2,
@@ -1126,8 +1126,8 @@
             "price": 200,
             "discount": 10,
             "img": [
-                "images/Products/ao khoac/ao15(8).jpg",
-                "images/Products/ao khoac/ao16(8).jpg"
+                "images/products/ao khoac/ao15(8).jpg",
+                "images/products/ao khoac/ao16(8).jpg"
             ],
             "size": "XXL",
             "type": 2,
@@ -1154,8 +1154,8 @@
             "price": 400,
             "discount": 20,
             "img": [
-                "images/Products/ao khoac/ao17(9).jpg",
-                "images/Products/ao khoac/ao18(9).jpg"
+                "images/products/ao khoac/ao17(9).jpg",
+                "images/products/ao khoac/ao18(9).jpg"
             ],
             "size": "XXL",
             "type": 2,
@@ -1182,8 +1182,8 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/ao khoac/ao19(10).jpg",
-                "images/Products/ao khoac/ao20(10).jpg"
+                "images/products/ao khoac/ao19(10).jpg",
+                "images/products/ao khoac/ao20(10).jpg"
             ],
             "size": "XL",
             "type": 2,
@@ -1210,8 +1210,8 @@
             "price": 290,
             "discount": 10,
             "img": [
-                "images/Products/ao khoac/ao21(11).jpg",
-                "images/Products/ao khoac/ao22(11).jpg"
+                "images/products/ao khoac/ao21(11).jpg",
+                "images/products/ao khoac/ao22(11).jpg"
             ],
             "size": "L",
             "type": 2,
@@ -1238,8 +1238,8 @@
             "price": 300,
             "discount": 20,
             "img": [
-                "images/Products/ao khoac/ao23(12).jpg",
-                "images/Products/ao khoac/ao24(12).jpg"
+                "images/products/ao khoac/ao23(12).jpg",
+                "images/products/ao khoac/ao24(12).jpg"
             ],
             "size": "L",
             "type": 2,
@@ -1266,8 +1266,8 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/ao khoac/ao25(13).jpg",
-                "images/Products/ao khoac/ao26(13).jpg"
+                "images/products/ao khoac/ao25(13).jpg",
+                "images/products/ao khoac/ao26(13).jpg"
             ],
             "size": "L",
             "type": 2,
@@ -1294,8 +1294,8 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/ao khoac/ao27(14).jpg",
-                "images/Products/ao khoac/ao28(14).jpg"
+                "images/products/ao khoac/ao27(14).jpg",
+                "images/products/ao khoac/ao28(14).jpg"
             ],
             "size": "M",
             "type": 2,
@@ -1322,8 +1322,8 @@
             "price": 400,
             "discount": 50,
             "img": [
-                "images/Products/ao khoac/ao29(15).jpg",
-                "images/Products/ao khoac/ao30(15).jpg"
+                "images/products/ao khoac/ao29(15).jpg",
+                "images/products/ao khoac/ao30(15).jpg"
             ],
             "size": "L",
             "type": 2,
@@ -1350,7 +1350,7 @@
             "price": 300,
             "discount": 50,
             "img": [
-                "images/Products/quan/quan1(1).jpg",
+                "images/products/quan/quan1(1).jpg",
                 "images/products/quan/quan2(1).jpg"
             ],
             "size": "L",
@@ -1378,7 +1378,7 @@
             "price": 400,
             "discount": 0,
             "img": [
-                "images/Products/quan/quan3(2).jpg",
+                "images/products/quan/quan3(2).jpg",
                 "images/products/quan/quan4(2).jpg"
             ],
             "size": "M",
@@ -1406,7 +1406,7 @@
             "price": 400,
             "discount": 0,
             "img": [
-                "images/Products/quan/quan5(3).jpg",
+                "images/products/quan/quan5(3).jpg",
                 "images/products/quan/quan6(3).jpg"
             ],
             "size": "XL",
@@ -1434,7 +1434,7 @@
             "price": 450,
             "discount": 50,
             "img": [
-                "images/Products/quan/quan7(4).jpg",
+                "images/products/quan/quan7(4).jpg",
                 "images/products/quan/quan8(4).jpg"
             ],
             "size": "XL",
@@ -1462,7 +1462,7 @@
             "price": 350,
             "discount": 0,
             "img": [
-                "images/Products/quan/quan9(5).jpg",
+                "images/products/quan/quan9(5).jpg",
                 "images/products/quan/quan10(5).jpg"
             ],
             "size": "XL",
@@ -1490,7 +1490,7 @@
             "price": 250,
             "discount": 10,
             "img": [
-                "images/Products/quan/quan11(6).jpg",
+                "images/products/quan/quan11(6).jpg",
                 "images/products/quan/quan12(6).jpg"
             ],
             "size": "L",
@@ -1518,7 +1518,7 @@
             "price": 100,
             "discount": 5,
             "img": [
-                "images/Products/quan/quan13(7).jpg",
+                "images/products/quan/quan13(7).jpg",
                 "images/products/quan/quan14(7).jpg"
             ],
             "size": "xxL",
@@ -1546,7 +1546,7 @@
             "price": 109,
             "discount": 9,
             "img": [
-                "images/Products/quan/quan15(8).jpg",
+                "images/products/quan/quan15(8).jpg",
                 "images/products/quan/quan16(8).jpg"
             ],
             "size": "xL",
@@ -1574,7 +1574,7 @@
             "price": 109,
             "discount": 9,
             "img": [
-                "images/Products/quan/quan17(9).jpg",
+                "images/products/quan/quan17(9).jpg",
                 "images/products/quan/quan18(9).jpg"
             ],
             "size": "L",
@@ -1602,7 +1602,7 @@
             "price": 120,
             "discount": 10,
             "img": [
-                "images/Products/quan/quan19(10).jpg",
+                "images/products/quan/quan19(10).jpg",
                 "images/products/quan/quan20(10).jpg"
             ],
             "size": "M",
@@ -1630,7 +1630,7 @@
             "price": 190,
             "discount": 10,
             "img": [
-                "images/Products/quan/quan21(11).jpg",
+                "images/products/quan/quan21(11).jpg",
                 "images/products/quan/quan22(11).jpg"
             ],
             "size": "L",
@@ -1658,7 +1658,7 @@
             "price": 200,
             "discount": 10,
             "img": [
-                "images/Products/quan/quan23(12).jpg",
+                "images/products/quan/quan23(12).jpg",
                 "images/products/quan/quan24(12).jpg"
             ],
             "size": "L",
@@ -1686,7 +1686,7 @@
             "price": 200,
             "discount": 20,
             "img": [
-                "images/Products/quan/quan25(13).jpg",
+                "images/products/quan/quan25(13).jpg",
                 "images/products/quan/quan26(13).jpg"
             ],
             "size": "L",
@@ -1714,7 +1714,7 @@
             "price": 250,
             "discount": 20,
             "img": [
-                "images/Products/quan/quan27(14).jpg",
+                "images/products/quan/quan27(14).jpg",
                 "images/products/quan/quan28(14).jpg"
             ],
             "size": "L",
@@ -1742,7 +1742,7 @@
             "price": 250,
             "discount": 20,
             "img": [
-                "images/Products/quan/quan29(15).jpg",
+                "images/products/quan/quan29(15).jpg",
                 "images/products/quan/quan30(15).jpg"
             ],
             "size": "L",
@@ -1770,7 +1770,7 @@
             "price": 400,
             "discount": 10,
             "img": [
-                "images/Products/giay/giay1(1).jpg",
+                "images/products/giay/giay1(1).jpg",
                 "images/products/giay/giay2(1).jpg"
             ],
             "size": "41",
@@ -1797,7 +1797,7 @@
             "price": 500,
             "discount": 50,
             "img": [
-                "images/Products/giay/giay3(2).jpg",
+                "images/products/giay/giay3(2).jpg",
                 "images/products/giay/giay4(2).jpg"
             ],
             "size": "39",
@@ -1824,7 +1824,7 @@
             "price": 200,
             "discount": 0,
             "img": [
-                "images/Products/giay/giay5(3).jpg",
+                "images/products/giay/giay5(3).jpg",
                 "images/products/giay/giay6(3).jpg"
             ],
             "size": "38",
@@ -1851,7 +1851,7 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/giay/giay7(4).jpg",
+                "images/products/giay/giay7(4).jpg",
                 "images/products/giay/giay8(4).jpg"
             ],
             "size": "42",
@@ -1878,7 +1878,7 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/giay/giay9(5).jpg",
+                "images/products/giay/giay9(5).jpg",
                 "images/products/giay/giay10(5).jpg"
             ],
             "size": "43",
@@ -1905,7 +1905,7 @@
             "price": 300,
             "discount": 10,
             "img": [
-                "images/Products/giay/giay11(6).jpg",
+                "images/products/giay/giay11(6).jpg",
                 "images/products/giay/giay12(6).jpg"
             ],
             "size": "45",
@@ -1932,7 +1932,7 @@
             "price": 340,
             "discount": 10,
             "img": [
-                "images/Products/giay/giay13(7).jpg",
+                "images/products/giay/giay13(7).jpg",
                 "images/products/giay/giay14(7).jpg"
             ],
             "size": "38",
@@ -1959,7 +1959,7 @@
             "price": 300,
             "discount": 0,
             "img": [
-                "images/Products/giay/giay15(8).jpg",
+                "images/products/giay/giay15(8).jpg",
                 "images/products/giay/giay16(8).jpg"
             ],
             "size": "38",
@@ -1986,7 +1986,7 @@
             "price": 550,
             "discount": 50,
             "img": [
-                "images/Products/giay/giay17(9).jpg",
+                "images/products/giay/giay17(9).jpg",
                 "images/products/giay/giay18(9).jpg"
             ],
             "size": "38",
@@ -2013,7 +2013,7 @@
             "price": 450,
             "discount": 30,
             "img": [
-                "images/Products/giay/giay19(10).jpg",
+                "images/products/giay/giay19(10).jpg",
                 "images/products/giay/giay20(10).jpg"
             ],
             "size": "38",
@@ -2040,7 +2040,7 @@
             "price": 400,
             "discount": 20,
             "img": [
-                "images/Products/giay/giay21(11).jpg",
+                "images/products/giay/giay21(11).jpg",
                 "images/products/giay/giay22(11).jpg"
             ],
             "size": "38",
@@ -2067,7 +2067,7 @@
             "price": 500,
             "discount": 40,
             "img": [
-                "images/Products/giay/giay23(12).jpg",
+                "images/products/giay/giay23(12).jpg",
                 "images/products/giay/giay24(12).jpg"
             ],
             "size": "38",
@@ -2094,7 +2094,7 @@
             "price": 500,
             "discount": 40,
             "img": [
-                "images/Products/giay/giay25(13).jpg",
+                "images/products/giay/giay25(13).jpg",
                 "images/products/giay/giay26(13).jpg"
             ],
             "size": "38",
@@ -2121,7 +2121,7 @@
             "price": 700,
             "discount": 30,
             "img": [
-                "images/Products/giay/giay27(14).jpg",
+                "images/products/giay/giay27(14).jpg",
                 "images/products/giay/giay28(14).jpg"
             ],
             "size": "38",
@@ -2148,7 +2148,7 @@
             "price": 530,
             "discount": 30,
             "img": [
-                "images/Products/giay/giay29(15).jpg",
+                "images/products/giay/giay29(15).jpg",
                 "images/products/giay/giay30(15).jpg"
             ],
             "size": "38",
@@ -2175,7 +2175,7 @@
             "price": 300,
             "discount": 10,
             "img": [
-                "images/Products/dam/dam1(1).jpg",
+                "images/products/dam/dam1(1).jpg",
                 "images/products/dam/dam2(1).jpg"
             ],
             "size": "L",
@@ -2203,7 +2203,7 @@
             "price": 200,
             "discount": 50,
             "img": [
-                "images/Products/dam/dam3(2).jpg",
+                "images/products/dam/dam3(2).jpg",
                 "images/products/dam/dam4(2).jpg"
             ],
             "size": "S",
@@ -2231,7 +2231,7 @@
             "price": 250,
             "discount": 10,
             "img": [
-                "images/Products/dam/dam5(3).jpg",
+                "images/products/dam/dam5(3).jpg",
                 "images/products/dam/dam6(3).jpg"
             ],
             "size": "S",
@@ -2259,7 +2259,7 @@
             "price": 350,
             "discount": 0,
             "img": [
-                "images/Products/dam/dam7(4).jpg",
+                "images/products/dam/dam7(4).jpg",
                 "images/products/dam/dam8(4).jpg"
             ],
             "size": "L",
@@ -2287,7 +2287,7 @@
             "price": 550,
             "discount": 50,
             "img": [
-                "images/Products/dam/dam9(5).jpg",
+                "images/products/dam/dam9(5).jpg",
                 "images/products/dam/dam10(5).jpg"
             ],
             "size": "s",
@@ -2315,7 +2315,7 @@
             "price": 650,
             "discount": 100,
             "img": [
-                "images/Products/dam/dam11(6).jpg",
+                "images/products/dam/dam11(6).jpg",
                 "images/products/dam/dam12(6).jpg"
             ],
             "size": "L",
@@ -2343,7 +2343,7 @@
             "price": 350,
             "discount": 0,
             "img": [
-                "images/Products/dam/dam13(7).jpg",
+                "images/products/dam/dam13(7).jpg",
                 "images/products/dam/dam14(7).jpg"
             ],
             "size": "L",
@@ -2371,7 +2371,7 @@
             "price": 450,
             "discount": 10,
             "img": [
-                "images/Products/dam/dam15(8).jpg",
+                "images/products/dam/dam15(8).jpg",
                 "images/products/dam/dam16(8).jpg"
             ],
             "size": "S",
@@ -2399,7 +2399,7 @@
             "price": 450,
             "discount": 20,
             "img": [
-                "images/Products/dam/dam17(9).jpg",
+                "images/products/dam/dam17(9).jpg",
                 "images/products/dam/dam18(9).jpg"
             ],
             "size": "M",
@@ -2427,7 +2427,7 @@
             "price": 300,
             "discount": 10,
             "img": [
-                "images/Products/dam/dam19(10).jpg",
+                "images/products/dam/dam19(10).jpg",
                 "images/products/dam/dam20(10).jpg"
             ],
             "size": "M",
@@ -2455,7 +2455,7 @@
             "price": 300,
             "discount": 10,
             "img": [
-                "images/Products/dam/dam21(11).jpg",
+                "images/products/dam/dam21(11).jpg",
                 "images/products/dam/dam22(11).jpg"
             ],
             "size": "M",
@@ -2483,7 +2483,7 @@
             "price": 550,
             "discount": 80,
             "img": [
-                "images/Products/dam/dam23(12).jpg",
+                "images/products/dam/dam23(12).jpg",
                 "images/products/dam/dam24(12).jpg"
             ],
             "size": "L",
@@ -2511,7 +2511,7 @@
             "price": 450,
             "discount": 10,
             "img": [
-                "images/Products/dam/dam25(13).jpg",
+                "images/products/dam/dam25(13).jpg",
                 "images/products/dam/dam26(13).jpg"
             ],
             "size": "S",
@@ -2539,7 +2539,7 @@
             "price": 550,
             "discount": 30,
             "img": [
-                "images/Products/dam/dam27(14).jpg",
+                "images/products/dam/dam27(14).jpg",
                 "images/products/dam/dam28(14).jpg"
             ],
             "size": "M",
@@ -2567,7 +2567,7 @@
             "price": 250,
             "discount": 10,
             "img": [
-                "images/Products/dam/dam29(15).jpg",
+                "images/products/dam/dam29(15).jpg",
                 "images/products/dam/dam30(15).jpg"
             ],
             "size": "S",
