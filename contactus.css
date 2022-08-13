@@ -1,15 +1,41 @@
 .contactus{
-    justify-content: center;
-    margin: 45px 0px;
-}
-.getintouch{
     margin: auto;
+}
+.contactus .getintouch{
+    width: 50%;
+    margin: auto;
+}
+.contactus input{
+    width: 100%;
+}
+.contactus textarea{
+    width: 100%;
+    height: 70px;
+}
+.contactus center{
+	font-size: 40px;
+    width: 100%;
+	color: #382930;
+}
+.contactus center::after, .contactus center::before{
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 2.5px;
+	position: relative;
+	vertical-align: middle;
+	width: 20%;
+}
+.contactus .send{
+    cursor: pointer;
     width: fit-content;
+    padding: 5px;
+    border: 2.5px solid #382930;
+    border-radius: 8px;
 }
-.getintouch input{
-    margin: 0 0 15px 0;
-    width: 100%
-}
-.getintouch textarea{
-    width: 100%
+.contactus .send:hover{
+    border: 2.5px solid #382930;
+    background: #382930;
+    color: white;
+    transition: 0.5s;
 }

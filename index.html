@@ -18,39 +18,36 @@
 	<script src="indexController.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="myCtrl">
-	<div class="navigation">
-		<div class="left">
-			<a href="#!home" title="">
+	<div class="container-fluid navigation">
+		<div class="row">
+			<a class="col-sm-2" href="#!home" title="">
 				<img class="logo" src="images/logo.jpg" alt="">
 			</a>
-		</div>
-		<div class="center">
-		</div>
-		<div class="right">
-			<i class="fa fa-bars" aria-hidden="true" ng-click="shownavigation()"></i>
-			<div class="right-container" id="right-container">
-				<a href="#!shop" title="">{{freetext.nav.shop}}</a>
-				<a href="#!activity" title="">{{freetext.nav.activities}}</a>
-				<a href="#!aboutus" title="">{{freetext.nav.aboutus}}</a>
-				<a href="#!contactus" title="">{{freetext.nav.contactus}}</a>
-				<a href="#!checkout" class="cart">
+			<a class="col-sm-2 {{navigation ? 'show' : 'unshow'}} nav-item" href="#!activity" title="">{{freetext.nav.activities}}</a>
+			<a class="col-sm-2 {{navigation ? 'show' : 'unshow'}} nav-item" href="#!shop" title="">{{freetext.nav.shop}}</a>
+			<a class="col-sm-2 {{navigation ? 'show' : 'unshow'}} nav-item" href="#!aboutus" title="">{{freetext.nav.aboutus}}</a>
+			<a class="col-sm-2 {{navigation ? 'show' : 'unshow'}} nav-item" href="#!contactus" title="">{{freetext.nav.contactus}}</a>
+			<a class="col-sm-2  {{navigation ? 'show' : 'unshow'}} cart nav-item" href="#!checkout">
+				<div class="cart-container">
 					<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 					<span class="quantity">{{cartQuantity}}</span>
-				</a>
-				<div>Visitor: {{visitor}}</div>
-			</div>
+				</div>
+			</a>
+			<i class="fa fa-bars" aria-hidden="true" ng-click="shownavigation()"></i>
+			
 		</div>
 	</div>
-	<div class="content" ng-view ></div>
+	<div class="ticker">
+		<div>Hi {{name}},</div>
+		<div>Online: {{visitor}}</div>
+	</div>
+	<div class="content view" ng-view>
+
+	</div>
+
 	<footer>
-		<div class="social-media">
-			<a href="#" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a href="#" title=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="#" title=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-			<a href="#" title=""><i class="fa fa-github" aria-hidden="true"></i></a>
-		</div>
 		<div class="copyright">
-			Copyright 1999-2022 by Refsnes Data. All Rights Reserved.
+			Copyright 2022 by Bugular. All Rights Reserved.
 		</div>
 		<div class="contact_us">
 			<span>

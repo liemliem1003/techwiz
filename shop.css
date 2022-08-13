@@ -1,9 +1,73 @@
-.shop .banner{
-	background: url('images/banner/banner00.jpg');
-	margin-bottom: 20px;
+.shop .slogan{
+	height: 50%;
+	position: relative;
+}
+.shop .slogan .overlay{
+	z-index: 1;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: auto;
+	opacity: 1;
+}
+.shop .slogan .overlay .text{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 482%;
+	padding: 10px 20px;
+	color: black;
+	font-family: 'Playfair Display', Arial, sans-serif;
+
+}
+.shop .slogan .overlay .text::before{
+	position: absolute;
+    content: ""; 
+    left: 2px; 
+    top: 0; 
+    bottom: auto; 
+    right: 2px; 
+    border-width: 9px 9px 0;
+    border: 4px solid black;
+    padding: 19px; 
+    border-bottom: none;
+}
+.shop .slogan .overlay .text::after{
+	position: absolute;
+    content: ""; 
+    left: 2px; 
+    top: auto; 
+    bottom: 0; 
+    right: 2px; 
+    border-width: 9px 9px 0;
+    border: 4px solid black;
+    padding: 19px; 
+    border-top: none;
+}
+
+.shop .slogan img{
+	display: block;
+	width: 100%;
+	height: 50%;
+	transition: 1s ease;
 }
 .shop .filter{
     text-align: center;
+	margin: 20px 0px;
+}
+.shop .filter-container{
+	width: 40%;
+	margin: auto;
+}
+.shop .filter label{
+	color: #382930;
+	cursor: pointer;
+}
+.shop .filter label:hover{
+	text-decoration: underline;
 }
 .shop .content{
     display: none;
@@ -14,80 +78,20 @@
 .shop [type=radio]:checked ~ .content{
 	display: block;
 }
-.shop .product-list{
-
+.shop [type=radio]:checked ~ center{
+	display: block;
 }
-.shop .product-list .product-item{
+.shop center{
+	font-size: 40px;
+	color: #382930;
+	display: none;
+}
+.shop center::after, .shop center:before{
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 2.5px;
 	position: relative;
-}
-.shop .product-list .product-item img{
-	width: 100%;
-	height: auto
-}
-.shop .product-list .product-item .product-label{
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	font-size: 10px;
-	font-weight: bold;
-	background: green;
-	border-radius: 6px;
-	padding: 3px 11px;
-	color: white;
-}
-.shop .product-list .product-item .addtocart{
-	position: absolute;
-	bottom: 80px;
-	background: blue;
-	color: white;
-	opacity: 0;
-}
-.shop .product-list .product-item .addtocart .fa-plus{
-	cursor: pointer;
-}
-.shop .product-list .product-item .addtocart .fa-eye{
-	cursor: pointer;
-}
-.shop .product-list .product-item:hover .addtocart{
-	animation: goup 1s 1;
-    text-align: center;
-	transform-origin: bottom;
-	opacity: 1;
-	transform: scale(1,1);
-}
-.shop .product-list .product-item .product-info{
-    text-align: center;
-}
-@keyframes goup{
-	0%{
-		transform: scale(1,0);
-	}
-	100%{
-		transform: scale(1,1);
-		opacity: 1;
-
-	}
-}
-.shop .product-list .product-item .img2{
-    display: none;
-	width: 100%;
-	height: auto;
-}
-.shop .product-list .product-item:hover .img1{
-    display: none;
-}
-.shop .product-list .product-item:hover .img2{
-    display: block;
-	animation: showimg2 0.5s 1;
-    transform-origin: bottom;
-}
-@keyframes showimg2{
-	0%{
-        transform: scale(1,0.7);
-		opacity: 0;
-	}
-	100%{
-        transform: scale(1,1);
-        opacity: 1;
-	}
+	vertical-align: middle;
+	width: 15%;
 }

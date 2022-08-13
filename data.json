@@ -52,8 +52,8 @@
                 "infomation": "Infomation"
             },
             "home": {
-                "slogan1": "Fashionable",
-                "slogan2": "Environment",
+                "slogan1": "Trendy",
+                "slogan2": "Thrifty",
                 "slogan3": "Affordable",
                 "BestSeller": "Best Seller",
                 "NewArivals": "New Arivals",
@@ -594,7 +594,8 @@
             "price": 170,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao7(4).jpg"
+                "images/Products/ao/ao7(4).jpg",
+                "images/Products/ao/ao(29).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -630,12 +631,12 @@
                 "vn": {
                     "material": "Kate",
                     "name": "Long-hand T-Shirt",
-                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát1"
                 },
                 "en": {
                     "material": "Kate",
                     "name": "Long-hand T-Shirt",
-                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
                 }
             },
             "related_product": [
@@ -658,12 +659,12 @@
                 "vn": {
                     "material": "Kate",
                     "name": "Long-hand Pink T-Shirt",
-                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
                 },
                 "en": {
                     "material": "Kate",
                     "name": "Long-hand Pink T-Shirt",
-                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
                 }
             },
             "related_product": [
@@ -677,7 +678,8 @@
             "price": 200,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao12(7).jpg"
+                "images/Products/ao/ao12(7).jpg",
+                "images/Products/ao/ao(30).jpg"
             ],
             "size": "L",
             "type": 1,
@@ -853,12 +855,12 @@
                 "vn": {
                     "material": "Khaki",
                     "name": "Long-hand Yellow T-Shirt",
-                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
                 },
                 "en": {
                     "material": "Khaki",
                     "name": "Long-hand Yellow T-Shirt",
-                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
                 }
             },
             "related_product": [
@@ -881,12 +883,12 @@
                 "vn": {
                     "material": "Khaki",
                     "name": "Long-hand Green T-Shirt",
-                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
                 },
                 "en": {
                     "material": "Khaki",
                     "name": "Long-hand Green T-Shirt",
-                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
                 }
             },
             "related_product": [
@@ -909,12 +911,12 @@
                 "vn": {
                     "material": "Khaki",
                     "name": "Long-hand Red T-Shirt",
-                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
+                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát1"
                 },
                 "en": {
                     "material": "Khaki",
                     "name": "Long-hand Red T-Shirt",
-                    "description": "12% vải thô và 88% vải mịn- Ít nhăn và dễ ủi- Nhanh khô và mát"
+                    "description": "12% modal and 88% superfine- Less wrinkles and easy ironing- Quick dry and cool"
                 }
             },
             "related_product": [
@@ -1208,11 +1210,11 @@
             "price": 290,
             "discount": 10,
             "img": [
-                "images/Products/ao/ao21(11).jpg",
-                "images/Products/ao/ao22(11).jpg"
+                "images/Products/ao khoac/ao21(11).jpg",
+                "images/Products/ao khoac/ao22(11).jpg"
             ],
             "size": "L",
-            "type": 1,
+            "type": 2,
             "translation": {
                 "vn": {
                     "material": "Vải bông",
@@ -1236,11 +1238,11 @@
             "price": 300,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao23(12).jpg",
-                "images/Products/ao/ao24(12).jpg"
+                "images/Products/ao khoac/ao23(12).jpg",
+                "images/Products/ao khoac/ao24(12).jpg"
             ],
             "size": "L",
-            "type": 1,
+            "type": 2,
             "translation": {
                 "vn": {
                     "material": "Vải bông từ pháp",
@@ -1264,11 +1266,11 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao25(13).jpg",
-                "images/Products/ao/ao26(13).jpg"
+                "images/Products/ao khoac/ao25(13).jpg",
+                "images/Products/ao khoac/ao26(13).jpg"
             ],
             "size": "L",
-            "type": 1,
+            "type": 2,
             "translation": {
                 "vn": {
                     "material": "Vải bông từ pháp",
@@ -1292,11 +1294,11 @@
             "price": 350,
             "discount": 20,
             "img": [
-                "images/Products/ao/ao27(14).jpg",
-                "images/Products/ao/ao28(14).jpg"
+                "images/Products/ao khoac/ao27(14).jpg",
+                "images/Products/ao khoac/ao28(14).jpg"
             ],
             "size": "M",
-            "type": 1,
+            "type": 2,
             "translation": {
                 "vn": {
                     "material": "Vải bông từ pháp",
@@ -1320,11 +1322,11 @@
             "price": 400,
             "discount": 50,
             "img": [
-                "images/Products/ao/ao29(15).jpg",
-                "images/Products/ao/ao30(15).jpg"
+                "images/Products/ao khoac/ao29(15).jpg",
+                "images/Products/ao khoac/ao30(15).jpg"
             ],
             "size": "L",
-            "type": 1,
+            "type": 2,
             "translation": {
                 "vn": {
                     "material": "Vải bông từ pháp",
@@ -2589,20 +2591,258 @@
             ]
         }
     ],
-    "activities": [
+    "activities":[
         {
-            "id": 1,
-            "img":"lkajskl",
-            "translation": {
-                "vn": {
-                    "name": "Lorem ipsum dolor sit amet consectetur",
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing",
-                    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel consequuntur adipisci, sequi quidem laborum possimus illum. Autem veniam et quod quidem libero assumenda nisi ratione animi nulla! Consequuntur, iste magnam."
+            "id":1,
+            "img":"images/activities/hinh1.jpg",
+            "translation":{
+                "vn":{
+                    "name": "Tặng áo từ thiện",
+                    "desciption": "Tổ chức một buổi tặng áo từ thiện",
+                    "content":"Đối với những quần áo đã nhiều năm bạn chưa sử dụng đến cũng như không có ý định tiếp tục sử dụng, tặng quần áo từ thiện sẽ giúp bạn dọn dẹp và làm mới tủ quần áo của mình."
                 },
-                "en": {
-                    "name": "name",
-                    "description": "",
-                    "content": ""
+                "en":{
+                    "name": "Charity Clothing",
+                    "desciption": "Organize a charity shirt donation",
+                    "content":"For clothes you don't use and don't intend to continue using for many years, donating clothes to charity will help you clean and refresh your wardrobe."
+
+                }
+            }
+        },
+        {
+            "id":2,
+            "img":"images/activities/hinh2.jpg",
+            "translation":{
+                "vn":{
+                    "name": "Cửa hàng từ thiện",
+                    "desciption": "Tổ chức một buổi tặng áo từ thiện",
+                    "content":"“Quầy áo từ thiện” của chị Lê Thị Huyền Anh như tấp nập hơn bởi tại đây vừa mới đưa vào hoạt động một địa chỉ từ thiện thu hút sự quan tâm của cộng đồng."
+                },
+                "en":{
+                    "name": "Charity Clothing Store",
+                    "desciption": "Organize a charity shirt donation",
+                    "content":"Le Thi Huyen Anh's charity shop seems to be more cared for because it has just put into operation a charity address that attracts the consent of the community."
+
+                }
+            }
+        },{
+            "id":3,
+            "img":"images/activities/hinh3.jpg",
+            "translation":{
+                "vn":{
+                    "name": "Quầy áo từ thiện",
+                    "desciption": "Quầy áo từ trái tim",
+                    "content":"Quầy quần áo từ thiện được các thành viên của nhóm Thiện nguyện TP. Tân An thành lập. Nguồn quần áo đã qua sử dụng được các thành viên trong nhóm vận động chủ yếu từ người quen, mạng xã hội Facebook,…"
+                },
+                "en":{
+                    "name": "Charity Clothing",
+                    "desciption": "Shop from the heart",
+                    "content":"For clothes you don't use and don't intend to continue using for many years, donating clothes to charity will help you clean and refresh your wardrobe."
+
+                }
+            }
+        },
+        {
+            "id":4,
+            "img":"images/activities/hinh4.jpg",
+            "translation":{
+                "vn":{
+                    "name": "Tủ áo từ thiện",
+                    "desciption": "Tủ quần áo từ thiện",
+                    "content":"Những người mang quần áo, giầy dép đến ủng hộ nói, đa phần họ biết những chiếc tủ thiện nguyện này thông qua mạng xã hội. Đã xuất hiện ở Hà Nội mấy năm qua, nhưng năm nay nhờ internet, các trang mạng xã hội mà tinh thần thiện nguyện này lan tỏa rộng rãi hơn những năm trước rất nhiều."
+                },
+                "en":{
+                    "name": "Charity Clothing",
+                    "desciption": "Charity wardrobe",
+                    "content":"Those who brought clothes and shoes to support said, most of them know these charity cabinets through social networks. Appeared in Hanoi for the past few years."
+
+                }
+            }
+        },
+        {
+            "id":5,
+            "img":"images/activities/hinh5(1).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Đồ second hand",
+                    "desciption": "Second hand là gì?",
+                    "content":"Second hand được hiểu vui nghĩa là “hàng qua tay”, chính xác hơn thì đó là những mặt hàng đã được sử dụng sau đó bán lại cho người tiêu dùng tiếp theo. Đa số đồ second hand là hàng không được mới. Vì nó đã qua sử dụng, nên không thể nào tránh tình trạng gặp một số lỗi nhỏ."
+                },
+                "en":{
+                    "name": "Second hand clothing",
+                    "desciption": "What is Second hand?",
+                    "content":"Second hand is humorously understood to mean hand-made goods, more precisely, those are items that have been used and then resold to the next consumer."
+
+                }
+            }
+        },
+        {
+            "id":6,
+            "img":"images/activities/hinh6(2).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Lợi ích của đồ second hand",
+                    "desciption": "Lợi ích của đồ second hand",
+                    "content":"Chắc chắn rằng để được yêu thích đến ngày hôm nay, đồ 2hand cũng có các lợi ích riêng của nó. Ưu điểm lớn nhất phải kể đến chính là về phương diện giá cả.Thông thường mức giá để mua đồ second hand thường rất rẻ. Đa số là rẻ hơn nửa giá, thậm chí có nhiều món đồ second hand chỉ có giá khoảng từ 20-30% so với hàng mới."
+                },
+                "en":{
+                    "name": "Second hand benefits",
+                    "desciption": "Second hand benefits",
+                    "content":"Certainly, to be loved today, 2hand goods also have their own benefits. The biggest advantage to mention is in terms of price.Usually the price to buy second hand is usually very cheap."
+
+                }
+            }
+        },
+        {
+            "id":7,
+            "img":"images/activities/hinh7(3).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Quần áo Second hand",
+                    "desciption": "Đồ second hand",
+                    "content":"Đa số các mặt hàng đồ second hand phổ biến là những món đồ nghiêng về lĩnh vực thời trang, quần áo. Bởi những món đồ này có thời hạn sử dụng dài, nếu giữ gìn kỹ lưỡng có thể bảo quản lên đến hàng chục năm. Cụ thể hơn, kinh doanh đồ secondhand hiện nay phổ biến là các loại quần áo, áo khoác, túi xách, giày dép… Tất tần tật những món đồ liên quan đến thời trang.."
+                },
+                "en":{
+                    "name": "Second hand clothing",
+                    "desciption": "Second hand clothing",
+                    "content":"Most of the popular second hand items are items that lean towards the field of fashion and clothing."
+
+                }
+            }
+        },
+        {
+            "id":8,
+            "img":"images/activities/hinh8(4).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Thuận lợi của quần áo Second hand",
+                    "desciption": "Thuận lợi của quần áo Second hand",
+                    "content":"Như đã nói, đồ second hand có nhiều ưu và nhược điểm khác nhau. Vậy nên để giải đáp rằng có nên sử dụng hàng second hand không còn tùy thuộc vào sở thích, nhu cầu và quan điểm của từng người. Tuy nhiên, với cái nhìn khách quan, hàng 2hand vẫn có nhiều ưu điểm nổi bật thuyết phục đông đảo người dùng lựa chọn. Với mức chi phí thấp nhưng bạn vẫn có thể sở hữu được món đồ có thiết kế đẹp mắt và chất lượng đảm bảo."
+                },
+                "en":{
+                    "name": "Advantage of second hand clothing",
+                    "desciption": "Advantage of second hand clothing",
+                    "content":"With that said, second-hand goods have many different pros and cons. So to answer that whether to use second hand goods no longer depends on the preferences, needs and opinions of each person."
+
+                }
+            }
+        },
+        {
+            "id":9,
+            "img":"images/activities/hinh9(5).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Cửa hàng second hand",
+                    "desciption": "Cửa hàng second hand",
+                    "content":"Kho nhà mình là shop secondhand TPHCM có tiếng, họ cung cấp đến khách hàng đa dạng các dòng sản phẩm như quần áo, giày dép, phụ kiện… Điểm đặc trưng của Kho Nhà Mình chính là sản phẩm luôn mang hơi hướng Vintage, cổ điển. Shop đồ 2hand này được khách hàng ưa chuộng bởi những món đồ rất độc lạ, hiếm khi đụng hàng với những nơi khác. Mỗi sản phẩm mang đến cho các “thượng đế” đều hoàn thiện chi tiết từ trong ra ngoài, chẳng khác gì hàng mới."
+                },
+                "en":{
+                    "name": "Second hand store",
+                    "desciption": "Second hand store",
+                    "content":"My warehouse is a famous secondhand shop in Ho Chi Minh City, they provide customers with a variety of product lines such as clothes, shoes, accessories ... "
+
+                }
+            }
+        },
+        {
+            "id":10,
+            "img":"images/activities/hinh10(6).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Cửa hàng second hand Sài Gòn",
+                    "desciption": "Cửa hàng second hand Sài Gòn",
+                    "content":"Shop 2hand Sài Gòn tiếp theo mang phong cách cổ điển được đông đảo khách hàng đánh giá cao chính là Hannys Corner-Vintage. Sản phẩm ở đây tập trung chủ yếu vào quần áo mang đậm phong cách thanh lịch cổ điển, có chất riêng. Tuy là những mặt hàng mang đậm tính vintage, nhưng vẫn làm cho khách hàng có nét gì đó hiện đại, khá ấn tượng và nổi bật."
+                },
+                "en":{
+                    "name": "Sai Gon second hand store",
+                    "desciption": "Sai Gon second hand store",
+                    "content":"The next 2hand Saigon shop with a classic style that is highly appreciated by customers is Hanny's Corner-Vintage. Products here focus mainly on clothes with classic elegant style, with its own quality."
+
+                }
+            }
+        },
+        {
+            "id":11,
+            "img":"images/activities/hinh11(7).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Thời trang second hand",
+                    "desciption": "Thời trang second hand",
+                    "content":"Nếu bạn là một trong các tín đồ thời trang mang phong cách cổ điển nhưng không kém phần thanh lịch, sang trọng, thì Retro boutique là shop đồ second hand hoàn hảo dành cho bạn. Nơi này cung cấp cho khách hàng đa dạng những mặt hàng như áo khoác măng tô, quần yếm, áo sơ mi, quần tây, mũ, giày cao gót… tất tần tật những sản phẩm đều có khuynh hướng retro cổ điển, đúng với cái tên của shop."
+                },
+                "en":{
+                    "name": "Second hand fashion",
+                    "desciption": "Sai Gon second hand store",
+                    "content":"If you are one of the fashionistas with a classic but equally elegant and luxurious style, then Retro boutique is the perfect second hand shop for you."
+
+                }
+            }
+        },
+        {
+            "id":12,
+            "img":"images/activities/hinh12(8).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Cửa hàng Le Millésime",
+                    "desciption": "Cửa hàng Le Millésime",
+                    "content":"Shop quần áo second hand Le Millésime – The Vintage DeMor ra mắt từ năm 2015 và dược đông đảo khách hàng yêu thích, tin tưởng cho đến ngày nay. Cả những sản phẩm và không gian bày trí tại Le Millésime đều mang đậm hơi hướng cổ điển, xưa cũ, cực kỳ cuốn hút."
+                },
+                "en":{
+                    "name": "Le Millésime store",
+                    "desciption": "Le Millésime store",
+                    "content":"Second hand clothing shop Le Millésime – The Vintage DeMor was launched in 2015 and is loved and trusted by many customers to this day."
+
+                }
+            }
+        },
+        {
+            "id":13,
+            "img":"images/activities/hinh13(9).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Cửa hàng Heki",
+                    "desciption": "Cửa hàng Heki",
+                    "content":"HEKi Shop là nơi bán đồ 2hand TPHCM mang đến cho khách hàng những sản phẩm đảm bảo “sang – xịn – mịn”. Sang trong những kiểu dáng thiết kế, xịn trong chất lượng sản phẩm và mịn ở mức giá vô cùng hấp dẫn khách hàng. Các sản phẩm của HEKi Shop luôn được lựa chọn kỹ càng, có xuất xứ từ những nước lớn như Mỹ, Nhật, Hàn, Úc, Canada… và họ luôn cập nhật những kiểu thiết kế mới lạ, hợp xu hướng để khách hàng dễ dàng lựa chọn."
+                },
+                "en":{
+                    "name": "Heki shop",
+                    "desciption": "Heki shop",
+                    "content":"HEKi Shop is a place that sells 2hand goods in Ho Chi Minh City, providing customers with guaranteed luxury - genuine - smooth products."
+
+                }
+            }
+        },
+        {
+            "id":14,
+            "img":"images/activities/hinh14(10).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Cửa hàng Con quạ đen",
+                    "desciption": "Cửa hàng Con quạ đen",
+                    "content":"Con Quạ Đen là cửa hàng đồ 2hand TPHCM giá rẻ được thành lập từ năm 2010. Cho đến ngày hôm nay, cửa hàng đồ cũ này vẫn là địa chỉ được ưa chuộng bởi các trang đồ thời trang. Thời gian đầu khi vừa thành lập, Con Quạ Đen mang đến cho khách hàng những sản phẩm đồ cổ. Thế nhưng bắt kịp xu hướng đại, họ đã chuyển sang kinh doanh đồ cũ, lấy hàng từ Nhật, Mỹ, Úc, Hồng Kông… nỗ lực để trở thành cửa hàng 2hand được yêu thích."
+                },
+                "en":{
+                    "name": "Black  shop",
+                    "desciption": "Black crow shop",
+                    "content":"Black Crow is a cheap 2hand shop in Ho Chi Minh City that was established in 2010. Until today, this secondhand shop is still a popular address for fashion websites."
+
+                }
+            }
+        },
+        {
+            "id":15,
+            "img":"images/activities/hinh15(11).jpg",
+            "translation":{
+                "vn":{
+                    "name": "Cửa hàng second hand Việt Nam",
+                    "desciption": "Cửa hàng second hand Việt Nam",
+                    "content":"Tất cả các dòng sản phẩm second hand tại đây đều có xuất xứ từ Hàn Quốc và Nhật Bản, thế nên về độ hoàn thiện trong các họa tiết thiết kế thì không cần phải bàn cãi. Hơn thế, sản phẩm của shop đồ 2hand này đều được đảm bảo chất lượng tốt, xứng đáng với số tiền bỏ ra. Bởi những món đồ của Sờn đều rất hợp với xu hướng hiện nay, hơn nữa lại còn bán với mức giá khá rẻ. Vì thế đồ tại đây liên tục cháy hàng, bạn cần ghé đến sớm nhất nếu muốn sở hữu được những sản phẩm chất lừ, cool ngầu cho riêng mình."
+                },
+                "en":{
+                    "name": "Viet Nam Second hand shop",
+                    "desciption": "Viet Nam Second hand shop",
+                    "content":"All of the second hand product lines here come from Korea and Japan, so there's no need to argue about the perfection in the design motifs. "
+
                 }
             }
         }

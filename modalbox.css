@@ -1,17 +1,17 @@
 .modalbox-container{
+    z-index: 10;
     top: 0;
     position: fixed;
     height:100%;
     width:100%;
+    color: #382930;
     background: rgba(255 255 255 / 49%);
 }
 .modalbox{
-    z-index: 10;
-    display: flex;
     position: fixed;
     top: calc((100% - 410px)/2);
     left: calc((100% - 800px)/2);
-    background: forestgreen;
+    background: #f1ede6;
     width: 800px;
     margin: auto;
 }
@@ -49,11 +49,11 @@
 }
 .modalbox .modalbox-info .size span{
     padding: 2px 6px;
-    background-color: aliceblue;
+    background-color: #EDBE7A;
 }
 .modalbox .modalbox-info .material span{
     padding: 2px 6px;
-    background-color: aliceblue;
+    background-color: #EDBE7A;
 }
 .modalbox .modalbox-info .material{
     margin: 8px 5px;
@@ -62,9 +62,36 @@
     position: absolute;
     right: 5px;
     top: 2px;
+    width: fit-content;
     font-size: 35px;
     cursor: pointer;
 }
 .modalbox .fa-times:hover{
     color: red;
+}
+.modalbox .updatecart{
+    cursor: pointer;
+    width: fit-content;
+    padding: 5px;
+    border: 2.5px solid #382930;
+    border-radius: 8px;
+}
+.modalbox .updatecart:hover{
+    border: 2.5px solid #eac17c;
+    background: #eac17c;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 780px) {
+    .modalbox{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #f1ede6;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .modalbox img{
+        margin: auto;
+    }
 }

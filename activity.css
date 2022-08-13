@@ -1,9 +1,61 @@
-.activity .banner{
-	background: url('images/banner/banner00.jpg');
-	margin-bottom: 20px;
+.activity .slogan{
+	height: 50%;
+	position: relative;
+}
+.activity .slogan .overlay{
+	z-index: 1;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: auto;
+	opacity: 1;
+}
+.activity .slogan .overlay .text{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 482%;
+	padding: 10px 20px;
+	color: black;
+	font-family: 'Playfair Display', Arial, sans-serif;
+
+}
+.activity .slogan .overlay .text::before{
+	position: absolute;
+    content: ""; 
+    left: 2px; 
+    top: 0; 
+    bottom: auto; 
+    right: 2px; 
+    border-width: 9px 9px 0;
+    border: 4px solid black;
+    padding: 19px; 
+    border-bottom: none;
+}
+.activity .slogan .overlay .text::after{
+	position: absolute;
+    content: ""; 
+    left: 2px; 
+    top: auto; 
+    bottom: 0; 
+    right: 2px; 
+    border-width: 9px 9px 0;
+    border: 4px solid black;
+    padding: 19px; 
+    border-top: none;
+}
+
+.activity .slogan img{
+	display: block;
+	width: 100%;
+	height: 50%;
+	transition: 1s ease;
 }
 .activity .activities-list{
-	margin: auto;
+	margin: 50px auto;
 	width: 80%;
 }
 .activity .activities-left{
@@ -17,12 +69,17 @@
 }
 .activity .activities-list .activities-left .activities-infor{
 	position: absolute;
-	border: 1px solid black;
+	border: 3px solid #eac17c;
 	top: 25px;
 	left: 35%;
 	width: 65%;
 	padding: 50px 5% 50px 10%;
 	height: 350px;
+}
+.activity .activities-list .activities-infor .activities-name{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
 }
 .activity .activities-list .activities-left .activities-infor .activities-description{
 	text-align: left;
@@ -48,7 +105,7 @@
 	z-index: -1;
 }
 .activity .activities-list .activities-right .activities-infor{
-	border: 1px solid black;
+	border: 3px solid #eac17c;
 	width: 65%;
 	padding: 50px 10% 50px 5%;
 	height: 350px;
@@ -72,19 +129,26 @@
 	animation: goright 0.5s linear 1;
 
 }
-@keyframes goright{
-	0%{
-		margin-left: 0px;	
+@media only screen and (max-width: 750px) {
+	.activity .activities-list .activities-left .activities-infor{
+		position: static;
+		width: 100%;
+		height: auto;
 	}
-	100%{
-		margin-left: 10px;
+	.activity .activities-left img{
+		width: 100%;
+		height: auto;
 	}
-}
-@keyframes changecolor{
-	0%{
-		color:black;	
+	.activity .activities-list .activities-right .activities-infor{
+		width: 100%;
+		height: auto;
 	}
-	100%{
-		color: white;
+	.activity .activities-right, .activity .activities-left{
+		margin-bottom: 30px;
+	}
+	.activity .activities-right img{
+		position: static;
+		width: 100%;
+		height: auto;
 	}
 }

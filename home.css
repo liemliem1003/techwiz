@@ -1,114 +1,85 @@
-.home .group-slogan{
-	display: flex;
-	justify-content: center;
-
-}
-.home .group-slogan .slogan{
-	background: red;
-	display: flex;
-	width: 300px;
-	height: 500px;
-}
-.home .group-slogan .slogan .text{
-	margin: auto;
-}
-.home .group-slogan .slogan img{
-	position: absolute;
-	width: 300px;
-	height: 500px;
-	opacity: 0;
-}
-.home .group-slogan .slogan:hover img{
-	animation: goup 1s 1;
-	transform-origin: bottom;
-	opacity: 1;
-	transform: scale(1,1);
-}
-@keyframes goup{
-	0%{
-		transform: scale(1,0);
-	}
-	100%{
-		transform: scale(1,1);
-		opacity: 1;
-
-	}
-}
-.home .category{
-	text-align: center;
-}
-.home .category div label{
-	cursor: pointer;
-}
-.home .category input{
-	display: none;
-}
-.home .content-group .check .content{
-	display: none;
-}
-.home .content-group .check [type=radio]:checked ~ .content{
-	display: block;
-}
-.home .content-group{
-	margin: auto;
-}
-.home .product-list{
-	display: flex;
-	justify-content: center;
-}
-.home .product-list .product-item{
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900);
+.home .slogan{
 	position: relative;
-	margin: 10px;
 }
-.home .product-list .product-item img{
-	width: 280px;
-	height: 300px
-}
-.home .product-list .product-item .product-label{
+.home .slogan .overlay{
+	z-index: 1;
 	position: absolute;
-	top: 10px;
-	right: 10px;
-	font-size: 10px;
-	font-weight: bold;
-	background: green;
-	border-radius: 6px;
-	padding: 3px 11px;
-	color: white;
-}
-.home .product-list .product-item .addtocart{
-	position: absolute;
-	bottom: 51px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
 	width: 100%;
-	background: blue;
-	color: white;
+	opacity: 1;
+	transition: 1s ease;
+	background: rgb(252, 206, 115);
+
+}
+.home .slogan .overlay .text{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 80px;
+	color: #382930;
+	font-family: 'Playfair Display', Arial, sans-serif;
+	border-top: 4px solid #382930;
+	border-bottom: 4px solid #382930;
+
+}
+.home .slogan img{
+	display: block;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	transition: 1s ease;
+}
+.home .slogan .overlay:hover{
 	opacity: 0;
 }
-.home .product-list .product-item:hover .addtocart{
-	animation: goup 1s 1;
-	transform-origin: bottom;
+.home .slogan .overlay:hover ~ img{
 	opacity: 1;
-	transform: scale(1,1);
+
 }
-.home .information .activities-list{
-	display: flex;
-	overflow: auto;
+
+.home .col-sm-6,.col-sm-3{
+	padding: 0px;
+	margin: 0px;
 }
-.home .information .activities-list a{
-	margin: 2px 5px 2px 0;
+.newarrival center, .information center{
+	font-size: 40px;
+	color: #382930;
 }
-.home .information .activities-list a img{
-	width: 200px;
-	height: 100px;
+.newarrival center::after, .newarrival center:before, .information center::after, .information center:before{
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 2.5px;
+	position: relative;
+	vertical-align: middle;
+	width: 20%;
 }
-.home .information .activities-list a .activity-name{
-	text-align: left;
-	font-size: 13px;
+.home .information .information-item{
+	border: 1% solid white;
 }
-@media only screen and (max-width: 926px) {
-	.home .group-slogan{
-		display: block;
-	}
-	.home .group-slogan .slogan{
-		margin: auto;
-	}
+.home .information .information-item img{
+	width: 99%;
+	height: 250px;
+}
+.information{
+	margin-bottom: 5px;
+}
+.information .information-item .activity-name{
+	text-align: center;
+    color: #382930;
+	width: 99%;
+    background: rgb(252, 206, 115);
+}
+.information .information-item .activity-name:hover{
+    color: white;
+    background: #382930;
+    transition: 0.3s;
+    cursor: pointer;
 }

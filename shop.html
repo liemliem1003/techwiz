@@ -1,42 +1,63 @@
 <link rel="stylesheet" href="shop.css">
 <link rel="stylesheet" href="modalbox.css">
+<link rel="stylesheet" href="product.css">
 <div class="shop">
-    <div class="banner"></div>
-    <div class="filter">
-        <label for="hat">
-            <span>hat</span>
-        </label>
-        <label for="dress">
-            <span>dress</span>
-        </label>
-        <label for="pant">
-            <span>pant</span>
-        </label>
-        <label for="shirt">
-            <span>shirt</span>
-        </label>
-        <label for="shoes">
-            <span>shoes</span>
-        </label>
-        <label for="coat">
-            <span>Coat</span>
-        </label>
+    <div class="slogan">
+        <div class="overlay">
+            <div class="text">Shop</div>
+        </div>
+        <img src="images/banner/shop-wall.jpg" alt="">
+    </div>
+    <div class="filter-container">
+        <div class="container filter">
+            <div class="row">
+                <div class="col-sm-2">
+                    <label for="hat">
+                        <span>Hat</span>
+                    </label>
+                </div>
+                <div class="col-sm-2">
+                    <label for="dress">
+                        <span>Dress</span>
+                    </label>
+                </div>
+                <div class="col-sm-2">
+                    <label for="pant">
+                        <span>Pants</span>
+                    </label>
+                </div>
+                <div class="col-sm-2">
+                    <label for="shirt">
+                        <span>Shirt</span>
+                    </label>
+                </div>
+                <div class="col-sm-2">
+                    <label for="shoes">
+                        <span>Shoes</span>
+                    </label>
+                </div>
+                <div class="col-sm-2">
+                    <label for="coat">
+                        <span>Coat</span>
+                    </label>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="hat">
         <input type="radio" name="filter" value="" id="hat" checked>
+        <center>Hat</center>
         <div class="content">
-            <div class="product-list container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[0]">
-                        <img class="img1" src="{{product.img[0]}}" alt="">
-                        <img class="img2" src="{{product.img[1]}}" alt="">
-                        <div class="addtocart">
-                            <i class="fa fa-plus" aria-hidden="true" ng-click="updateCart(product,true)"></i>
-                            <i class="fa fa-eye" aria-hidden="true" ng-click="showPopup(product.id)"></i>
-                        </div>
-                        <div class="product-info">
-                            <div class="name">{{product.translation[language].name}}</div>
-                            <div class="price">${{product.price}}</div>
+                    <div class="col-sm-3" ng-repeat="item in listItemUpToType[0]">
+                        <div class="product">
+                            <img src="{{item.img[0]}}" alt="" class="img1">
+                            <img src="{{item.img[1]}}" alt="" class="img2">
+                            <div class="infor" ng-click="showPopup(item.id)">
+                                <div class="name">{{item.translation[language].name}}</div>
+                                <div class="price">${{item.price}}</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -45,16 +66,18 @@
     </div>
     <div class="dress">
         <input type="radio" name="filter" value="" id="dress">
+        <center>Dress</center>
         <div class="content">
-            <div class="product-list container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[5]">
-                        <img class="img1" src="{{product.img[0]}}" alt="">
-                        <img class="img2" src="{{product.img[1]}}" alt="">
-                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
-                        <div class="product-info">
-                            <div class="name">{{product.translation[language].name}}</div>
-                            <div class="price">${{product.price}}</div>
+                    <div class="col-sm-3" ng-repeat="item in listItemUpToType[5]">
+                        <div class="product">
+                            <img src="{{item.img[0]}}" alt="" class="img1">
+                            <img src="{{item.img[1]}}" alt="" class="img2">
+                            <div class="infor" ng-click="showPopup(item.id)">
+                                <div class="name">{{item.translation[language].name}}</div>
+                                <div class="price">${{item.price}}</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,16 +86,18 @@
     </div>
     <div class="pant">
         <input type="radio" name="filter" value="" id="pant">
+        <center>Pants</center>
         <div class="content">
-            <div class="product-list container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[3]">
-                        <img class="img1" src="{{product.img[0]}}" alt="">
-                        <img class="img2" src="{{product.img[1]}}" alt="">
-                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
-                        <div class="product-info">
-                            <div class="name">{{product.translation[language].name}}</div>
-                            <div class="price">${{product.price}}</div>
+                    <div class="col-sm-3" ng-repeat="item in listItemUpToType[3]">
+                        <div class="product">
+                            <img src="{{item.img[0]}}" alt="" class="img1">
+                            <img src="{{item.img[1]}}" alt="" class="img2">
+                            <div class="infor" ng-click="showPopup(item.id)">
+                                <div class="name">{{item.translation[language].name}}</div>
+                                <div class="price">${{item.price}}</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -81,16 +106,18 @@
     </div>
     <div class="shirt">
         <input type="radio" name="filter" value="" id="shirt">
+        <center>Shirt</center>
         <div class="content">
-            <div class="product-list container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[1]">
-                        <img class="img1" src="{{product.img[0]}}" alt="">
-                        <img class="img2" src="{{product.img[1]}}" alt="">
-                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
-                        <div class="product-info">
-                            <div class="name">{{product.translation[language].name}}</div>
-                            <div class="price">${{product.price}}</div>
+                    <div class="col-sm-3" ng-repeat="item in listItemUpToType[1]">
+                        <div class="product">
+                            <img src="{{item.img[0]}}" alt="" class="img1">
+                            <img src="{{item.img[1]}}" alt="" class="img2">
+                            <div class="infor" ng-click="showPopup(item.id)">
+                                <div class="name">{{item.translation[language].name}}</div>
+                                <div class="price">${{item.price}}</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,16 +126,18 @@
     </div>
     <div class="shoes">
         <input type="radio" name="filter" value="" id="shoes">
+        <center>Shoes</center>
         <div class="content">
-            <div class="product-list container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[4]">
-                        <img class="img1" src="{{product.img[0]}}" alt="">
-                        <img class="img2" src="{{product.img[1]}}" alt="">
-                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
-                        <div class="product-info">
-                            <div class="name">{{product.translation[language].name}}</div>
-                            <div class="price">${{product.price}}</div>
+                    <div class="col-sm-3" ng-repeat="item in listItemUpToType[4]">
+                        <div class="product">
+                            <img src="{{item.img[0]}}" alt="" class="img1">
+                            <img src="{{item.img[1]}}" alt="" class="img2">
+                            <div class="infor" ng-click="showPopup(item.id)">
+                                <div class="name">{{item.translation[language].name}}</div>
+                                <div class="price">${{item.price}}</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -117,16 +146,18 @@
     </div>
     <div class="coat">
         <input type="radio" name="filter" value="" id="coat">
+        <center>Coat</center>
         <div class="content">
-            <div class="product-list container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="product-item col-sm-6 col-md-2 p-3" ng-repeat="product in listItemUpToType[2]">
-                        <img class="img1" src="{{product.img[0]}}" alt="">
-                        <img class="img2" src="{{product.img[1]}}" alt="">
-                        <div class="addtocart">{{freetext.shop.addtocart}}</div>
-                        <div class="product-info">
-                            <div class="name">{{product.translation[language].name}}</div>
-                            <div class="price">${{product.price}}</div>
+                    <div class="col-sm-3" ng-repeat="item in listItemUpToType[2]">
+                        <div class="product">
+                            <img src="{{item.img[0]}}" alt="" class="img1">
+                            <img src="{{item.img[1]}}" alt="" class="img2">
+                            <div class="infor" ng-click="showPopup(item.id)">
+                                <div class="name">{{item.translation[language].name}}</div>
+                                <div class="price">${{item.price}}</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -134,11 +165,10 @@
         </div>
     </div>
 </div>
-<div class="modalbox-container {{Popup ? 'show' : 'unshow'}}">
-    <div class="modalbox">
-        <i class="fa fa-times" aria-hidden="true" ng-click="showPopup()"></i>
-        <img src="{{selectedproduct.img[0]}}" alt="">
-        <div class="modalbox-info">
+<div class="modalbox-container container-fluid {{Popup ? 'show' : 'unshow'}}">
+    <div class="modalbox row">
+        <img src="{{selectedproduct.img[0]}}" alt="" class="col-sm-3">
+        <div class="modalbox-info col-sm-6">
             <div class="name">{{selectedproduct.translation[language].name}}</div>
             <div class="price">
                 <span class="original-price">${{selectedproduct.price}}</span><span
@@ -151,7 +181,8 @@
             <div class="material">
                 Material <span>{{selectedproduct.translation[language].material}}</span>
             </div>
-            <button ng-click="updateCart(selectedproduct,true)">Add to Cart</button>
+			<div class="updatecart" ng-click="updateCart(selectedproduct,true)">Add to Cart</div>
         </div>
+        <i class="fa fa-times" aria-hidden="true" ng-click="showPopup()"></i>
     </div>
 </div>

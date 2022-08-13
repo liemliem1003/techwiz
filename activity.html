@@ -1,42 +1,20 @@
 <link rel="stylesheet" href="activity.css">
 <div class="activity">
-	<div class="banner"></div>
+	<div class="slogan">
+        <div class="overlay">
+            <div class="text">Activities</div>
+        </div>
+        <img src="images/banner/activity-wall.jpg" alt="">
+    </div>
 	<div class="activities-list">
-		<div class="activities-left">
-			<img src="images/banner/banner00.jpg" alt="">
+		<div class="{{$index % 2 != 0 ? 'activities-left' : 'activities-right'}}" ng-repeat="item in activities">
+			<img src="{{item.img}}" alt="">
 			<div class="activities-infor">
-				<div class="activities-name">product name</div>
+				<div class="activities-name">{{item.translation[language].name}}</div>
 				<hr>
-				<div class="activities-description">ashdjkashjhdasjhdjkashdjjkashdjkashjdkashjkdhansdasd ashjkdhjas hsakjd hasjkhd jkashjkd ahsjkdhask asjkdhasjkhdjskdhajkhdjkasdjkjashdajkshdjkasd</div>
-				<a href="#" class="activities-continue">{{freetext.activity.continue}} <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+				<div class="activities-description">{{item.translation[language].desciption}}</div>
+				<div class="activities-description">{{item.translation[language].content}}</div>
 			</div>
-		</div>
-		<div class="activities-right">
-			<div class="activities-infor">
-				<div class="activities-name">product name</div>
-				<hr>
-				<div class="activities-description">ashdjkashjhdasjhdjkashdjjkashdjkashjdkashjkdhansdasd ashjkdhjas hsakjd hasjkhd jkashjkd ahsjkdhask asjkdhasjkhdjskdhajkhdjkasdjkjashdajkshdjkasd</div>
-				<a href="#" class="activities-continue">{{freetext.activity.continue}} <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-			</div>
-			<img src="images/banner/banner00.jpg" alt="">
-		</div>
-		<div class="activities-left">
-			<img src="images/banner/banner00.jpg" alt="">
-			<div class="activities-infor">
-				<div class="activities-name">product name</div>
-				<hr>
-				<div class="activities-description">ashdjkashjhdasjhdjkashdjjkashdjkashjdkashjkdhasjkdhasjkhdjasdashjkdhajskdashdajkshdjkasd</div>
-				<a href="#" class="activities-continue">{{freetext.activity.continue}} <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-			</div>
-		</div>
-		<div class="activities-right">
-			<div class="activities-infor">
-				<div class="activities-name">product name</div>
-				<hr>
-				<div class="activities-description">ashdjkashjhdasjhdjkashdjjkashdjkashjdkashjkdhansdasd ashjkdhjas hsakjd hasjkhd jkashjkd ahsjkdhask asjkdhasjkhdjskdhajkhdjkasdjkjashdajkshdjkasd</div>
-				<a href="#" class="activities-continue">{{freetext.activity.continue}} <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-			</div>
-			<img src="images/banner/banner00.jpg" alt="">
 		</div>
 	</div>
 </div>

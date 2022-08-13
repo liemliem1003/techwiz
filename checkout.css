@@ -1,0 +1,48 @@
+.checkout{
+    margin: 20px;
+}
+.container{
+    padding: 0!important;
+}
+.checkout .checkoutinfor .checkoutbtn{
+    cursor: pointer;
+    width: fit-content;
+    padding: 5px;
+    border: 2.5px solid green;
+    border-radius: 8px;
+}
+.checkout .checkoutinfor .removeall{
+    cursor: pointer;
+    width: fit-content;
+    padding: 5px;
+    border: 2.5px solid red;
+    border-radius: 8px;
+}
+.checkout .checkoutinfor .checkoutbtn:hover{
+    border: 2.5px solid green;
+    background: green;
+    color: white;
+    transition: 0.5s;
+}
+.checkout .checkoutinfor .removeall:hover{
+    border: 2.5px solid red;
+    background: red;
+    color: white;
+    transition: 0.5s;
+}
+.checkout .checkoutinfor .amount{
+    font-size: 20px;
+}
+.checkout center{
+	font-size: 40px;
+	color: #382930;
+}
+.checkout center::after, .checkout center::before{
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 2.5px;
+	position: relative;
+	vertical-align: middle;
+	width: 15%;
+}

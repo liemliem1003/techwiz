@@ -1,94 +1,86 @@
 <link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="product.css">
+<link rel="stylesheet" href="modalbox.css">
 <div class="home">
-	<div class="group-slogan">
-		<div class="slogan">
-			<div class="text">{{freetext.home.slogan1}}</div>
-			<img src="images/banner/banner00.jpg" alt="">
-		</div>
-		<div class="slogan">
-			<div class="text">{{freetext.home.slogan2}}</div>
-			<img src="images/banner/banner00.jpg" alt="">
-		</div>
-		<div class="slogan">
-			<div class="text">{{freetext.home.slogan3}}</div>
-			<img src="images/banner/banner00.jpg" alt="">
-		</div>
-	</div>
-	<div class="category">
-		<div>
-			<label for="bestseller">
-				<span>{{freetext.home.BestSeller}}</span>
-			</label>
-			<label for="newarrivals">
-				<span>{{freetext.home.NewArivals}}</span>
-			</label>
-		</div>
-		<div class="content-group">
-			<div class="check">
-				<input type="radio" name="category" value="" id="bestseller" checked="">
-				<div class="content">
-					<div class="product-list">
-						<div class="product-item">
-							<img src="images/banner/banner00.jpg" alt="">
-							<div class="product-label">{{freetext.home.BestSeller}}</div>
-							<div class="addtocart">{{freetext.home.addtocart}}</div>
-							<div class="product-info">
-								<div class="name">Gucci</div>
-								<div class="price">100$</div>
-							</div>
-						</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="slogan">
+					<div class="overlay">
+						<div class="text">{{freetext.home.slogan1}}</div>
 					</div>
+					<img src="images/home/thrifty.jpg" alt="">
 				</div>
 			</div>
-			<div class="check">
-				<input type="radio" name="category" value="" id="newarrivals">
-				<div class="content">
-					<div class="product-list">
-						<div class="product-item">
-							<img src="images/banner/banner00.jpg" alt="">
-							<div class="product-label">{{freetext.home.NewArivals}}</div>
-							<div class="addtocart">{{freetext.home.addtocart}}</div>
-							<div class="product-info">
-								<div class="name">Gucci</div>
-								<div class="price">100$</div>
-							</div>
+			<div class="col-sm-6">
+				<div class="slogan">
+					<div class="overlay">
+						<div class="text">{{freetext.home.slogan2}}</div>
+					</div>
+					<img src="images/home/trendy.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="newarrival">
+		<center>New Arrivals</center>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-3" ng-repeat="item in newArrival[0]">
+					<div class="product">
+						<img src="{{item.img[0]}}" alt="" class="img1">
+						<img src="{{item.img[1]}}" alt="" class="img2">
+						<div class="infor" ng-click="showPopup(item.id)">
+							<div class="name">{{item.translation[language].name}}</div>
+							<div class="price">${{item.price}}</div>
 						</div>
 					</div>
-				</div>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-sm-3" ng-repeat="item in newArrival[1]">
+					<div class="product">
+						<img src="{{item.img[0]}}" alt="" class="img1">
+						<img src="{{item.img[1]}}" alt="" class="img2">
+						<div class="infor" ng-click="showPopup(item.id)">
+							<div class="name">{{item.translation[language].name}}</div>
+							<div class="price">${{item.price}}</div>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
 	</div>
 	<div class="information">
-		{{freetext.home.infomation}}
-		<div class="activities-list">
-			<a href="#" class="activity-item">
-				<img src="images/banner/banner00.jpg" alt="">
-				<div class="activity-name">thong tin gi do ngan thoiiiiiiiiiiiiiasdasdasd</div>
-			</a>
-			<a href="#" class="activity-item">
-				<img src="images/banner/banner00.jpg" alt="">
-				<div class="activity-name">thong tin gi do ngan thoi kjhasj ashd asjkh</div>
-			</a>
-			<a href="#" class="activity-item">
-				<img src="images/banner/banner00.jpg" alt="">
-				<div class="activity-name">thong tin gi do ngan thoiiiiiiiiiiiiiasdasdasd</div>
-			</a>
-			<a href="#" class="activity-item">
-				<img src="images/banner/banner00.jpg" alt="">
-				<div class="activity-name">thong tin gi do ngan thoiiiiiiiiiiiiiasdasdasd</div>
-			</a>
-			<a href="#" class="activity-item">
-				<img src="images/banner/banner00.jpg" alt="">
-				<div class="activity-name">thong tin gi do ngan thoiiiiiiiiiiiiiasdasdasd</div>
-			</a>
-			<a href="#" class="activity-item">
-				<img src="images/banner/banner00.jpg" alt="">
-				<div class="activity-name">thong tin gi do ngan thoiiiiiiiiiiiiiasdasdasd</div>
-			</a>
-			<a href="#" class="activity-item">
-				<img src="images/banner/banner00.jpg" alt="">
-				<div class="activity-name">thong tin gi do ngan thoiiiiiiiiiiiiiasdasdasd</div>
-			</a>
+		<center>Information</center>
+		<div class="container-fluid">
+			<div class="row">
+				<a href="#" class="col-sm-3 information-item" ng-repeat="item in information">
+					<img src="{{item.img}}" alt="">
+					<div class="activity-name">{{item.translation[language].name}}</div>
+				</a>
+			</div>
 		</div>
 	</div>
+</div>
+<div class="modalbox-container container-fluid {{Popup ? 'show' : 'unshow'}}">
+    <div class="modalbox row">
+        <img src="{{selectedproduct.img[0]}}" alt="" class="col-sm-3">
+        <div class="modalbox-info col-sm-6">
+            <div class="name">{{selectedproduct.translation[language].name}}</div>
+            <div class="price">
+                <span class="original-price">${{selectedproduct.price}}</span><span
+                    class="discount">${{selectedproduct.price + selectedproduct.discount}}</span>
+            </div>
+            <div class="description">{{selectedproduct.translation[language].description}}</div>
+            <div class="size">
+                Size <span>{{selectedproduct.size}}</span>
+            </div>
+            <div class="material">
+                Material <span>{{selectedproduct.translation[language].material}}</span>
+            </div>
+			<div class="updatecart" ng-click="updateCart(selectedproduct,true)">Add to Cart</div>
+        </div>
+        <i class="fa fa-times" aria-hidden="true" ng-click="showPopup()"></i>
+    </div>
 </div>

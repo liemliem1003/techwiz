@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="checkout.css">
 <link rel="stylesheet" href="checkout_popup.css">
 <div class="checkout">
-    <h3>item</h3>
+    <center>Check out</center>
     <div class="container">
         <table class="table">
             <thead>
@@ -28,18 +28,27 @@
             </tbody>
         </table>
         <div class="checkoutinfor {{totalAmount > 0 ? 'show' : 'unshow'}}">
-            <div ng-click="showCheckout_popup()">checkout</div>
-            Total: {{totalAmount}}
+            <div class="amount">Total: ${{totalAmount}}</div>
+            <span ng-click="showCheckout_popup()" class="checkoutbtn">Checkout</span>
+            <span ng-click="removeall()" class="removeall">Remove All</span>
         </div>
     </div>
 </div>
 <div class="checkout_popup-container {{checkout_popup ? 'show' : 'unshow'}}">
-    <div class="checkout_popup ">
-        <div class="{{loader ? 'unshow' : 'show'}}">
-            Total amount: {{totalAmount}}
-            <img src="images/checkout/master.jpg" alt="" ng-click="shownLoader()">
-            <img src="images/checkout/visa.jpg" alt="">
-            <img src="images/checkout/paypal.jpg" alt="">
+    <div class="checkout_popup">
+        <i class="fa fa-times {{loader ? 'unshow' : 'show'}}" aria-hidden="true" ng-click="showCheckout_popup()"></i>
+        <div class="{{loader ? 'unshow' : 'show'}} loader-container">
+            <div class="title">Payment Details</div>
+            <div class="amount"></div>
+            <input type="text" placeholder="Your Name...">
+            <br>
+            <input type="text" placeholder="Your Phone...">
+            <div>Payment Method</div>
+            <div class="paymentmethod">
+                <img src="images/checkout/master.jpg" alt="" ng-click="shownLoader()">
+                <img src="images/checkout/visa.png" alt="" ng-click="shownLoader()">
+                <img src="images/checkout/paypal.png" alt="" ng-click="shownLoader()">
+            </div>
         </div>
         <div class="loader {{loader ? 'show' : 'unshow'}}"></div>
     </div>
