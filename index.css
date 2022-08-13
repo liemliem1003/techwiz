@@ -1,63 +1,51 @@
-.navigation{
-	background: #382930;
-	position: fixed;
-	z-index: 9;
-	top: 0;
-}
-.view{
-	margin-top: 102px;
+.top_view{
 	min-height: 80vh;
 }
-.navigation img{
-	width: 80px;
+.navbar{
+	/* position: fixed!important; */
+	z-index: 9;
+	width: 100%;
+	background: #382930!important;
+}
+.navbar img{
 	margin: 0;
 	padding: 0;
-	border-radius: 23px;
+	border-radius: 10px;
 	margin: auto;
-	border: 2px #eac17c inset;
 }
-.navigation a{
-	position: relative;
-	font-size: 20px;
-	text-align: center;
-	line-height: 100px;
-	color: white;
-	transition: 0.35s;
-	border-bottom: 2px solid white;
-}
-.navigation a:hover.nav-item{
+.navbar .nav-item a:hover{
 	color: #382930;
 	background: #eac17c;
 }
-.navigation .cart .fa-shopping-cart{
+.navigation .fa-shopping-cart{
 	font-size: 30px;
-
 }
-.navigation .cart .cart-container{
+.navigation .fa-shopping-cart{
+	background: blue;
+}
+.navbar .cart-container{
 	position: relative;
     width: fit-content;
     block-size: fit-content;
 	margin: auto;
 }
-.navigation .cart span{
+.navbar .cart-container .fa-shopping-cart{
+	font-size: 20px;
+	min-width: 30px;
+}
+.navbar .quantity{
 	color: white;
 	padding: 0;
-	line-height: 23px;
+	line-height: 15px;
 	background-color: red;
-	top: 22%;
-	left: 62%;
-	height: 23px;
-	width: 23px;
+	top: 44%;
+	left: 37%;
+	height: 15px;
+	width: 15px;
 	position: absolute;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
 	border-radius: 50%;
-}
-.navigation .fa-bars{
-	display: none;
-	position: absolute;
-	top: 5px;
-	right: -1px;
 }
 @media only screen and (max-width: 750px) {
 	.navigation .fa-bars{
