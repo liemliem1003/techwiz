@@ -177,7 +177,6 @@ app.controller('myCtrl', function ($scope, $http, $timeout) {
         $scope.visitor++;
         localStorage["counter"] = $scope.visitor;
         $scope.name = window.prompt("Welcome to our website\nWhat's your name?")
-        console.log($scope.name);
     }
     $scope.sendmsg = function(contact_name,email){
         var reEmal = /^\w+[@]\w+[.]\w+([.]\w+)?$/;
